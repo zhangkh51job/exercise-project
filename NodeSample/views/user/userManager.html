@@ -1,0 +1,115 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Bootstrap Admin</title>
+    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <% include ../includePage/refResource.html %>
+    <link rel="stylesheet" href="/styles/lib/kindeditor/themes/default/default.css" />
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+<!--[if lt IE 7 ]> <body class="ie ie6"> <![endif]-->
+<!--[if IE 7 ]> <body class="ie ie7 "> <![endif]-->
+<!--[if IE 8 ]> <body class="ie ie8 "> <![endif]-->
+<!--[if IE 9 ]> <body class="ie ie9 "> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
+<body class="">
+<!--<![endif]-->
+
+<% include ../includePage/header.html %>
+
+<% include ../includePage/navigation.html %>
+
+<div class="content">
+    <% user = user || {} %>
+    <div class="articleContent">
+        <form class="form-horizontal" method="post" >
+            <input type="hidden" value="<%=user._id?user._id:''%>" name="id" id="txtId" />
+
+            <div class="control-group">
+                <label class="control-label" for="txtUserName">用户名</label>
+                <div class="controls">
+                    <input type="text" id="txtUserName" placeholder="用户名" value="<%=user.userName?user.userName:''%>" name="userName">
+                </div>
+            </div>
+            <div class="control-group" style="display: <%= (user.password)?'block':'none' %>">
+                <label class="control-label">旧 密 码</label>
+                <div class="controls">
+                    <input type="password" name="oldpassword" id="oldpassword" value="<%= user.password ? user.password : '' %>">
+                </div>
+            </div>
+            <div class="control-group">
+                <label class="control-label" for="newpassword">新 密  码</label>
+                <div class="controls">
+                    <input type="text" id="newpassword" placeholder="请输入新密码" name="password" >
+                </div>
+            </div>
+            <div class="control-group">
+                <label class="control-label" for="rePassword">确认新密码</label>
+                <div class="controls">
+                    <input type="text" id="rePassword" placeholder="请确认输入新密码" name="password">
+                </div>
+            </div>
+            <div class="control-group">
+                <label class="control-label" for="txtEmail">Email</label>
+                <div class="controls">
+                    <textarea rows="5"  id="txtEmail" placeholder=" add Email" name="txtEmail"><%= user.email ? user.email : '' %></textarea>
+
+                </div>
+            </div>
+            <div class="control-group">
+                <div class="controls">
+                    <% console.log('type:', user.type) %>
+                    <button class="btn sub2mit"><%= user.type=='add'?'add':'edit' %></button>
+                    <!--<button type="submit" class="btn">edit</button>-->
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+<script src="/js/lib/bootstrap/bootstrap.js"></script>
+<script src="/js/lib/jqueryPlug/jquery.form.js"></script>
+<script>
+    $('.articleContent .sub2mit').on('click', function(e){
+        e.preventDefault();
+        if(!formcheck()) return;
+        var type = $(this).text();
+        console.log($('#txtUserName').val(), $('#newpassword').val(), $('#txtEmail').val() )
+        $.ajax({
+            type: 'post',
+            url: ('/user/userManager_up/'+ (type=='edit'?'update':'save')),
+            data:{
+                userName: $('#txtUserName').val(),
+                password: $('#newpassword').val(),
+                email: $('#txtEmail').val()
+            }/*,
+            success: function(result){
+                console.log( '[[log]] success')
+                window.location.href = 'http://localhost:3000/userList'
+            },
+            error: function(err){
+                console.log( 'error ')
+            }*/
+        })
+    })
+    var formcheck = function(){
+//         if( $('#newpassword').val() == user.password ){ alert('新旧密码一样，请重新输入'); return false; }
+        if( $('#newpassword').val() != $('#rePassword').val() ){
+                alert('两次输入密码一样，请重新输入'); return false;
+        }
+        return true;
+    }
+
+</script>
+</body>
+</html>
+
+

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        #test:before{
+            content: 'hello ';
+        }
+    </style>
+</head>
+<body>
+<button id="test">btn</button>
+<script src="/js/lib/jquery-1.8.1.min.js"></script>
+<script>
+//  ../../public  console.log( 'val: ',  $('#test').val(), 'text:', $('#test').text() )
+
+    console.log( 'typeof webkitAudioContext: ', typeof WebkitAudioContext, typeof (new AudioContext()).createBufferSource)
+    console.log( 'webkitSpeechRecognition: ', typeof webkitSpeechRecognition, typeof SpeechRecognition, typeof mozSpeechRecognition, typeof MozSpeechRecognition)
+
+    var battery = navigator.battery || navigator.webkitBattery || navigator.mozBattery || navigator.msBattery;
+    console.log( 'battery: ', typeof battery)
+
+    console.log( 'pseudoEltStyle: ', window.getComputedStyle(document.querySelector("#test"), ':before').content)
+
+    /* getComputerStyle 获取的为只读属性 */
+//    window.getComputedStyle(document.querySelector("#test"), ':before').content = 'world';
+    $('<style>#test:before{content: "world"}</style>').appendTo('head');
+</script>
+
+</body>
+</html>
