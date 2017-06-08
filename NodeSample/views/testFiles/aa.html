@@ -106,6 +106,10 @@
         }
     }
 
+    var testStr = '123.0|456.1|12|34', reg = /([^\|]+)\|?/g
+    while( reg.exec(testStr) ){
+        console.log( RegExp.$1 )
+    }
 </script>
 </body>
 </html>
