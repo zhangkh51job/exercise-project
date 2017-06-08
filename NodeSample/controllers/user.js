@@ -69,20 +69,26 @@ exports.userList=function(req, res, next){
 
 exports.userManager = exports.userManager_up = function (req,res,next){
     var type = req.params['type'];
-    var urlParam = (function(){
-        var param = {};
-        var url = req.originalUrl,
-            urlParam = url.split('?')[1];
-        if(!urlParam ) return param;
-        var params = urlParam.split('&'), urlUnit;
-        for(var i = 0, leni = params.length;i < leni;i++){
-            urlUnit = params[i].split('=');
-            if(urlUnit[0] && urlUnit[1]){
-                param[ urlUnit[0] ] = urlUnit[1];
+
+    var urlParam;
+    if( req.method == 'POST'){
+        urlParam = req['body'];
+    }else{
+        urlParam = (function(){
+            var param = {};
+            var url = req.originalUrl,
+                urlParam = url.split('?')[1];
+            if(!urlParam ) return param;
+            var params = urlParam.split('&'), urlUnit;
+            for(var i = 0, leni = params.length;i < leni;i++){
+                urlUnit = params[i].split('=');
+                if(urlUnit[0] && urlUnit[1]){
+                    param[ urlUnit[0] ] = urlUnit[1];
+                }
             }
-        }
-        return param;
-    })();
+            return param;
+        })();
+    }
 
     if(type == 'add'){
         res.render('./user/userManager.html', {user:{type: 'add'}})
@@ -120,7 +126,7 @@ exports.userManager = exports.userManager_up = function (req,res,next){
         }
         user.create(urlParam, function(error, row){
             if(error) return next(error);
-            res.redirect(404, '/user/userList');
+            res.redirect('/user/userList');
         });
     }
     else if(type == 'delete'){
