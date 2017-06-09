@@ -19,8 +19,27 @@
   语义：
   1，.sr-only 易于辅助设备抓取字面意义
 
+  .nav类族中注意样式：
+    .navbar-fixed-top（字面意义理解样式）
+    .navbar-toggle（768尺寸时toggle）
+      右浮动；
+    .navbar-collapse
+    .navbar-nav： .navbar-nav>li 右浮动
+
+
   框架中的ui一般包含于 .container 中，珊楠格包含于 .row中， 不同的配以col-sm-8, col-lg-4[col-type-size](此外还有col-type-offset-size等)等
   一个.row内， col中size相加最多为12
+  bts3中，一般以768作为手机与平板之间的尺寸分割, 以992作为平板与桌面尺寸分割线， 1200以上为超大屏幕
+
+  bts3中，col-xs-size作用于所有尺寸中（可与col-md-size混搭使用作用于不同尺寸）, width: 100%/12*size
+  bts3中，col-sm-size作用于屏幕 min-width:768尺寸中, width: 100%/12*size
+  bts3中，col-md-size作用于屏幕 min-width:992尺寸中，width: 100%/12*size
+  bts3中，col-lg-size作用于屏幕 min-width:1200尺寸中，width: 100%/12*size
+  bts3中，珊楠格中间加上 class="clearfix visible-xs" 调整
+
+  ** v3.1.0 版本开始，下拉菜单右对齐不建议使用 .pull-right 类，而使用 .dropdown-menu-right 类
+
+
 -->
 <div class="btn-group" role="group" aria-label="...">
     <button type="button" class="btn btn-default">1</button>
