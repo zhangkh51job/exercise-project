@@ -21,7 +21,9 @@
         dl{padding: 3px;}
         dt{font-weight: bold;}
         dl dt{padding: 5px;background-color: #cee;}
-
+        .test{height: 30px;line-height: 30px;}
+        .test div:nth-child(1){float: left;width: 60px;text-align: center}
+        .test > div+div{background-color: #777;}
     </style>
     <!-- 设计：brucewan | 重构：brucewan | 创建：2015-05-12 10:04:45 | 更新：| 团队博客：http://tgideas.qq.com/ -->
 </head>
@@ -37,6 +39,9 @@
     <tr><th>待继续测试</th><td>初测3g环境下比wifi环境理定位更准确</td></tr>
     <tr><th>待继续测试</th><td>测试三星 GT-S6358(android2.3) geolocation存在，但POSITION_UNAVAILABLE</td></tr>
 </table>
+<div class="test">
+    <div>HEAD</div><DIV>CONTENT..........FAS</DIV>
+</div>
 <script>
     // lib
     var $ = function(className){return document.querySelector(className)};
