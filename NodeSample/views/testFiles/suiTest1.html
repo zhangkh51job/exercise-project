@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>suiTest1</title>
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="//g.alicdn.com/msui/sm/0.5.7/css/sm-extend.min.css">
+    <link rel="stylesheet" href="//g.alicdn.com/msui/sm/0.5.3/css/sm.min.css">
+</head>
+<body>
+<div class="page">
+    <input id="text1" type="text" readonly style="border: 1px solid #666;">
+    <button id="btn">change</button><br>
+    <input id="text2" type="text" readonly style="border: 1px solid #666;"><br>
+    <input id="text3" type="text" readonly style="border: 1px solid #666;"><br>
+</div>
+
+
+<script src="//g.alicdn.com/sj/lib/zepto/zepto.min.js"></script>
+<script type='text/javascript' src='//g.alicdn.com/msui/sm/0.5.7/js/sm-extend.min.js' charset='utf-8'></script>
+<script src="sm.js"></script>
+<script>
+    var dom = document.querySelector('#text'),
+            values = ['a0', 'a', 'b', 'c'];
+
+    $(dom).picker({
+        toolbarTemplate: '<header class="bar bar-nav">\
+                          <button class="button button-link pull-left"></button>\
+                          <button class="button button-link pull-right close-picker">确定</button>\
+                          <h1 class="title">'+'test1'+'</h1>\
+                          </header>',
+        cols: [
+            {
+                textAlign: 'center',
+                values: values
+            }
+        ]
+    });
+
+    var input1 = document.querySelector('#text1'), input2 = document.querySelector('#text2'),
+            input3 = document.querySelector('#text3');
+    var num = 0;
+    document.querySelector('#btn').addEventListener('click', function(){
+        num++;
+        values.length = 0;
+        values.push('a'+num, 'b'+num, 'c'+num)
+        /*values = ['a1', 'b1', 'c1']*//* sui pick函数不能改变value的指针 */
+    })
+
+    var bigTypes =values, middleTypes =[], smallTypes = [];
+    input1.addEventListener('change', function(e){
+        middleTypes.length = 0;
+        smallTypes.length = 0;
+        switch(this.value){
+            case 'a':
+                middleTypes.push('aa2', 'aa3', 'aa4')
+                break;
+            case 'b':
+                middleTypes.push('bb2', 'bb3', 'bb4')
+                break;
+            case 'c':
+                middleTypes.push('cc2', 'cc3', 'cc4')
+                break;
+        }
+    });
+    input2.addEventListener('change', function(e){
+        smallTypes.length = 0;
+        switch(this.value){
+            case 'aa2':
+                smallTypes.push('abc2', 'abc2.1', 'abc2.2')
+                break;
+            case 'aa3':
+                smallTypes.push('abc3', 'abc3.1', 'abc3.2')
+                break;
+            case 'aa4':
+                smallTypes.push('abc4', 'abc4.1', 'abc4.2')
+                break;
+            case 'bb2':
+                smallTypes.push('bac2', 'bac2.1', 'bac2.2')
+                break;
+            case 'bb3':
+                smallTypes.push('bac3', 'bac3.1', 'bac3.2')
+                break;
+            case 'bb4':
+                smallTypes.push('bac4', 'bac4.1', 'bac4.2')
+                break;
+            case 'cc2':
+                smallTypes.push('cab2', 'cab2.1', 'cab2.2')
+                break;
+            case 'cc3':
+                smallTypes.push('cab3', 'cab3.1', 'cab3.2')
+                break;
+            case 'cc4':
+                smallTypes.push('cab4', 'cab4.1', 'cab4.2')
+                break;
+        }
+    });
+
+    $(input1).picker({
+        toolbarTemplate: '<header class="bar bar-nav">\
+                          <button class="button button-link pull-left"></button>\
+                          <button class="button button-link pull-right close-picker">确定</button>\
+                          <h1 class="title">'+'test1'+'</h1>\
+                          </header>',
+        cols: [
+            {
+                textAlign: 'center',
+                values: bigTypes
+            }
+        ]
+    });
+    $(input2).picker({
+        toolbarTemplate: '<header class="bar bar-nav">\
+                          <button class="button button-link pull-left"></button>\
+                          <button class="button button-link pull-right close-picker">确定</button>\
+                          <h1 class="title">'+'test1'+'</h1>\
+                          </header>',
+        cols: [
+            {
+                textAlign: 'center',
+                values: middleTypes
+            }
+        ]
+    });
+    $(input3).picker({
+        toolbarTemplate: '<header class="bar bar-nav">\
+                          <button class="button button-link pull-left"></button>\
+                          <button class="button button-link pull-right close-picker">确定</button>\
+                          <h1 class="title">'+'test1'+'</h1>\
+                          </header>',
+        cols: [
+            {
+                textAlign: 'center',
+                values: smallTypes
+            }
+        ]
+    });
+
+    var aa = [], bb = [1, 2, 3, 4];
+    aa.push( ...bb )
+    console.log( aa )
+
+    $('.page').clone().appendTo('body')
+</script>
+</body>
+</html>
