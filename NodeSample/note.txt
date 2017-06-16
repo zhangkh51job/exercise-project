@@ -1,0 +1,321 @@
+D:\Program Files (x86)\JetBrains\WebStorm 11.0.3\plugins\JavaScriptLanguage\lib\JavaScriptLanguage\com\intellij\lang\javascript\index\predefined\
+
+产品二维码:  	http://192.168.17.38:8088/ 	
+公共资料：  	\\192.168.18.14
+PC端OA测试地址: http://28f.bujidele.com:34180
+OA正式地址：	http://oa.tdxueyuan.com/V2/Index.aspx
+禅道地址：	http://192.168.18.56/zentaopms/www/index.php?m=bug&f=browse
+
+G:\program\public datum\产品\UI\APP_UI\PSD\000 UI效果图\2.0\常用流程\行政流程\固定资产\资产分配
+
+http://28f.bujidele.com:34180/tdoa_web/OA-H5/html/expense-detail.html
+28f.bujidele.com:19852
+
+password: tuandai123456,  Tuandai123456
+
+http://localhost:63342/OA-H5/html/leave-detail.html?ID=126173
+
+test server打包测试地址：  C:\web\tdoa_web\OA-H5 
+
+oa h5技术方案：  SUI VUE GRUNT
+
+sui 样式注意点：
+button:	
+	button-block
+bar: 
+	bar-header-secondary、 bar-footer-secondary
+content: 
+	content-block、
+	content-block-title（语义化）、list-block（语义化）
+item:
+	item-content(语义化）、item-input（语义化）
+	item-media、 item-inner
+
+row、col
+
+2.5+2.5
+theme
+
+icon库
+ form
+   icon-form-name, icon-form-email...
+
+input：
+  label-switch， checkbox使用方式
+
+搜索栏：
+  ct: searchbar、 search-input
+
+
+侧栏
+  用 .page 容器把 .bar 和 .content 包裹起来
+  	panel-overlay
+
+
+zepto注意点：
+携带cookie, withGredentials , 在xhr.open 之后设置，兼容webview等
+
+
+
+优化：
+moment.js  非必须	
+org-tree   每个html文件都需要？？
+   org-tree 不是所有的都需要
+vue升级到2.2.0
+
+
+usermove-apply.js 
+ org-tree 中 setSelectedUsers bug 及 显示上面的小问题
+usermove-detail.js 中 空指针异常问题
+
+
+pc:
+  pc-tree.js 上右点击 bug 
+
+
+功能分类：
+ oa.js  OAajax 与  部分弹出组件
+
+baseApply    bindEvent::$('.page').validate
+zepteValid   options.succFunc.call
+baseApply    submitInfo::getData
+XXXApply     getData
+
+兼容: ios日期格式兼容
+
+webpack查询：
+   https://egghead.io/courses/using-webpack-for-production-javascript-applications
+使用firebase构建
+  https://segmentfault.com/a/1190000007805111
+
+webpack attention:
+ loader: 'style-loader!css-loader?modules' ?modules可以使用 :global() 伪类函数
+ require('bundle-loader!./a.js') <--> require.ensure
+
+
+
+
+
+Vue初始化：配置数据观测， 编译模板， 挂载实例到DOM， 数据驱动DOM更新
+
+v-html 被插入的html内容中数据绑定会被忽略
+
+Vue只有在浏览器解析和标准化HTML，后才能获取模版内容
+table, select， ul等限制标签，使用is来使用自定义组件
+
+vue父子组件的关系： props down, events up
+
+vue组件transclude(嵌套）, 子组件 属性、状态 正确方式
+
+
+
+vue插件开发方式
+   vue.mixin vue plugin开发 
+Vue.nextTick Dom更新之后的一些处理可放入其中
+   vue-loader插件 转换 .vue 单文件组件
+
+Vue 会递归将 data 的属性转换为 getter/setter
+
+使用箭头函数：
+   Vue.extend 中 不能对 data 属性函数：
+   Vue.$watcher
+
+Vue指令：
+  参数、 修饰符、两指令缩写  .capture <--> ! 、 once <--> ~
+  v-pre：  用于跳过没有指令的节点
+  v-cloak: 保持在元素上直到关联实例结束编译
+
+Vue 过滤器； Vue 函数化组件的使用方式
+
+Vue render 函数接收一个 createElement 方法作为第一个参数用来创建 VNode
+Vue 组件的 API 来自三部分： props, events 和 slots
+    vueObj.$refs 只在组件渲染完成后才填充，并且它是非响应式的
+
+<keep-alive> 包裹动态组件时，会缓存不活动的组件实例
+
+vue plugins:
+  数据交互 vue-resource  <--> axios 
+  methods 中 function 中 this 为vue对象
+
+vue server renderer's style:  webpack + `vue-loader` + [vue-ssr-webpack-plugin]
+vue-server-renderer 自动注入资源链接
+html-webpack-plugin 比如注入字体等资源可能需要
+   link preload  预加载
+
+vue template compiler
+
+Vuex: 
+  在组件中调用 store.dispatch 分发action
+     mutation 必须同步执行
+     action内容可处理任意异步
+  在组件中调用 Vuex.Store.commit(type: string, payload?: any) 提交 mutation 
+     mapMutations 映射 组件methods 为 store.commit
+  modules 会被合并到 store；状态使用 key 关联到 store 的根状态
+
+  Vuex 将状态从根组件注入到每一个子组件中
+ 
+  Moudles解决项目大store臃肿，自定义解决命名冲突问题
+
+  strict模式中 双向绑定 obj.key 层级时问题
+
+  getters store的计算属性 暴露为 `store.getters`  , mapGetters
+
+
+PhantomJS: 基于为webkit，全面支持web
+  服务器（非浏览器环境中）进行页面自动化任务
+  page.valuate 由安全沙箱，仅返回一个简单的对象，不能获取页面脚本信息
+
+daily-zhihu启动流程：
+ 
+
+
+vue-router:
+ 全局钩子函数， 路由钩子函数， 组件钩子函数
+nested-router
+
+**lazy-loading
+
+
+*** mongodb 创建的集合 使用时需要 name+s
+
+db.[ users !important ].insert({userName:'cwwu', password:'123456'});
+
+
+http://www.expressjs.com.cn/4x/api.html
+app.all('*', filterFunc1, filterFunc2, ... )
+
+
+
+
+db.col.update( {condition}, {$push:{obj}, $set:{field: value,  key.$.field:val } )
+key.$.field 的使用，这里的$ 表示在查询条件里匹配上的数组元素的序数
+
+db.col.aggregate( { $match:{}, $unwind:{}, $group:{key:{ $sum: key }}} )
+
+indexs:
+sparse index: 仅仅对某个字段（在集合某些列中，可能没有）建索引，不造成索引空间浪费，提高检索效率
+
+MongoDB基于内存缓存的数据管理方式
+
+
+db.inventory.insertMany([
+   { item: "journal", qty: 25, tags: ["blank", "red"], size: { h: 14, w: 21, uom: "cm" } },
+   { item: "mat", qty: 85, tags: ["gray"], size: { h: 27.9, w: 35.5, uom: "cm" } },
+   { item: "mousepad", qty: 25, tags: ["gel", "blue"], size: { h: 19, w: 22.85, uom: "cm" } }
+])
+
+
+res.attachment()
+http header field: content-disposition
+
+
+db.col.update 不能有空值，否则报的错误： _id of undefined 
+
+nodejs模板引擎 数据替换语句 代码注释方式 与 <%# %> 共同使用
+
+nodejs buffer 参数调整 --> formidable 
+
+部门路径没有跳转没报错？？ 
+提交方式
+路径层级
+
+
+
+nodejs:
+crypto.createHash().digest() 之后该hash对象被清空
+
+net.Socket：
+ 可由require('net').connect() 返回值，创建于本地
+ 可通过 'connection' 事件参数传给客户端
+
+http.createServer 与 net.createServer 区别：
+ 1, listenerCb 中 http.createServer(listenerfn(req, res){}), net.createServer(listenerfn(socket){})
+ 2, http通信建立在socket之上，同样，http.server继承于net.server
+    *** net.createServer(callback) callback在nodejs内部实现中，也是监听connection事件的回调函数（一次性的事件监听）
+
+
+可读写流Duplex Transform在内部维护了两个独立的缓存用于读与写
+
+WritableStream：
+'pipe' ： 输出到目标可写流（writable）的源流（source stream）
+writable.cork()： 强制所有写入数据都压入内存中的缓冲区里
+writable.uncork()  输出在 stream.cork() 方法被调用之后缓冲在内存中的所有数据
+
+ReableStream:
+ 需要先为其提供消费或忽略数据的机制，才能开始提供数据
+
+data事件与readable事件：
+  触发时机与触发频率不同，回调函数参数不同
+
+stream.Transform end 与 finish事件 区分：
+  触发机制不同：stream.end() --> finish event emmit； stream.flush() --> end event emmit
+  end 事件 一定会 发生在 finish事件之前
+
+
+
+https://github.com/hiloteam/hiloteam.github.io/tree/master/tutorial_src
+
+
+
+
+https://developer.mozilla.org/zh-CN/docs/Web/API
+AudioContext：
+
+http://192.168.17.69:3001/testFiles/commonTest.html
+
+
+
+mongod.exe --bind_ip 127.0.0.1 --logpath "D:\mongodbData\log\mongodb.log" --logappend --dbpath "D:\mongodbData\data" --port 27017 --serviceName "MyServiceName" --serviceDisplayName "MyServiceName" --install
+
+mongod.exe --dbpath D:\mongodbData\data
+
+区分mongod 与 mongo 命令
+
+git pull：refusing to merge unrelated histories
+git pull origin master --allow-unrelated-histories
+
+(use "git add <file>..." to update what will be committed)
+(use "git checkout -- <file>..." to discard changes in working directory)
+
+
+db.mongooses.find({"username" : "emtity_demo_username"})
+
+taken data: 
+Token=07fbfe4b-2621-4b6e-9066-3ff6409d6e3f
+&UserId=3D2C7A2061B9770A83AE68E6958374A0
+&AppUserId=yejianfa
+&UserName=%E5%8F%B6%E5%81%A5%E5%8F%91
+&UserPhoto=http://28f.bujidele.com:34181//Files/Api/Other/yejianfa/20160319101142.png
+&SystemName=IOS
+&Version=1.0.0
+&ID=133648
+&DeptID=72095798-541c-4f3d-a808-ac2622365b83
+&DeptName=OA%E9%A1%B9%E7%9B%AE%E7%BB%84
+&MsgType=(null)
+&StaffNo=jt-2003
+
+
+
+G:\program\public datum\产品\UI\APP_UI\PSD\000 UI效果图\2.0\常用流程\行政流程\固定资产
+
+没对接：
+采购
+资产验收
+
+测试完全没问题：
+个人资产申领
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
