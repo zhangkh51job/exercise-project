@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="261f1d27-425e-45e9-99ef-b3b9c1fb126f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/views/testFiles/sm.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/views/testFiles/suiTest1.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/threejs/note.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/threejs/three.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NodeSample/views/testFiles/aa.html" afterPath="$PROJECT_DIR$/NodeSample/views/testFiles/aa.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NodeSample/views/testFiles/bts3Test1.html" afterPath="$PROJECT_DIR$/NodeSample/views/testFiles/bts3Test1.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NodeSample/views/testFiles/suiTest1.html" afterPath="$PROJECT_DIR$/NodeSample/views/testFiles/suiTest1.html" />
     </list>
     <ignored path="nodejs.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,7 +31,7 @@
       <file leaf-file-name="netTest.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/NodeSample/nodejsBaseTest/netTest.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.142858">
+            <state vertical-scroll-proportion="0.0">
               <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
               <folding />
             </state>
@@ -40,28 +41,18 @@
       <file leaf-file-name="nodeCompressTest.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/NodeSample/nodejsBaseTest/nodeCompressTest.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-34.5">
+            <state vertical-scroll-proportion="0.0">
               <caret line="42" column="66" selection-start-line="42" selection-start-column="66" selection-end-line="42" selection-end-column="66" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="nodeTest.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="nodeTest.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/NodeSample/nodejsBaseTest/nodeTest.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.21222606">
-              <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="aa.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/NodeSample/views/testFiles/aa.html">
-          <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="117" column="0" selection-start-line="117" selection-start-column="0" selection-end-line="117" selection-end-column="0" />
+              <caret line="9" column="50" selection-start-line="9" selection-start-column="50" selection-end-line="9" selection-end-column="50" />
               <folding />
             </state>
           </provider>
@@ -71,35 +62,48 @@
         <entry file="file://$PROJECT_DIR$/NodeSample/views/testFiles/suiTest1.html">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="136" column="7" selection-start-line="136" selection-start-column="7" selection-end-line="136" selection-end-column="7" />
+              <caret line="145" column="139" selection-start-line="145" selection-start-column="139" selection-end-line="145" selection-end-column="139" />
               <folding>
                 <element signature="n#style#0;n#input#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#input#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#input#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <marker date="1497498502336" expanded="true" signature="1031:1310" placeholder="..." />
-                <marker date="1497498502336" expanded="true" signature="3534:3813" placeholder="..." />
-                <marker date="1497498502336" expanded="true" signature="4025:4304" placeholder="..." />
-                <marker date="1497498502336" expanded="true" signature="4519:4798" placeholder="..." />
+                <marker date="1497844631968" expanded="true" signature="1043:1322" placeholder="..." />
+                <marker date="1497844631968" expanded="true" signature="3546:3825" placeholder="..." />
+                <marker date="1497844631968" expanded="true" signature="4037:4316" placeholder="..." />
+                <marker date="1497844631968" expanded="true" signature="4531:4810" placeholder="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bts3Test1.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="bts3Test1.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/NodeSample/views/testFiles/bts3Test1.html">
           <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.34298956">
+              <caret line="43" column="26" selection-start-line="43" selection-start-column="26" selection-end-line="43" selection-end-column="26" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/NodeSample/app.js">
+          <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="85" column="6" selection-start-line="85" selection-start-column="6" selection-end-line="85" selection-end-column="6" />
+              <caret line="56" column="24" selection-start-line="56" selection-start-column="24" selection-end-line="56" selection-end-column="24" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bootstrap.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/NodeSample/views/testFiles/dist/css/bootstrap.css">
+      <file leaf-file-name="note.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/NodeSample/threejs/note.html">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="4961" column="17" selection-start-line="4961" selection-start-column="17" selection-end-line="4961" selection-end-column="17" />
+              <caret line="54" column="13" selection-start-line="54" selection-start-column="13" selection-end-line="54" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -158,8 +162,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/NodeSample/views/index.html" />
-        <option value="$PROJECT_DIR$/NodeSample/mongodbTest/kindEditorTest.html" />
         <option value="$PROJECT_DIR$/NodeSample/expressTest/router.js" />
         <option value="$PROJECT_DIR$/NodeSample/expressTest/test.json" />
         <option value="$PROJECT_DIR$/NodeSample/mongodbTest/connectUtil.js" />
@@ -207,8 +209,10 @@
         <option value="$PROJECT_DIR$/NodeSample/public/styles/project.css" />
         <option value="$PROJECT_DIR$/NodeSample/hiloTest/note.html" />
         <option value="$PROJECT_DIR$/NodeSample/views/testFiles/aa.html" />
-        <option value="$PROJECT_DIR$/NodeSample/views/testFiles/bts3Test1.html" />
+        <option value="$PROJECT_DIR$/NodeSample/note.txt" />
         <option value="$PROJECT_DIR$/NodeSample/views/testFiles/suiTest1.html" />
+        <option value="$PROJECT_DIR$/NodeSample/threejs/note.html" />
+        <option value="$PROJECT_DIR$/NodeSample/views/testFiles/bts3Test1.html" />
       </list>
     </option>
   </component>
@@ -248,6 +252,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -294,14 +300,52 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="nodejsBaseTest" />
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="exercise-project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="exercise-project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NodeSample" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="testFiles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="exercise-project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="exercise-project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NodeSample" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -319,11 +363,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\datum download\exercise\exercise-project\NodeSample\threejs" />
+      <recent name="G:\datum download\exercise\exercise-project\NodeSample" />
       <recent name="G:\datum download\exercise\exercise-project\NodeSample\views\testFiles" />
       <recent name="G:\datum download\exercise\exercise-project\NodeSample\hiloTest" />
       <recent name="G:\datum download\exercise\exercise-project\NodeSample\public\styles\lib\bootstrap\css" />
-      <recent name="G:\datum download\nodejs\nodejs\NodeSample\views\testFiles" />
-      <recent name="G:\datum download\nodejs\nodejs\NodeSample\nodejsBaseTest" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="G:\datum download\exercise\exercise-project\NodeSample\public\styles" />
@@ -431,10 +475,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1691254" sideWeight="0.4869565" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16227607" sideWeight="0.4869565" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -541,27 +585,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/NodeSample/node_modules/cookie/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.41482967">
-          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NodeSample/nodejsBaseTest/my.bat">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NodeSample/nodejsBaseTest/cmd.exe">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.09037328">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/DHTML.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -787,13 +810,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/NodeSample/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="55" column="6" selection-start-line="55" selection-start-column="6" selection-end-line="55" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/NodeSample/views/testFiles/jquery-1.8.1.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -812,7 +828,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="34" column="52" selection-start-line="34" selection-start-column="52" selection-end-line="34" selection-end-column="52" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -820,7 +835,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="244" column="219" selection-start-line="244" selection-start-column="219" selection-end-line="244" selection-end-column="219" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -828,7 +842,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -836,7 +849,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-31.142857">
           <caret line="3232" column="9" selection-start-line="3232" selection-start-column="9" selection-end-line="3232" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -844,31 +856,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="117" column="0" selection-start-line="117" selection-start-column="0" selection-end-line="117" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NodeSample/views/testFiles/suiTest1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="136" column="7" selection-start-line="136" selection-start-column="7" selection-end-line="136" selection-end-column="7" />
-          <folding>
-            <element signature="n#style#0;n#input#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1497498502336" expanded="true" signature="1031:1310" placeholder="..." />
-            <marker date="1497498502336" expanded="true" signature="3534:3813" placeholder="..." />
-            <marker date="1497498502336" expanded="true" signature="4025:4304" placeholder="..." />
-            <marker date="1497498502336" expanded="true" signature="4519:4798" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NodeSample/views/testFiles/bts3Test1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="85" column="6" selection-start-line="85" selection-start-column="6" selection-end-line="85" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -876,7 +863,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="4961" column="17" selection-start-line="4961" selection-start-column="17" selection-end-line="4961" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -906,7 +892,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/NodeSample/nodejsBaseTest/netTest.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.142858">
+        <state vertical-scroll-proportion="0.0">
           <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
           <folding />
         </state>
@@ -914,17 +900,74 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/NodeSample/nodejsBaseTest/nodeCompressTest.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-34.5">
+        <state vertical-scroll-proportion="0.0">
           <caret line="42" column="66" selection-start-line="42" selection-start-column="66" selection-end-line="42" selection-end-column="66" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/NodeSample/note.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.934078">
+          <caret line="67" column="43" selection-start-line="67" selection-start-column="43" selection-end-line="67" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/NodeSample/nodejsBaseTest/nodeTest.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.21222606">
-          <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="50" selection-start-line="9" selection-start-column="50" selection-end-line="9" selection-end-column="50" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NodeSample/threejs/three.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.3083799">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NodeSample/threejs/note.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="54" column="13" selection-start-line="54" selection-start-column="13" selection-end-line="54" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NodeSample/views/testFiles/suiTest1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="145" column="139" selection-start-line="145" selection-start-column="139" selection-end-line="145" selection-end-column="139" />
+          <folding>
+            <element signature="n#style#0;n#input#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1497844631968" expanded="true" signature="1043:1322" placeholder="..." />
+            <marker date="1497844631968" expanded="true" signature="3546:3825" placeholder="..." />
+            <marker date="1497844631968" expanded="true" signature="4037:4316" placeholder="..." />
+            <marker date="1497844631968" expanded="true" signature="4531:4810" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NodeSample/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="56" column="24" selection-start-line="56" selection-start-column="24" selection-end-line="56" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NodeSample/views/testFiles/bts3Test1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.34298956">
+          <caret line="43" column="26" selection-start-line="43" selection-start-column="26" selection-end-line="43" selection-end-column="26" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

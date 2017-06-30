@@ -35,8 +35,15 @@
   bts3中，col-sm-size作用于屏幕 min-width:768尺寸中, width: 100%/12*size
   bts3中，col-md-size作用于屏幕 min-width:992尺寸中，width: 100%/12*size
   bts3中，col-lg-size作用于屏幕 min-width:1200尺寸中，width: 100%/12*size
-  bts3中，珊楠格中间加上 class="clearfix visible-xs" 调整
+  bts3中，珊楠格中间加上 class="clearfix visible-xs" 调整  visible-xs-block
+  bts3中，通过使用 .col-md-push-* 和 .col-md-pull-* 类就可以很容易的改变列（column）的顺序（push-往右， pull-往左）
 
+  form表单 .form-inline
+           .form-horizontal 类，并联合使用 Bootstrap 预置的栅格类
+           .checkbox  .checkbox-inline; radio radio-inline
+           form表单 p 中 添加 .form-control-static
+
+ table-responsive 在少于768px 出现水平滚动
   ** v3.1.0 版本开始，下拉菜单右对齐不建议使用 .pull-right 类，而使用 .dropdown-menu-right 类
 
   v3.1.0中 nav>li{float:none} .navbar-nav>li{float:left}
@@ -84,12 +91,70 @@
         <li><a href="#">Separated link</a></li>
     </ul>
 </div>
+<div class="container">
+    <div class="row">
+        <div class="col-xs-9 col-md-push-3" style="background-color: #f00">.col-md-9 .col-md-push-3</div>
+        <div class="col-xs-3 col-md-pull-9" style="background-color: #0f0">.col-md-3 .col-md-pull-9</div>
+    </div>
+</div>
+<div class="container">
+    <form class="form-horizontal">
+        <div class="form-group">
+            <label for="inputEmail3" class="col-sm-2 control-label">Email</label>
+            <div class="col-sm-10">
+                <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="inputPassword3" class="col-sm-2 control-label">Password</label>
+            <div class="col-sm-10">
+                <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-sm-offset-2 col-sm-10">
+                <div class="checkbox">
+                    <label>
+                        <input type="checkbox"> Remember me
+                    </label>
+                </div>
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-sm-offset-2 col-sm-10">
+                <button type="submit" class="btn btn-default">Sign in</button>
+            </div>
+        </div>
+    </form>
+    <select multiple class="form-control">
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+        <option>4</option>
+        <option>5</option>
+    </select>
+    <form class="form-horizontal">
+        <div class="form-group">
+            <label class="col-sm-2 control-label">Email</label>
+            <div class="col-sm-10">
+                <p class="form-control-static">email@example.com</p>
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="inputPassword" class="col-sm-2 control-label">Password</label>
+            <div class="col-sm-10">
+                <input type="password" class="form-control" id="inputPassword" placeholder="Password">
+            </div>
+        </div>
+    </form>
+</div>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="jquery-1.8.1.min.js"><\/script>')</script>
 <script src="dist/js/bootstrap.min.js"></script>
 <script>
     console.log( Object.prototype.toString.call( [] ) == '[object Array]'  ,Object.prototype.toString.call( 'ab'))
+
 </script>
 </body>
 </html>

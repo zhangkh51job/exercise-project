@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="//g.alicdn.com/msui/sm/0.5.3/css/sm.min.css">
 </head>
 <body>
-<div class="page">
+<div class="page" type="aaaa">
     <input id="text1" type="text" readonly style="border: 1px solid #666;">
     <button id="btn">change</button><br>
     <input id="text2" type="text" readonly style="border: 1px solid #666;"><br>
@@ -141,6 +141,9 @@
     console.log( aa )
 
     $('.page').clone().appendTo('body')
+
+    console.log( $('#text3').parent('[type="aaaa"]') );
+    console.log('date valid', new Date(null).toDateString(), "|", new Date('aa').toDateString(), "|",  new Date('4567').toDateString(), "|")
 </script>
 </body>
 </html>

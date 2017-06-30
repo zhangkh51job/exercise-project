@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>threejs note</title>
+</head>
+<body>
+
+<!--
+    一个webgl的四个步骤:
+        1, 初始化webgl绘图上下文
+        2, 初始化角色器程序
+        3, 建立模型和数据缓存
+        4, 完成动画绘制
+        THREE.Scence
+        camera:
+            THREE.PerspectiveCamera
+        render:
+            THREE.WebGLRender
+
+      渲染一个THREE显示对象步骤：几何模型， 材料（着色），几何模型承载对象
+      每个threejs显示对象都有一个Matrix对象属性，以保存该对象位移，旋转，缩放，变形等因子
+         全局矩阵： Object3d.matrixWorld
+
+-->
+
+<script type="text/javascript" src="three.js"></script>
+<script>
+    var scene = new THREE.Scene();
+    var camera = new THREE.PerspectiveCamera( 75, window.innerWidth/window.innerHeight, 0.1, 1000 );
+
+    var renderer = new THREE.WebGLRenderer();
+    var resize = function(){renderer.setSize( window.innerWidth, window.innerHeight );}
+    window.addEventListener('resize', resize);resize();
+    document.body.appendChild( renderer.domElement );
+
+
+    var geometry = new THREE.BoxGeometry( 1, 1, 1 );
+    var material = new THREE.MeshBasicMaterial( { color: 0x00ff00, alphaTest:.5 } );
+    var cube = new THREE.Mesh( geometry, material );
+    scene.add( cube );
+
+    geometry.matrixAutoUpdate = false;
+    THREE.CullFaceFront
+
+
+    camera.position.z = 5;
+
+    var render = function () {
+        requestAnimationFrame( render );
+
+        cube.rotation.x += 0.01;
+        cube.rotation.y += 0.01;
+
+        renderer.render(scene, camera);
+    };
+    render();
+</script>
+<script>
+</script>
+</body>
+</html>
