@@ -20,8 +20,8 @@
 -->
 
 <!--
-    注释方式的模块化，@module, @requires
-    Stage.tick() 会遍历整个显示树，依次调用每个 view.render(), 渲染整个显示树
+    注释方式的模块化，@module标记模块名, @requires标记所依赖的模块
+    Stage.tick() 会遍历整个树的显示对象，依次调用每个 view.render(), 渲染整个显示树
     Renderer 负责管理具体的渲染过程，只注入Stage中
       以此实现 可视对象与具体渲染的解耦
 
@@ -62,21 +62,21 @@
     ticker.addTick(stage);
     ticker.start(true);
 
-    var SVG_path = 'M50 50 L100 50 L100 100 L50 100 L50 50 Z'
+    var SVG_path = 'M50 50 L100 50 L100 100 L50 100 L50 50 Z';
     var shape = new Hilo.Graphics({width:400, height:400});
 
     shape.drawSVGPath(SVG_path).lineStyle(2, '#f00', 1, 'round').beginFill('#777').endFill();
-    shape.lineStyle(2, '#f00', 1, 'round')
+    shape.lineStyle(2, '#f00', 1, 'round');
     shape.moveTo(66, 100).lineTo(66, 200);
     shape.moveTo(84, 100).lineTo(84, 200);
     shape.moveTo(50, 200).lineTo(100, 200).lineTo(100, 250).lineTo(50, 250).lineTo(50, 200).beginFill('#999').endFill();
 
     stage.addChild(shape);
 
-    stage.addTo( document.querySelector('#container') )
+    stage.addTo( document.querySelector('#container') );
 
     window.onload = function(){
-        console.log( 'compare', /*typeof */stage.renderer.context.canvas  === document.querySelector('#container canvas') )
+        console.log( 'compare', /*typeof */stage.renderer.context.canvas  === document.querySelector('#container canvas') );
         console.log( 'compare', /*typeof */ stage.renderer.canvas === document.querySelector('#container canvas') )
     }
 

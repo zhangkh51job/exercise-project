@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="marquee.css">
+</head>
+<body>
+
+<div class="container" >
+    <div class="title">人才推荐</div>
+    <div class="marqueeCt">
+
+    </div>
+</div>
+<!--<div id="test"></div>-->
+
+<script type="text/javascript" src="jquery-1.8.1.min.js"></script>
+<script
+        src="https://code.jquery.com/ui/1.12.1/jquery.min.js"
+        integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="
+        crossorigin="anonymous"></script>
+<script>
+    var testData = [
+        {name:"UI设计师", id:'1'}, {name:"java开发工程师", id:'2'}, {name:".net开发工程师", id:'3'}, {name:"运维经理", id:'4'},
+        {name:"UI设计师1", id:'5'}, {name:"java开发工程师1", id:'6'}, {name:".net开发工程师1", id:'7'}, {name:"运维经理", 'id':8},
+        {name:"UI设计师2", id:'9'}, {name:"java开发工程师2", id:'10'}, {name:".net开发工程师2", id:11}
+    ]
+
+    function renderData(arr){
+        var $dom = $('.marqueeCt');
+        var sonCt;
+        for(var i = 0, leni = Math.ceil(arr.length/5);i < leni;i++){
+            sonCt = $('<div class="sonct"></div>')
+            for(var j = 0;j < 5;j++){
+                if( i*5 +j >= arr.length ) break;
+                sonCt.append('<a class="marqueeComponent" href="'+arr[i*5 +j].id+ '">'+arr[i*5 +j].name+'</a>')
+            }
+            $dom.append(sonCt)
+        }
+//        $('.container').append( $dom );
+    }
+    renderData( testData );
+
+    var cartoonFlag = true, isMoving = false;
+    function reCartton(){
+        var $dom = $('.marqueeCt');
+
+//        $dom.off('webkitTransitionEnd', reCartton);
+
+        setTimeout(function(){
+            if( cartoonFlag == false) return;
+            addCartton( $('.marqueeCt') )
+        }, 3500)
+    }
+    function addCartton($dom){
+//        console.log( $dom[0].currentStyle['top'] )
+        var h = $dom.height(), top = parseFloat($('.marqueeCt').css('top'));//parseFloat(($dom[0].currentStyle? $dom[0].currentStyle : window.getComputedStyle($dom[0], null))['top']);
+        /*if( Math.abs(top) >= h - 30){
+         $dom[0].style.top = '30px';
+         top = 30;
+         /!*reCartton();
+         return;*!/
+         }*/
+//        $dom.addClass('cartton');
+//        transitonFlag = true;
+//        $dom.on('webkitTransitionEnd', reCartton);
+
+        /*setTimeout( function(){
+         //            $dom.css('top', (top-30)+'px')
+         $dom[0].style.top = (top-30)+'px'
+         }, 0 );*/
+        var setintervalid = setInterval(function(){
+            var currtop = parseFloat($('.marqueeCt').css('top'))//parseFloat(document.defaultView.getComputedStyle( $('.cartton').get(0), null )['top'] );
+            if( currtop <= top - 30 ) {
+                clearInterval( setintervalid );
+                isMoving = false;
+                if( Math.abs(currtop) >= h){
+                    $dom[0].style.top = '0px';
+                }
+                reCartton();
+            }else{
+                isMoving = true;
+                $('.marqueeCt').css('top', (currtop -1) +'px')
+            }
+        }, 30)
+
+    }
+    $('.marqueeCt').on('mouseenter', function(){
+        cartoonFlag = false;
+    });
+    var leaveData;
+    $('.marqueeCt').on('mouseleave', function(){
+        if(!isMoving && cartoonFlag==false &&(!leaveData || new Date().getTime() - leaveData >= 4500 )){
+            setTimeout(function(){addCartton( $('.marqueeCt') )}, 1000)
+            leaveData = new Date().getTime();
+        }
+        cartoonFlag = true;
+    });
+
+    reCartton();
+
+
+</script>
+
+</body>
+</html>

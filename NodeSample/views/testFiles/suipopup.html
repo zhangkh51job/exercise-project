@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>popup test</title>
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="//g.alicdn.com/msui/sm/0.5.7/css/sm-extend.min.css">
+    <link rel="stylesheet" href="//g.alicdn.com/msui/sm/0.5.3/css/sm.min.css"
+</head>
+<body>
+<div class="page">
+    <header class="bar bar-nav">
+        <h1 class="title">Popup(HTML)</h1>
+    </header>
+    <div class="content">
+        <div class="content-block">
+            <p><a href="#"  class="open-about">Open About Popup </a></p>
+            <p><a href="#" class="open-services">Open Services Popup </a></p>
+            <p><a href="#" class="create-popup">Open Services Popup </a></p>
+        </div>
+
+    </div>
+
+    <!--<div class="popup-overlay modal-overlay-visible">-->
+        <!-- About Popup -->
+        <div class="popup popup-about"  >
+            <div class="content-block">
+                <p>About</p>
+                <p><a href="#" class="close-popup">Close popup</a></p>
+                <p>Lorem ipsum dolor ...</p>
+            </div>
+        </div>
+        <!-- Services Popup -->
+        <div class="popup popup-services">
+            <div class="content-block">
+                <p>Services</p>
+                <p><a href="#" class="close-popup">Close popup</a></p>
+                <p>Lorem ipsum dolor ...</p>
+            </div>
+        </div>
+
+    <!--</div>-->
+
+</div>
+<script src="//g.alicdn.com/sj/lib/zepto/zepto.min.js"></script>
+<script type='text/javascript' src='//g.alicdn.com/msui/sm/0.5.7/js/sm-extend.min.js' charset='utf-8'></script>
+<script src="sm.js"></script>
+<script>
+    $(document).on('click','.open-about', function () {
+        $.popup('.popup-about');
+    });
+
+    $(document).on('click','.open-services', function () {
+        $.popup('.popup-services');
+    });
+
+    $(document).on('click','.create-popup', function () {
+        var popupHTML = '<div class="popup">'+
+                '<div class="content-block">'+
+                '<p>Popup created dynamically.</p>'+
+                '<p><a href="#" class="close-popup">Close me</a></p>'+
+                '</div>'+
+                '</div>'
+        $.popup(popupHTML);
+    });
+</script>
+</body>
+</html>

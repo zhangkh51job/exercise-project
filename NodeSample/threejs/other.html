@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{outline:none;}
+        textarea:focus{border: 1px solid #ff0000;}
+    </style>
+</head>
+<body>
+<textarea></textarea>
+<div>
+    <input type="button" value="click" id="btn">
+</div>
+<script type="text/javascript" src="../views/testFiles/jquery-1.8.1.min.js"></script>
+<script type="text/javascript" src="other.js"></script>
+<!--
+    generator函数特征：
+            1，function 关键字与函数名之间有一个星号*
+            2，函数体内部使用`yield`语句
+            3，`yield`语句只能用在 Generator 函数里面，用在其他地方都会报错
+            4，`yield`句本身没有返回值，或者说总是返回`undefined`;
+               `next`方法可以带一个参数，该参数就会被当作上一个`yield`语句的返回值
+            5，for...of, Array.from, 解构，扩展( ... ) 遍历 generator 函数返回值都不包含 return 返回值
+            6，Generator.prototype.next(), Generator.prototype.return(), Generator.prototype.throw()
+               g.throw()函数体外抛出异常，函数体内捕捉，且附带执行一条yield语句
+               g.return函数附带执行一条yield语句，且会执行完函数体内finally语句块再执行
+            7，yield* 用于在一个generator函数内执行另外一个generator函数
+            8，Generator函数转为普通的构造函数：(1，可以使用new生成实例 3，可以正常使用this) -> (function* g(){}).call(g.prototype)
+
+       EcmaScript7:
+        async await函数;  Array.prototype.include; x**y
+
+    解决异步嵌套函数方式：
+        1，Promise.resolve(value).then().. then线性执行
+        2，原生Generator函数执行, Generator函数返回具有Iterator接口的对象
+        2，async await函数方式, async函数返回Promise对象, for await(const x of xx){}
+
+   javascript操作二进制接口：ArrayBuffer, DataView, ByteArray; 接口目的（webgl）
+        ArrayBuffer对象代表原始的二进制数据，TypedArray视图用来读写简单类型的二进制数据，DataView视图用来读写复杂类型的二进制数据
+        ArrayBuffer存储二进制数据的一段内存，视图则是以指定的格式读取该内存的二进制数据
+            1, TypedArray也可不同过ArrayBuffer, 直接分配内存而生成， new Int8Array(8)
+            2, xhr2.responseType = 'arraybuffer' || ’blob';
+
+            图像的二进制数据信息格式？？
+
+    Web Worker:
+        web worker 创建后台进程，并发运行页面脚本，页面主进程不会被阻塞，不会被减缓
+        SharedArrayBuffer worker多进程共享内存，Atomics对象为多进程同时操作SharedArrayBuffer同一区域数据提供原子性api
+
+        Worker 与 SharedWorker
+            1， SharedWorker必须通过一个port对象来通信，Worker已在内部默认完成
+            2， 浏览器环境window(或self), Nodejs环境global, web Worker环境self
+
+
+    Module:
+        1, ES6 模块的设计思想，是尽量的静态化，使得编译时（js引擎的静态分析）就能确定模块的依赖关系，以及输入和输出的变量
+        2，CommonJs的模块是一个对象，运行时加载（导出的整个对象）然后再赋值所列加载项。ES6通过import，module命令在编译时完成加载仅列出的加载项
+        3, export输出的接口与对应的值是动态绑定关系; import, export在编译阶段执行，具有代码提升效果；
+           export, import是静态执行的，不能使用表达式、变量，不能放入语句块中等
+        4，export default默认输出， import anyName from ‘default’（默认无需括号）
+        5, 先输入再输出 export { name } from 'someModule'
+        6，export * from 'someModule'; 输出someModule模块中的所有模块，但忽略someModule中的export default输出
+
+    Loader:
+       1, 默认script标签方式sync，及defer与async方式区别
+       2，es6在浏览器中加载方式：type="module", 默认defer。模块中的全局this为undefined，只加载一次
+       3, nodejs在静态分析阶段，只有脚本中有一行import/export语句，便认为该模块为es6模块，否则认为是CommonJs模块
+          import加载Commonjs模块时，module.exports等价于 export default
+       4, import加载CommonJS模块时，只能整体加载，不能部分加载赋值（因为import在编译时确定，CommonJs在运行时才能确定）
+       5，require加载es6模块时，所有的输出都会作为加载的对象的属性
+       6，Commonjs出现某个模块被"循环加载"，就输出已经执行的部分，然后执行循环加载，还未执行的部分不会输出,直到执行权从回到该模块，接着往下执行
+       7，暂不支持es6语法浏览器，Babel转码，或使用SystemJS加载
+
+     es6 Class与prototype区分：
+        1, Class内部方法不能通过Object.keys等方法幂举，prototype可以;
+        2, let className = class me{};类名为className, me只能在类内部使用; 立即执行类,参数传入construct函数中
+        3，class私有方法模拟方式：1，将私有方法移除class类中（但还在没有被导出接口的模块中）;
+           利用Symbol值的唯一性，将class私有方法以Symbol值命名
+        4，子类的constructor函数中必须调用super方法，否则报错（子类的this由父类的super构建而来）
+            Object.setPrototypeOf   Object.getPrototypeOf
+        5, super赋值的属性为this赋值的属性;es5中子类不能获得父类的属性（比如数组继承sonArray.length == undefined），
+           es6是先构造父类的实例，在用子类的构造函数修饰父类的实例，在es6中，子类可以继承父类属性
+        6，es6静态关键字static定义的方法可以被子类继承，可以通过super调用，类内部不能定义静态属性，只能在类外动态定义
+        7, es6定义类的属性（constructor方法中this.prop定义），类的静态属性Class.prop;
+           es7提案（可能在es8中实现）中直接再类中赋值class className{ prop = xxx; static prop = xxx; }
+        8, new.target建立虚类
+
+     es6 fn:
+        1, 函数默认值可以是变量表达式，默认值可以与解构赋值结合使用; 函数参数不填（非中间的）或者undefined触发默认值，null不能
+           指定默认值之后函数length等于原来的 length - 参数开始有默认值前面的个数
+        2, 扩展运算符 示例1求一个数组最大值2将一个数组添加到另一个数组（es5，es6最简洁写法）
+        3, 解构运赋值可用于具有iterator接口的对象;js会将一个Unicode字符识别为两个字符，而解构运算符不会(可解构之后再计算长度)
+        4, 箭头函数注意点：
+            1>箭头函数没有this对象（不能作为构造函数），所以this对象为定义时所在对象，而不是使用时所在的对象,这样this指向是固定的。
+            2>this, super, new.target, argument在箭头函数中均不存在，箭头函数也不能作为Generator函数
+            3>es5中绑定this的函数call, apply, bind, es7有提案 ::，用于代替es5的函数绑定
+            3>使用尾递归优化函数递归（尾调用：没有使用外层函数变量，外层函数变量可以做成函数参数化，最后一行语句只返回函数）
+         5，纯粹函数式编程语言没有循环操作命令，所有循环都是递归实现，尾递归优化减少堆栈溢出。严格模式中函数没有 fn.arguments, fn.caller 变量
+
+       declare:
+            1, let声明不存在变量提升，在所声明的代码块中存在暂时性死区
+                    let、const声明之前使用typeof报错，没有声明使用typeof不报错（暂时性死区）
+               const声明的变量指向的地址不得更改 与 Object.freeze 的对比
+            2，es5有全局作用域和函数作用域，没有块级作用域，存在变量提升
+               es6有全局作用域，函数作用域，块级作用域，不存在变量提升
+            3， es6声明变量方式：var、function、let、const、import、class
+        Object:
+            1, 对象简洁写法，属性名都是字符串; 属性名表达式可以是： [表达式]。 --- 对象简洁表达式， 对象属性名表达式
+            2，Object.assign浅复制; Object.assign不能赋值get、set属性值; Object.defineProperties(target, Object.getOwnPropertiesDescriptors(source))
+               Object.getOwnPropertyDescriptor { writable:b, enumerable:b, configuration:b }
+                    for...in..., Object.keys, JSON.stringify, Object.assign 忽略enumerable为false的情况
+                    Reflect.ownKeys返回自身，继承，Symbol, 不可枚举的所有属性
+            3， 对象解构赋值只能解构对象自身的属性值，不能解构继承的属性值 Object.create(obj);
+        Reflect:
+            1, 设置目的, 在语言语义层面迁移Object方法到Reflect上， 如： Reflect.defineProperty， 等
+            2， 取代某些命令式操作, 如：key in obj, delete obj.key( Reflect.has, Reflect.deleteProperty )
+            3， 在Proxy修改默认行为之后，再获取默认行为（与Proxy修改行为一一对应，保证默认的原生行为能够执行）
+            3， Reflect.someFn(target, key, receiver)  target的someFn行为中，this绑定receiver
+        Proxy:
+            1, 在语言层面，修改某些操作的默认行为
+               apply, set, get, constructor,  has, deleteProperty, defineProperty, getOwnPropertyDescriptor, getPropertyOf, ownKeys
+
+
+
+-->
+<script type="module" src="es6Simulate.js" async>
+</script>
+<script type="module" src="es6Simulate.js" async>
+</script>
+<script type="module" src="es6Simulate2.js" async>
+</script>
+<script>
+        $('#btn').on('click', function(){
+            console.log('textarea click !')
+        })
+</script>
+
+</body>
+</html>
