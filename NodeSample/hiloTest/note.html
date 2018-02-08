@@ -56,7 +56,7 @@
         width: 400,
         height: 400
     });
-
+    stage.enableDOMEvent(Hilo.event.POINTER_START, true);
     //start stage ticker
     var ticker = new Hilo.Ticker(60);
     ticker.addTick(stage);
@@ -64,20 +64,23 @@
 
     var SVG_path = 'M50 50 L100 50 L100 100 L50 100 L50 50 Z';
     var shape = new Hilo.Graphics({width:400, height:400});
-
+    shape.on(Hilo.event.POINTER_START, function(e){
+        console.log(e.eventTarget, e.stageX, e.stageY);
+    });
     shape.drawSVGPath(SVG_path).lineStyle(2, '#f00', 1, 'round').beginFill('#777').endFill();
     shape.lineStyle(2, '#f00', 1, 'round');
     shape.moveTo(66, 100).lineTo(66, 200);
     shape.moveTo(84, 100).lineTo(84, 200);
     shape.moveTo(50, 200).lineTo(100, 200).lineTo(100, 250).lineTo(50, 250).lineTo(50, 200).beginFill('#999').endFill();
 
+
     stage.addChild(shape);
 
     stage.addTo( document.querySelector('#container') );
 
     window.onload = function(){
-        console.log( 'compare', /*typeof */stage.renderer.context.canvas  === document.querySelector('#container canvas') );
-        console.log( 'compare', /*typeof */ stage.renderer.canvas === document.querySelector('#container canvas') )
+//        console.log( 'compare', /*typeof */stage.renderer.context.canvas  === document.querySelector('#container canvas') );
+//        console.log( 'compare', /*typeof */stage.renderer.canvas === document.querySelector('#container canvas') )
     }
 
 </script>

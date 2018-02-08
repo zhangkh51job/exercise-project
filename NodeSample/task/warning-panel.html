@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/self-panel.css">
+</head>
+<body>
+<div class="panel warn-panel">
+    <!-- Default panel contents -->
+    <div class="panel-heading self-panel-heading">新增预警接口</div><input type="button" class="close-btn">
+    <div class="panel-body">
+        <div class="item-title">接口选择</div>
+        <div class="item-body">
+            <label style="margin-left: 0;">第三方服务：</label>
+            <div class="btn-group">
+                <button type="button" class="btn interface-input">Action</button>
+                <button type="button" class="btn interface-btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <span class="caret"></span>
+                    <span class="sr-only">Toggle Dropdown</span>
+                </button>
+                <ul class="dropdown-menu">
+                    <li><a href="#">Action</a></li>
+                    <li><a href="#">Another action</a></li>
+                    <li><a href="#">Something else here</a></li>
+                    <li><a href="#">Separated link</a></li>
+                </ul>
+            </div>
+
+            <label>接口名称：</label>
+            <div class="btn-group">
+                <button type="button" class="btn interface-input">Action</button>
+                <button type="button" class="btn interface-btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <span class="caret"></span>
+                    <span class="sr-only">Toggle Dropdown</span>
+                </button>
+                <ul class="dropdown-menu">
+                    <li><a href="#">Action</a></li>
+                    <li><a href="#">Another action</a></li>
+                    <li><a href="#">Something else here</a></li>
+                    <li><a href="#">Separated link</a></li>
+                </ul>
+            </div>
+
+            <label>接口类型：</label>
+            <span>验证类</span>
+        </div>
+
+        <div class="item-title">参数配置</div>
+        <div class="item-body">
+            <ul class="nav nav-tabs self-nav">
+                <li role="presentation" class="active"><a style="border-left: 1px solid #d2d2d2 !important">接口调整次数预警</a></li>
+                <li role="presentation"><a >接口失败率预警</a></li>
+                <li role="presentation"><a >产品查的率</a></li>
+                <li role="presentation"><a >产品爬虫预警</a></li>
+            </ul>
+            <div class="nav-panel">
+                <div class="first-panel active">
+                    <div class="item-body">
+                        <div class="item-li">
+                            <span style="margin-left: 0;" class="span">当接口调用：</span>
+                            <div class="btn-group">
+                                <button type="button" class="btn interface-input" style="width: 80px;">大于</button>
+                                <button type="button" class="btn interface-btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <span class="caret"></span>
+                                    <span class="sr-only">Toggle Dropdown</span>
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">Action</a></li>
+                                    <li><a href="#">Another action</a></li>
+                                    <li><a href="#">Something else here</a></li>
+                                    <li><a href="#">Separated link</a></li>
+                                </ul>
+                                <input type="number" placeholder="请输入整数数值" class="interface-text">
+                                <i class="warn-tip-icon"></i>
+
+                            </div>
+                        </div>
+                        <div class="item-li">
+                            <span style="margin-left: 0;" class="span">调控周期：</span>
+                            <div class="btn-group">
+                                <button type="button" class="btn interface-input" style="width: 80px;margin-left: 14px;">小时</button>
+                                <button type="button" class="btn interface-btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <span class="caret"></span>
+                                    <span class="sr-only">Toggle Dropdown</span>
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">Action</a></li>
+                                    <li><a href="#">Another action</a></li>
+                                    <li><a href="#">Something else here</a></li>
+                                    <li><a href="#">Separated link</a></li>
+                                </ul>
+                            </div>
+                            <span style="margin-left: 140px;">监控频率</span><input type="text" class="interface-text" placeholder="请设置监控频率">
+                        </div>
+                        <div class="tip">注：若不设置参数，则不执行该操作</div>
+                    </div>
+                </div>
+                <div class="second-panel">
+                    <div class="item-body">
+                        <div class="item-li">
+                            <span style="margin-left: 0;" class="span">当接口调用失败率：</span>
+                            <div class="btn-group">
+                                <button type="button" class="btn interface-input">大于</button>
+                                <button type="button" class="btn interface-btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <span class="caret"></span>
+                                    <span class="sr-only">Toggle Dropdown</span>
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">Action</a></li>
+                                    <li><a href="#">Another action</a></li>
+                                    <li><a href="#">Something else here</a></li>
+                                    <li><a href="#">Separated link</a></li>
+                                </ul>
+                                <input type="number" placeholder="请输入整数数值" class="interface-text">
+                            </div>
+                        </div>
+                        <div class="item-li">
+                            <span style="margin-left: 0;" class="span">调控周期：</span>
+                            <div class="btn-group">
+                                <button type="button" class="btn interface-input">小时</button>
+                                <button type="button" class="btn interface-btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <span class="caret"></span>
+                                    <span class="sr-only">Toggle Dropdown</span>
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">Action</a></li>
+                                    <li><a href="#">Another action</a></li>
+                                    <li><a href="#">Something else here</a></li>
+                                    <li><a href="#">Separated link</a></li>
+                                </ul>
+                            </div>
+                            <span style="margin-left: 140px;">监控频率</span><input type="text" class="interface-text" placeholder="请设置监控频率">
+                        </div>
+                        <div class="tip">注：若不设置参数，则不执行该操作</div>
+                    </div>
+                </div>
+                <div class="three-panel">
+                    <div class="item-body">
+                        <div class="item-li">
+                            <span style="margin-left: 0;" class="span">当接口查的率：</span>
+                            <div class="btn-group">
+                                <button type="button" class="btn interface-input">大于</button>
+                                <button type="button" class="btn interface-btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <span class="caret"></span>
+                                    <span class="sr-only">Toggle Dropdown</span>
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">Action</a></li>
+                                    <li><a href="#">Another action</a></li>
+                                    <li><a href="#">Something else here</a></li>
+                                    <li><a href="#">Separated link</a></li>
+                                </ul>
+                                <input type="number" placeholder="请输入整数数值" class="interface-text">
+                            </div>
+                        </div>
+                        <div class="item-li">
+                            <span style="margin-left: 0;" class="span">调控周期：</span>
+                            <div class="btn-group">
+                                <button type="button" class="btn interface-input">小时</button>
+                                <button type="button" class="btn interface-btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <span class="caret"></span>
+                                    <span class="sr-only">Toggle Dropdown</span>
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">Action</a></li>
+                                    <li><a href="#">Another action</a></li>
+                                    <li><a href="#">Something else here</a></li>
+                                    <li><a href="#">Separated link</a></li>
+                                </ul>
+                            </div>
+                            <span style="margin-left: 140px;">监控频率</span><input type="text" class="interface-text" placeholder="请设置监控频率">
+                        </div>
+                        <div class="tip">注：若不设置参数，则不执行该操作</div>
+                    </div>
+                </div>
+                <div class="four-panel">
+                    <div class="item-body">
+                        <div class="item-li">
+                            <span style="margin-left: 0;" class="span">当接爬虫成功率：</span>
+                            <div class="btn-group">
+                                <button type="button" class="btn interface-input">大于</button>
+                                <button type="button" class="btn interface-btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <span class="caret"></span>
+                                    <span class="sr-only">Toggle Dropdown</span>
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">Action</a></li>
+                                    <li><a href="#">Another action</a></li>
+                                    <li><a href="#">Something else here</a></li>
+                                    <li><a href="#">Separated link</a></li>
+                                </ul>
+                                <input type="number" placeholder="请输入整数数值" class="interface-text">
+                            </div>
+                        </div>
+                        <div class="item-li">
+                            <span style="margin-left: 0;" class="span">调控周期：</span>
+                            <div class="btn-group">
+                                <button type="button" class="btn interface-input">小时</button>
+                                <button type="button" class="btn interface-btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <span class="caret"></span>
+                                    <span class="sr-only">Toggle Dropdown</span>
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">Action</a></li>
+                                    <li><a href="#">Another action</a></li>
+                                    <li><a href="#">Something else here</a></li>
+                                    <li><a href="#">Separated link</a></li>
+                                </ul>
+                            </div>
+                            <span style="margin-left: 140px;">监控频率</span><input type="text" class="interface-text" placeholder="请设置监控频率">
+                        </div>
+                        <div class="tip">注：若不设置参数，则不执行该操作</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="item-title">通知配置</div>
+        <div class="item-body">
+            <span style="margin-left: 0;">第三方服务商：</span><a href="#" class="edit">点击编辑模板</a>
+            <div style="margin-left: 0;margin-top: 15px;">通知人员：</div>
+            <div class="notice-type">
+                <span>用户类别</span>
+                <span>
+                    <div class="select-item"><i class="check-ico"></i>内部员工</div>
+                    <div class="select-item on"><i class="check-ico"></i>外部员工</div>
+                </span>
+            </div>
+            <div class="notice-group">
+                <span>用户分组</span><span>人员名单</span><span>已选人员</span>
+            </div>
+            <div class="notice-body">
+                <ul class="department-ul">
+                    <li class="active"><div>天秤技术</div></li>
+                    <li><div>数据中心大数据分控中心数据中心</div></li>
+                    <li>内部商务</li>
+                    <li>运营中心</li>
+                    <li>风控中心</li>
+
+                    <li>内部商务</li>
+                    <li>运营中心</li>
+                    <li>风控中心</li>
+                </ul>
+                <ul class="user-ul">
+                    <li class="active">张三</li>
+                    <li>李四</li>
+                    <li>王五</li>
+                    <li>梦六</li>
+                    <li>程强</li>
+                </ul>
+                <div class="tb-ct">
+                    <table>
+                        <thead>
+                        <tr>
+                            <td>序号</td><td>姓名</td><td>通知形式</td><td>操作</td>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>阿宝</td>
+                            <td>
+                                <div class="select-item"><i class="check-ico"></i>邮件</div>
+                                <div class="select-item on"><i class="check-ico"></i>短信</div>
+                            </td>
+                            <td><a>删除</a></td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>阿宝2</td>
+                            <td>
+                                <div class="select-item"><i class="check-ico"></i>邮件</div>
+                                <div class="select-item on"><i class="check-ico"></i>短信</div>
+                            </td>
+                            <td><a>删除</a></td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>阿宝3</td>
+                            <td>
+                                <div class="select-item"><i class="check-ico"></i>邮件</div>
+                                <div class="select-item on"><i class="check-ico"></i>短信</div>
+                            </td>
+                            <td><a>删除</a></td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="item-body" style="padding-top: 22px;padding-left: 0;">
+                <span style="margin-left: 0;">指标说明：</span><input type="text" placeholder="请输入预警指标说明" class="index-text">
+            </div>
+        </div>
+    </div>
+
+    <div class="panel-bottom">
+        <input type="button" value="重置" class="reset-btn"><input type="button" value="保存" class="save-btn">
+    </div>
+</div>
+<div class="warn-tip-ct" style="display: none;">
+    <div class="left-arrow-ct">
+        <i class="left-arrow-bg"></i>
+        <i class="left-arrow-mask"></i>
+    </div>
+    <div class="content"></div>
+</div>
+<button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#marnModal">
+    设置度量预警
+</button>
+<!-- 模态框（Modal） -->
+<div class="modal warn-modal fade" id="marnModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" >
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                    &times;
+                </button>
+                <h4 class="modal-title" id="myModalLabel">设置度量预警</h4>
+            </div>
+            <div class="modal-body">
+                <div class="item">
+                    <span>度量预警列表</span><input class="add-btn" type="button" value="添加">
+                </div>
+                <div class="item">
+                    <span>度量预警</span><span style="margin-left: 60px;">固定值</span>
+                </div>
+                <div class="item">
+                    <span style="margin-right: 4px;">当</span>
+                    <div class="btn-group" style="margin-right: 2px;">
+                        <button type="button" class="btn panel-input">登录请求</button>
+                        <button type="button" class="btn panel-btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <span class="caret"></span>
+                            <span class="sr-only">Toggle Dropdown</span>
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Action</a></li>
+                            <li><a href="#">Another</a></li>
+                            <li><a href="#">Something</a></li>
+                            <li><a href="#">Separated</a></li>
+                        </ul>
+                    </div>
+                    <div class="btn-group" style="margin-right: 2px;">
+                        <button type="button" class="btn panel-input">等于</button>
+                        <button type="button" class="btn panel-btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <span class="caret"></span>
+                            <span class="sr-only">Toggle Dropdown</span>
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Action</a></li>
+                            <li><a href="#">Another</a></li>
+                            <li><a href="#">Something</a></li>
+                            <li><a href="#">Separated</a></li>
+                        </ul>
+                    </div>
+                    <button type="button" class="btn panel-input" style="margin-right: 4px;">2200</button>
+                    <!--<input type="text" class="panel-input" value="">--><span>时报警</span>
+                    <span class="block-span">
+                        <div class="cursor_ct"><div class="cursor"></div></div>
+                        <div class="cursor-acc">关闭</div>
+                    </span>
+                </div>
+
+                <div class="item">
+                    <span>亮度显示</span><input type="checkbox"><span>开启</span>
+                </div>
+                <div class="item">
+                    <span>通知显示</span><input type="checkbox"><span>邮件</span>
+                    <div  class="val-input-ct" style="margin-left: 95px;">
+                        <input class="val-input" type="text" placeholder="输入邮箱地址@角色名称，以逗号分隔">
+                    </div>
+                </div>
+                <div class="item">
+                    <input type="checkbox" style="margin-left: 0;"><span>短信</span>
+                    <div class="val-input-ct">
+                        <input class="val-input" type="text" placeholder="输入手机号码，可以输入多个，以逗号分隔">
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary" data-dismiss="modal">取消</button>
+                <button type="button" class="btn btn-primary">确认</button>
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal -->
+</div>
+
+<script>window.jQuery || document.write('<script src="js/jquery-1.12.4.min.js"><\/script>')</script>
+<script src="js/bootstrap.min.js"></script>
+<script>
+    $('.dropdown-menu li').on('click', function(e){
+        $(this).parent().parent().find('button:first').text( $(this).text() );
+    });
+    $(document).on('click', '.select-item', function(e){
+        $(this).toggleClass('on');
+    });
+    $('.notice-body li').on('click', function(e){
+        $(this).addClass('active').siblings().removeClass('active');
+    });
+    $('.user-ul li').on('click', function(e){
+        appendData({name: $(this).text()})
+    });
+    var appendData = function(data){
+        var num = $('.tb-ct tbody tr').length;
+        $('.tb-ct tbody').append(
+                '<tr><td>'+(num+1)+'</td><td>'+data.name+'</td><td><div class="select-item"><i class="check-ico"></i>邮件</div><div class="select-item on"><i class="check-ico"></i>短信</div><td><a>删除</a></td>'
+        )
+    };
+    $(document).on('click', '.tb-ct a', function(e){
+        $(this).parent().parent().remove();
+        var arr = Array.prototype.slice.call( $('.tb-ct tbody tr') );
+        for(var i = 0, leni = arr.length;i < leni;i++){
+            $(arr[i]).find('td:first').text(i+1)
+        }
+    });
+    $('.self-nav li').on('click', function(e){
+        var arr = Array.prototype.slice.call($('.self-nav li')), index;
+        for(var i = 0, leni = arr.length;i < leni;i++){
+            if(arr[i] == this){
+                index = i;break;
+            }
+        };
+        $('.self-nav li').removeClass('active');
+        $(this).addClass('active');
+        $('.nav-panel > div').removeClass('active');
+        $('.nav-panel > div:nth-child('+(index+1)+')').addClass('active');
+    });
+    $('.warn-modal .cursor_ct').on('click', function(){
+        var b = Boolean( $(this).data('open') );
+        $(this).find('.cursor').css('left', b?'-1px':'25px');
+        $('.cursor-acc').text(b?'关闭':'打开').css('color', b?'#fea8a9':'#666');
+        $(this).data('open', !b);
+    });
+    $('.warn-tip-icon').on('mouseenter', function(e){
+        $('.warn-tip-ct').show().find('.content').text('预警规章说明：当系统检测该接口调用次数统计达到预警值时，则发送预警通知。');
+        var x = e.pageX, y = e.pageY, h = $('.warn-tip-ct').height();
+
+        var pos = $('.warn-tip-icon').offset(), w = $('.warn-tip-icon').width(), height = $('.warn-tip-icon').height();
+
+        $('.warn-tip-ct').css({left:pos.left + w + 10, top:pos.top - h /2 })
+    });
+    $('.warn-tip-icon').on('mouseleave', function(){
+        $('.warn-tip-ct').hide()
+    });
+
+</script>
+</body>
+</html>

@@ -1,0 +1,10 @@
+.statistics-ct{border: 1px solid #c9c9c9;padding: 8px 10px;min-width: 980px;}
+.statistics-ct .title{font-size: 16px;font-weight: bold;color: #333;}
+.statistics-ct .title time{font-size: 14px;margin: 0 3px;}
+.statistics-ct table{width: 98%;}
+.statistics-ct td{color: #666;padding-right: 28px;text-align: right;height: 30px;line-height: 30px;}
+.statistics-ct tbody td{border-right: 1px solid #e5e5e5;position: relative;}
+.statistics-ct tbody td:nth-child(1){text-align: left}
+.statistics-ct .data-down, .statistics-ct .data-up{display: inline-block;width: 18px;height: 18px;background: url("../img/panel-icons.png") no-repeat;float: right;position: absolute;right: 4px;top:6px;}
+.statistics-ct .data-down{background-position: -128px 0;}
+.statistics-ct .data-up{background-position: -148px 0;}

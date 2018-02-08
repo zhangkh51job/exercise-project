@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/kindeditor/themes/default/default.css" />
+    <link rel="stylesheet" href="css/self-panel.css">
+</head>
+<body>
+<div class="panel warn-panel template-panel">
+    <!-- Default panel contents -->
+    <div class="panel-heading self-panel-heading">模板编译</div><input type="button" class="close-btn">
+    <div class="panel-body">
+        <div class="template-left">
+            <h1 class="item-title">邮件模板</h1>
+            <div class="item-body"></div>
+
+            <h1 class="item-title">短信模板</h1>
+            <div class="item-body">
+                <div class="control-group">
+                    <div class="controls">
+                        <textarea rows="3"  id="txtSummary" style="width: 570px;" placeholder="标题描述内容" name="txtSummary"></textarea>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="template-right">
+            <h1 class="item-title">参数</h1>
+            <div class="item-body">
+                <div class="item-data"><span>#<em>day</em>#</span><span>日期</span></div>
+                <div class="item-data"><span>#<em>tiem</em>#</span><span>时间</span></div>
+                <div class="item-data"><span>#<em>sys</em>#</span><span>系统接口</span></div>
+                <div class="item-data"><span>#<em>number</em>#</span><span>次数</span></div>
+                <div class="item-data"><span>#<em>percentage</em>#</span><span>百分比</span></div>
+            </div>
+        </div>
+    </div>
+    <div class="panel-bottom">
+        <input type="button" value="重置" class="reset-btn"><input type="button" value="保存" class="save-btn">
+    </div>
+</div>
+<script type="text/javascript" src="js/jquery-1.8.1.min.js"></script>
+<script type="text/javascript" src="js/kindeditor-all-min.js"></script>
+<script>
+    var editorContent,editSummary;
+    KindEditor.ready(function(K) {
+        editSummary = K.create('textarea[name="txtSummary"]', {
+            resizeType : 1,
+            allowPreviewEmoticons : false,
+            allowImageUpload : false,
+            width:"570px",
+            items : [
+                'fontname', 'fontsize', '|', 'forecolor']
+        });
+
+        editorContent = K.create('textarea[name="txtContent"]', {
+            allowFileManager : true,
+            height  : '300px',
+            width:"570px"
+        });
+    });
+    $(function(){
+        setTimeout(function(){
+            $('.ke-container').css('width', '520px');
+        }, 100)
+    })
+</script>
+</body>
+</html>

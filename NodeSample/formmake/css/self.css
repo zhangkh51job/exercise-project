@@ -1,0 +1,44 @@
+#app{
+    /*width: 800px;*/
+    height: 100%;
+    position: relative;
+    /*background-color: #eee;*/
+    width: calc(100% - 300px);
+    float: left;
+    border: 1px solid #e0e0e0;
+    overflow-y: auto;
+}
+#node_set_id{width: 300px;float: left;}
+/*#app >svg{pointer-events: none;}*/
+#app >svg, .operate_area{
+    position: absolute;left: 0;top:0px;width: 100%;height: 100%;
+}
+/*.fx_flow_node.menu>.node-name{width: 158px;}*/
+.fx_flow_node>.node-anchor{/*pointer-events: auto;display: block;*/}
+#app >svg path{fill-opacity:0;stroke:#0db3a6;stroke-width:2;z-index: 99;}
+#app>svg .lt,#app>svg .rb{pointer-events: none;}
+#app path{fill-opacity:0;stroke:#0db3a6;stroke-width:2}
+#app .hasCondtion path{stroke:#d5c8f5}
+#app .path_select path{stroke: #ff0000;stroke-width: 2;}
+.fx_flow_node>.node-icon.green{cursor: pointer;}
+.fx_flow_node>.editText{position: absolute;}
+.fx_flow_node>.node-anchor-t{left:50%;top:0;}
+.fx_flow_node>.node-anchor-r{left:100%;top:50%;}
+.fx_flow_node>.node-anchor-b{left:50%;top:100%;}
+.fx_flow_node>.node-anchor-l{left:0%;top:50%;}
+.fx_flow_node>.node-name{padding: 0 5px 0 30px}
+.fx_flow_menu>.flow_save{margin: auto;}
+
+.node-tab, .flow-tab{width: 50%;float: left;height: 40px;line-height: 40px;text-align: center;border-bottom: 1px solid #e0e0e0;cursor: pointer;}
+.tab-select .active{border-bottom: 3px solid #00b3a6;}.tab-select{height: 40px;}
+#node_set_id .node-set, #node_set_id .line-set{padding: 20px 15px;}
+#node_set_id label{margin-bottom: 5px;display: block;}
+#node_set_id input, #node_set_id textarea{margin-bottom: 10px;}
+#node_set_id textarea{height: 100px;}
+#node_set_id select{width: 270px;height: 36px;margin-bottom: 10px;}
+#node_set_id select option{height: 36px;}
+#node_set_id .set-tab{display: none;}
+#node_set_id .tab-active{display: block;}
+
+.title_tap{text-align: center;height: 50px;}ul, li{list-style: none;}.title_tap li{float: left;width: 100px;text-align: center;cursor: pointer;font-size: 18px;padding-bottom: 8px;}
+.title_tap ul{display: inline-block;padding-top: 15px;}.title_tap ul .active{border-bottom: 3px solid #00b3a6;}

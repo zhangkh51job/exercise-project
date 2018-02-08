@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/self-panel.css">
+</head>
+<body>
+
+<!--<div class="modal warn-modal fade in" id="marnModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: block">-->
+    <div class="panel warn-panel warn-modal">
+        <!--<div class="modal-content">-->
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                    &times;
+                </button>
+                <h4 class="modal-title" id="myModalLabel">设置度量预警</h4>
+            </div>
+            <div class="modal-body">
+                <div class="item">
+                    <span>度量预警列表</span><input class="add-btn" type="button" value="添加">
+                </div>
+                <div class="item">
+                    <span>度量预警</span><span style="margin-left: 60px;">固定值</span>
+                </div>
+                <div class="item">
+                    <span style="margin-right: 4px;">当</span>
+                    <div class="btn-group" style="margin-right: 2px;">
+                        <button type="button" class="btn panel-input">登录请求</button>
+                        <button type="button" class="btn panel-btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <span class="caret"></span>
+                            <span class="sr-only">Toggle Dropdown</span>
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Action</a></li>
+                            <li><a href="#">Another</a></li>
+                            <li><a href="#">Something</a></li>
+                            <li><a href="#">Separated</a></li>
+                        </ul>
+                    </div>
+                    <div class="btn-group" style="margin-right: 2px;">
+                        <button type="button" class="btn panel-input">等于</button>
+                        <button type="button" class="btn panel-btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <span class="caret"></span>
+                            <span class="sr-only">Toggle Dropdown</span>
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Action</a></li>
+                            <li><a href="#">Another</a></li>
+                            <li><a href="#">Something</a></li>
+                            <li><a href="#">Separated</a></li>
+                        </ul>
+                    </div>
+                    <button type="button" class="btn panel-input" style="margin-right: 4px;">2200</button>
+                    <!--<input type="text" class="panel-input" value="">--><span>时报警</span>
+                    <span class="block-span">
+                        <div class="cursor_ct"><div class="cursor"></div></div>
+                        <div class="cursor-acc">关闭</div>
+                    </span>
+                </div>
+
+                <div class="item">
+                    <span>亮度显示</span><input type="checkbox"><span>开启</span>
+                </div>
+                <div class="item">
+                    <span>通知显示</span><input type="checkbox"><span>邮件</span>
+                    <div  class="val-input-ct" style="margin-left: 95px;">
+                        <input class="val-input" type="text" placeholder="输入邮箱地址@角色名称，以逗号分隔">
+                    </div>
+                </div>
+                <div class="item">
+                    <input type="checkbox" style="margin-left: 0;"><span>短信</span>
+                    <div class="val-input-ct">
+                        <input class="val-input" type="text" placeholder="输入手机号码，可以输入多个，以逗号分隔">
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary" data-dismiss="modal">取消</button>
+                <button type="button" class="btn btn-primary">确认</button>
+            </div>
+        <!--</div>&lt;!&ndash; /.modal-content &ndash;&gt;-->
+    </div><!-- /.modal -->
+<!--</div>-->
+
+<script>window.jQuery || document.write('<script src="js/jquery-1.12.4.min.js"><\/script>')</script>
+<script src="js/bootstrap.min.js"></script>
+<script>
+    $('.warn-modal .cursor_ct').on('click', function(){
+        var b = Boolean( $(this).data('open') );
+        $(this).find('.cursor').css('left', b?'-1px':'25px');
+        $('.cursor-acc').text(b?'关闭':'打开').css('color', b?'#fea8a9':'#666')
+        $(this).data('open', !b);
+    });
+</script>
+</body>
+</html>

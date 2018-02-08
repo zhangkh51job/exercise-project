@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/operator_datapicker.css">
+    <style>
+    </style>
+</head>
+<body>
+
+<div class="tap_body">
+    <div class="tap_header">
+        <h2>运营商数据分析</h2>
+        <div class="operate_ct">
+            <span>
+                <label class="disable">当日</label>
+                <span class="separate-line"></span>
+                <label class="active">本周</label>
+                <span class="separate-line"></span>
+                <label class="disable">本月</label>
+            </span>
+            <span>
+                <label>用户</label>
+                <span class="btns-ct">
+                    <a class="left-btn btn-active">全部</a>
+                    <a class="middle-btn">你我用户</a>
+                    <a class="right-btn">对外用户</a>
+                </span>
+            </span>
+            <span>
+                <label>运营商</label>
+                <div class="select_ct">
+                    <div class="btn_ct">
+                        <input readonly type="text" value="全部"><button class="select-btn"><i class="down-sign"></i></button>
+                    </div>
+                    <ul class="options_ct hidden">
+                        <li>
+                            test1
+                        </li>
+                        <li>test1</li>
+                        <li>test1</li>
+                        <li>test1</li>
+                    </ul>
+                </div>
+            </span>
+            <span>
+                <label>统计</label>
+                <span class="btns-ct">
+                    <a class="left-btn btn-active">人次</a>
+                    <a class="right-btn">频次</a>
+                </span>
+            </span>
+        </div>
+    </div>
+    <div class="tab_content">
+        <ul class="tab-btns">
+            <li class="active">
+                <div class="title">登录请求次数</div>
+                <div class="data">15,378</div>
+            </li>
+            <li>
+                <div class="title">鉴权成功率</div>
+                <div class="data">35%</div>
+
+            </li>
+            <li>
+                <div class="title">爬取成功率</div>
+                <div class="data">35%</div>
+            </li>
+            <li>
+                <div class="title">平均鉴权耗时</div>
+                <div class="data">180s</div>
+            </li>
+            <li>
+                <div class="title">平均爬取耗时</div>
+                <div class="data">378s</div>
+            </li>
+        </ul>
+    </div>
+
+    <div class="chart-ct">
+        <div class="chart-title">
+            <i class="mark"></i>数据趋势分析
+        </div>
+        <div class="datum-analyse-ct">
+
+        </div>
+    </div>
+    <div class="chart-ct chart-gp">
+        <div class="error-ct">
+            <div class="chart-title">
+                <i class="mark"></i>异常原因分析
+                <div class="error-select">
+                    <label>异常原因分析</label>
+                    <div class="select_ct">
+                        <div class="btn_ct">
+                            <input readonly type="text" value="一次鉴权"><button class="select-btn"><i class="down-sign"></i></button>
+                        </div>
+                        <ul class="options_ct hidden" style="top:32px;">
+                            <li>
+                                test1
+                            </li>
+                            <li>test1</li>
+                            <li>test1</li>
+                            <li>test1</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="request-ct">
+            <div class="chart-title">
+                <i class="mark"></i>用户请求占比
+            </div>
+        </div>
+        <div class="auth-ct">
+            <div class="chart-title">
+                <i class="mark"></i>授权-爬取漏斗分析
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script type="text/javascript" src="js/jquery-1.8.1.min.js"></script>
+<script>
+    $('.select-btn').on('click', function(e){
+        /*var isShow = document.querySelector('.options_ct').style.display == 'none';
+        document.querySelector('.options_ct').style.display = isShow?'block':'none';*/
+        $(this).parent().parent().find('.options_ct').toggleClass('hidden');
+    })
+    $('.tab-btns li').on('click', function(e){
+        $('.tab-btns li').removeClass('active');
+        $(this).addClass('active');
+    })
+</script>
+
+</body>
+</html>

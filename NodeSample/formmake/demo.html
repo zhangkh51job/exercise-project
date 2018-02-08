@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>表单制作</title>
+    <link rel="stylesheet" href="css/fx_pc_all.css">
+    <link rel="stylesheet" href="css/self.css">
+
+</head>
+<body>
+<!--<div class="title_tap">
+    <ul>
+        <li>表单制作</li>
+        <li class="active">流程设定</li>
+    </ul>
+</div>-->
+<div id="app">
+    <div class="operate_area"></div>
+    <!--<operate-area></operate-area>-->
+    <svg id="svg" version="1.1" xmlns="http://www.w3.org/2000/svg"></svg>
+
+    <div class="chart-menu fx_flow_menu" widgetname="_widget_1515469270346" style="z-index: 101">
+        <div class="menu-item style-dark front-step "><i class="icon-flow-menu-undo"></i></div>
+        <div class="menu-item style-dark back-step "><i class="icon-flow-menu-redo"></i></div>
+        <div class="menu-line"></div>
+        <div id="nodeMake" class="menu-item menu-move">
+            <i class="icon-flow-edit green"></i><span>流程节点</span>
+        </div>
+        <div id="nodeCopy" class="menu-item menu-move">
+            <i class="icon-release blue"></i><span>抄送节点</span>
+        </div>
+        <div class="menu-line"></div>
+        <div class="menu-item">
+            <i class="icon-flow-menu-vertical"></i><span>水平等距</span>
+        </div>
+        <div class="menu-item">
+            <i class="icon-flow-menu-horizontal"></i><span>垂直等距</span>
+        </div>
+        <div class="menu-line"></div>
+        <div class="menu-item node_delete"><i class="icon-trasho"></i></div>
+        <div class="menu-line"></div>
+        <div class="menu-item flow_save"><span>保存</span></div>
+        <div class="menu-item for-right size-large active"><i class="icon-widget-location"></i></div>
+    </div>
+
+</div>
+<div id="node_set_id">
+    <div class="tab-select">
+        <div class="node-tab active">节点设置</div>
+        <div class="flow-tab">流程设置</div>
+    </div>
+    <div class="set-tab node-set">
+        <label for="stepName">步骤名称</label>
+        <input type="text" id="stepName" name="stepName">
+
+        <label for="approveName">审批人</label>
+        <input type="text" id="approveName" name="approveName">
+
+        <label for="approvePost">审批岗位</label>
+        <input type="text" id="approvePost" name="approvePost">
+
+        <label for="copyName">抄送人</label>
+        <input type="text" id="copyName" name="copyName">
+
+        <label for="copyPost">抄送岗位</label>
+        <input type="text" id="copyPost" name="copyPost">
+
+        <label for="copyVarible">抄送变量</label>
+        <textarea id="copyVarible" name="copyVarible"></textarea>
+
+        <label for="countersign">是否会签步骤</label>
+        <select id="countersign" name="countersign">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+        </select>
+
+        <label for="minCountersign">最少会签人数</label>
+        <input type="text" id="minCountersign" name="minCountersign">
+
+        <label for="isSave">无审批人是否保留</label>
+        <select id="isSave" name="minCountersign">
+            <option>保留1</option>
+            <option>不保留2</option>
+        </select>
+    </div>
+    <div class="set-tab line-set">
+        <label for="conditionExpression">步骤条件表达式</label>
+        <textarea id="conditionExpression" name="conditionExpression"></textarea>
+
+        <label for="conditionDescribe">条件描述</label>
+        <input type="text" id="conditionDescribe" name="conditionDescribe">
+    </div>
+    <div class="set-tab flow-set">
+
+    </div>
+</div>
+
+<script type="text/javascript" src="./js/framework/vue.js"></script>
+<script type="text/javascript" src="./js/framework/jquery-1.8.1.min.js"></script>
+<script type="text/javascript" src="./js/lines.js"></script>
+<script type="text/javascript" src="./js/pathManager.js"></script>
+<script type="text/javascript" src="./js/protrudeData.js"></script>
+<script type="text/javascript" src="./js/demo.js"></script>
+<!--<script type="text/javascript" src="./js/app.js"></script>-->
+
+</body>
+</html>

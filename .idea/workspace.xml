@@ -2,8 +2,137 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="261f1d27-425e-45e9-99ef-b3b9c1fb126f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/views/testFiles/node.text" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample.rar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/formmake/images/btn.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/formmake/images/fire.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/formmake/images/fish.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/formmake/images/map.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/formmake/images/num.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/formmake/images/tmallIcon.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/formmake/images/toolbar-bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/task/2.31.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/task/css/kindeditor/themes/common/anchor.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/task/css/kindeditor/themes/common/blank.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/task/css/kindeditor/themes/common/flash.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/task/css/kindeditor/themes/common/loading.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/task/css/kindeditor/themes/common/media.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/task/css/kindeditor/themes/common/rm.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/task/css/kindeditor/themes/default/background.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/task/css/kindeditor/themes/default/default.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/task/css/kindeditor/themes/qq/editor.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/task/img/panel-icons.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/task/task.rar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/vue-elementui/build/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/vue-elementui/src/assets/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/formmake-webpack-vue/css/applayout.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/formmake-webpack-vue/css/form.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/formmake-webpack-vue/css/fx_pc_all.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/formmake-webpack-vue/css/self.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/formmake-webpack-vue/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/formmake-webpack-vue/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/formmake-webpack-vue/src/App.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/formmake-webpack-vue/src/api/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/formmake-webpack-vue/src/api/mock-data.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/formmake-webpack-vue/src/app.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/formmake-webpack-vue/src/component/draw.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/formmake-webpack-vue/src/component/nodeSet.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/formmake-webpack-vue/src/component/sons/drawToolBar.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/formmake-webpack-vue/src/component/sons/node.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/formmake-webpack-vue/src/component/sons/path.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/formmake-webpack-vue/src/framework/jquery-1.8.1.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/formmake-webpack-vue/src/router.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/formmake-webpack-vue/src/store/actions.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/formmake-webpack-vue/src/store/getters.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/formmake-webpack-vue/src/store/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/formmake-webpack-vue/src/store/mutation-types.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/formmake-webpack-vue/src/store/mutations.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/formmake-webpack-vue/src/tools/interactive.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/formmake-webpack-vue/src/tools/lines.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/formmake-webpack-vue/src/tools/pathManager.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/formmake-webpack-vue/webpack.config.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/formmake/css/applayout.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/formmake/css/form.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/formmake/css/fx_pc_all.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/formmake/css/self.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/formmake/demo.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/formmake/demo2.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/formmake/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/formmake/index2.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/formmake/js/app.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/formmake/js/demo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/formmake/js/framework/hilo-standalone.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/formmake/js/framework/jquery-1.8.1.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/formmake/js/framework/vue.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/formmake/js/framework/vue.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/formmake/js/lines.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/formmake/js/main.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/formmake/js/pathManager.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/formmake/js/protrudeData.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/task/css/bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/task/css/bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/task/css/demo.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/task/css/kindeditor/themes/default/default.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/task/css/kindeditor/themes/qq/qq.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/task/css/kindeditor/themes/simple/simple.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/task/css/operator_authorization.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/task/css/operator_datapicker.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/task/css/self-panel.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/task/css/table.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/task/demo.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/task/js/bootstrap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/task/js/bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/task/js/flexible.debug.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/task/js/jquery-1.12.4.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/task/js/jquery-1.8.1.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/task/js/kindeditor-all-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/task/js/kindeditor-all.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/task/js/operator_authorization.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/task/operator_authorization.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/task/operator_datapicker.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/task/table.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/task/template-panel.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/task/warning-panel.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/task/warning-pop.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/views/element-vue/dialog.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/vue-elementui/.babelrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/vue-elementui/.editorconfig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/vue-elementui/.eslintignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/vue-elementui/.eslintrc.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/vue-elementui/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/vue-elementui/.postcssrc.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/vue-elementui/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/vue-elementui/build/build.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/vue-elementui/build/check-versions.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/vue-elementui/build/utils.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/vue-elementui/build/vue-loader.conf.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/vue-elementui/build/webpack.base.conf.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/vue-elementui/build/webpack.dev.conf.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/vue-elementui/build/webpack.prod.conf.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/vue-elementui/config/dev.env.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/vue-elementui/config/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/vue-elementui/config/prod.env.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/vue-elementui/config/test.env.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/vue-elementui/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/vue-elementui/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/vue-elementui/src/App.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/vue-elementui/src/components/HelloWorld.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/vue-elementui/src/main.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/vue-elementui/src/router/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/vue-elementui/static/.gitkeep" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/vue-elementui/test/e2e/custom-assertions/elementCount.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/vue-elementui/test/e2e/nightwatch.conf.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/vue-elementui/test/e2e/runner.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/vue-elementui/test/e2e/specs/test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/vue-elementui/test/unit/.eslintrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/vue-elementui/test/unit/jest.conf.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/vue-elementui/test/unit/setup.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/vue-elementui/test/unit/specs/HelloWorld.spec.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/vue-elementui/webpack.config.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NodeSample/expressTest/index.js" afterPath="$PROJECT_DIR$/NodeSample/expressTest/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NodeSample/hiloTest/note.html" afterPath="$PROJECT_DIR$/NodeSample/hiloTest/note.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NodeSample/views/testFiles/aa.html" afterPath="$PROJECT_DIR$/NodeSample/views/testFiles/aa.html" />
     </list>
     <ignored path="nodejs.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -24,108 +153,109 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="other.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/NodeSample/threejs/other.html">
+      <file leaf-file-name="mutations.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/NodeSample/formmake-webpack-vue/src/store/mutations.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-92.0">
-              <caret line="128" column="9" selection-start-line="128" selection-start-column="9" selection-end-line="128" selection-end-column="9" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="18" column="46" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="es6Simulate2.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/NodeSample/threejs/es6Simulate2.js">
+      <file leaf-file-name="node.vue" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/NodeSample/formmake-webpack-vue/src/component/sons/node.vue">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+              <caret line="13" column="22" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="22" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="suiTest1.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/NodeSample/views/testFiles/suiTest1.html">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/NodeSample/expressTest/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.49156627">
+              <caret line="40" column="14" selection-start-line="40" selection-start-column="14" selection-end-line="40" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pathManager.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/NodeSample/formmake-webpack-vue/src/tools/pathManager.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="305" column="26" selection-start-line="305" selection-start-column="26" selection-end-line="305" selection-end-column="26" />
+              <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="lines.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/NodeSample/formmake-webpack-vue/src/tools/lines.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="314" column="69" selection-start-line="314" selection-start-column="53" selection-end-line="314" selection-end-column="69" />
               <folding>
-                <marker date="1506668823703" expanded="true" signature="6778:7057" placeholder="..." />
-                <marker date="1506668823703" expanded="true" signature="9281:9560" placeholder="..." />
-                <marker date="1506668823703" expanded="true" signature="9772:10051" placeholder="..." />
-                <marker date="1506668823703" expanded="true" signature="10266:10545" placeholder="..." />
+                <element signature="e#113#1016#0" expanded="false" />
+                <element signature="e#1080#2109#0" expanded="false" />
+                <element signature="e#2177#4338#0" expanded="false" />
+                <element signature="e#4428#17131#0" expanded="false" />
+                <element signature="e#17193#18500#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="commonTest.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/NodeSample/views/testFiles/commonTest.html">
+      <file leaf-file-name="pathManager.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/NodeSample/formmake/js/pathManager.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+              <caret line="3" column="15" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="15" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="kindEditorTest.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/NodeSample/mongodbTest/kindEditorTest.html">
+      <file leaf-file-name="drawToolBar.vue" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/NodeSample/formmake-webpack-vue/src/component/sons/drawToolBar.vue">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="66" column="56" selection-start-line="66" selection-start-column="56" selection-end-line="66" selection-end-column="56" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="boothstrap3Test1.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/NodeSample/views/testFiles/boothstrap3Test1.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-35.9375">
-              <caret line="50" column="19" selection-start-line="50" selection-start-column="19" selection-end-line="50" selection-end-column="19" />
+              <caret line="40" column="24" selection-start-line="40" selection-start-column="24" selection-end-line="40" selection-end-column="24" />
               <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#template#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="node.text" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/NodeSample/views/testFiles/node.text">
+      <file leaf-file-name="interactive.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/NodeSample/formmake-webpack-vue/src/tools/interactive.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.466518">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="13" column="15" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="15" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="suipopup.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/NodeSample/views/testFiles/suipopup.html">
+      <file leaf-file-name="actions.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/NodeSample/formmake-webpack-vue/src/store/actions.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="44" column="64" selection-start-line="44" selection-start-column="64" selection-end-line="44" selection-end-column="64" />
+              <caret line="12" column="15" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="note.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/NodeSample/hiloTest/note.html">
+      <file leaf-file-name="demo.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/NodeSample/formmake/js/demo.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="35" column="6" selection-start-line="35" selection-start-column="6" selection-end-line="35" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="other.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/NodeSample/threejs/other.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="121" column="72" selection-start-line="121" selection-start-column="72" selection-end-line="121" selection-end-column="72" />
+              <caret line="115" column="9" selection-start-line="115" selection-start-column="4" selection-end-line="115" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -138,10 +268,12 @@
       <list>
         <option value="tsconfig.json" />
         <option value="XSLT Stylesheet" />
-        <option value="CSS File" />
-        <option value="HTML File" />
-        <option value="JavaScript File" />
         <option value="Jade File" />
+        <option value="CSS File" />
+        <option value="package_json" />
+        <option value="HTML File" />
+        <option value="vue File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -151,61 +283,62 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/NodeSample/views/testFiles/other.js" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/NodeSample/node_modules/express-session/index.js" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/NodeSample/formmake/js/demo.js" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="events.js" />
-        <option value="$PROJECT_DIR$/NodeSample/nodejsBaseTest/a.js" />
-        <option value="$PROJECT_DIR$/NodeSample/config.js" />
-        <option value="$PROJECT_DIR$/NodeSample/nodejsBaseTest/basetest2.js" />
-        <option value="$PROJECT_DIR$/NodeSample/expressTest/index.js" />
-        <option value="$PROJECT_DIR$/NodeSample/nodejsBaseTest/netTest.js" />
-        <option value="_http_common.js" />
-        <option value="$PROJECT_DIR$/NodeSample/nodejsBaseTest/baseTest2.js" />
-        <option value="$PROJECT_DIR$/NodeSample/nodejsBaseTest/nodeTest.js" />
-        <option value="$PROJECT_DIR$/NodeSample/nodejsBaseTest/nodeCompressTest.js" />
-        <option value="$PROJECT_DIR$/NodeSample/views/testFiles/commonTest.html" />
-        <option value="$PROJECT_DIR$/NodeSample/package.json" />
-        <option value="$PROJECT_DIR$/NodeSample/views/testFiles/test.html" />
-        <option value="$PROJECT_DIR$/NodeSample/routes.js" />
-        <option value="$PROJECT_DIR$/NodeSample/controllers/index.js" />
-        <option value="$PROJECT_DIR$/NodeSample/controllers/fileSystem.js" />
-        <option value="$PROJECT_DIR$/NodeSample/controllers/todo.js" />
-        <option value="$PROJECT_DIR$/NodeSample/models/todo.js" />
-        <option value="$PROJECT_DIR$/NodeSample/controllers/mongoManagement.js" />
-        <option value="$PROJECT_DIR$/NodeSample/app.js" />
-        <option value="internal/process/next_tick.js" />
-        <option value="$PROJECT_DIR$/NodeSample/controllers/user.js" />
-        <option value="internal/util.js" />
-        <option value="$PROJECT_DIR$/NodeSample/public/project.css" />
-        <option value="$PROJECT_DIR$/NodeSample/views/includePage/header.html" />
-        <option value="$PROJECT_DIR$/NodeSample/views/includePage/refResource.html" />
-        <option value="$PROJECT_DIR$/NodeSample/public/styles/project.css" />
-        <option value="$PROJECT_DIR$/NodeSample/note.txt" />
-        <option value="$PROJECT_DIR$/NodeSample/threejs/demo1.html" />
-        <option value="$PROJECT_DIR$/NodeSample/views/testFiles/other.js" />
-        <option value="$PROJECT_DIR$/NodeSample/views/testFiles/bmap/walkLine.html" />
-        <option value="$PROJECT_DIR$/NodeSample/views/marquee.css" />
-        <option value="$PROJECT_DIR$/NodeSample/views/testFiles/bts3Test1.html" />
-        <option value="$PROJECT_DIR$/NodeSample/views/testFiles/suipopup.html" />
-        <option value="$PROJECT_DIR$/NodeSample/views/testFiles/marquee.css" />
-        <option value="$PROJECT_DIR$/NodeSample/views/testFiles/marqueeTest.html" />
-        <option value="$PROJECT_DIR$/NodeSample/views/testFiles/aa.html" />
-        <option value="$PROJECT_DIR$/NodeSample/threejs/note.html" />
-        <option value="$PROJECT_DIR$/NodeSample/threejs/other.css" />
-        <option value="$PROJECT_DIR$/NodeSample/views/testFiles/suiTest1.html" />
-        <option value="$PROJECT_DIR$/NodeSample/threejs/worker1.js" />
-        <option value="$PROJECT_DIR$/NodeSample/threejs/workerTest.html" />
-        <option value="$PROJECT_DIR$/NodeSample/threejs/es6Simulate2.js" />
-        <option value="$PROJECT_DIR$/NodeSample/threejs/es6folder/y.js" />
-        <option value="$PROJECT_DIR$/NodeSample/threejs/es6folder/x.js" />
-        <option value="$PROJECT_DIR$/NodeSample/threejs/es6Simulate.js" />
-        <option value="$PROJECT_DIR$/NodeSample/hiloTest/note.html" />
         <option value="$PROJECT_DIR$/NodeSample/threejs/other.js" />
         <option value="$PROJECT_DIR$/NodeSample/threejs/other.html" />
         <option value="$PROJECT_DIR$/NodeSample/mongodbTest/kindEditorTest.html" />
         <option value="$PROJECT_DIR$/NodeSample/views/testFiles/node.text" />
+        <option value="$PROJECT_DIR$/NodeSample/views/element-vue/dialog.html" />
+        <option value="$PROJECT_DIR$/NodeSample/vue-elementui/package.json" />
+        <option value="$PROJECT_DIR$/NodeSample/vue-elementui/src/main.js" />
+        <option value="$PROJECT_DIR$/NodeSample/views/testFiles/aa.html" />
+        <option value="$PROJECT_DIR$/NodeSample/hiloTest/note.html" />
+        <option value="$PROJECT_DIR$/NodeSample/formmake/js/main.js" />
+        <option value="$PROJECT_DIR$/NodeSample/formmake/index2.html" />
+        <option value="G:/表单制作.html" />
+        <option value="G:/表单制作_files/fx_pc_all.css" />
+        <option value="$PROJECT_DIR$/NodeSample/formmake/demo3.html" />
+        <option value="G:/表单制作_files/maps" />
+        <option value="$PROJECT_DIR$/NodeSample/formmake/demo2.html" />
+        <option value="$PROJECT_DIR$/NodeSample/formmake/js/app.js" />
+        <option value="$PROJECT_DIR$/NodeSample/formmake/index.html" />
+        <option value="$PROJECT_DIR$/NodeSample/formmake/js/lines.js" />
+        <option value="$PROJECT_DIR$/NodeSample/formmake/js/pathManager.js" />
+        <option value="$PROJECT_DIR$/NodeSample/formmake/js/demo.js" />
+        <option value="$PROJECT_DIR$/NodeSample/formmake-webpack-vue/src/index.html" />
+        <option value="$PROJECT_DIR$/NodeSample/formmake/css/self.css" />
+        <option value="$PROJECT_DIR$/NodeSample/formmake/demo.html" />
+        <option value="$PROJECT_DIR$/NodeSample/formmake/js/protrudeData.js" />
+        <option value="$PROJECT_DIR$/NodeSample/formmake-webpack-vue/src/nodeSet.vue" />
+        <option value="$PROJECT_DIR$/NodeSample/formmake-webpack-vue/src/store.js" />
+        <option value="$PROJECT_DIR$/NodeSample/formmake-webpack-vue/src/draw.vue" />
+        <option value="$PROJECT_DIR$/NodeSample/formmake-webpack-vue/index.html" />
+        <option value="$PROJECT_DIR$/NodeSample/formmake-webpack-vue/css/self.css" />
+        <option value="$PROJECT_DIR$/NodeSample/formmake-webpack-vue/src/App.vue" />
+        <option value="$PROJECT_DIR$/NodeSample/formmake-webpack-vue/src/component/drawToolBar.vue" />
+        <option value="$PROJECT_DIR$/NodeSample/formmake-webpack-vue/src/component/sons/node.html" />
+        <option value="$PROJECT_DIR$/NodeSample/formmake/css/fx_pc_all.css" />
+        <option value="$PROJECT_DIR$/NodeSample/formmake-webpack-vue/package.json" />
+        <option value="$PROJECT_DIR$/NodeSample/formmake-webpack-vue/webpack.config.js" />
+        <option value="$PROJECT_DIR$/NodeSample/formmake-webpack-vue/src/store/getters.js" />
+        <option value="$PROJECT_DIR$/NodeSample/formmake-webpack-vue/src/component/sons/path.vue" />
+        <option value="$PROJECT_DIR$/NodeSample/formmake-webpack-vue/src/store/index.js" />
+        <option value="$PROJECT_DIR$/NodeSample/formmake-webpack-vue/src/component/draw.vue" />
+        <option value="$PROJECT_DIR$/NodeSample/formmake-webpack-vue/src/app.js" />
+        <option value="$PROJECT_DIR$/NodeSample/formmake-webpack-vue/src/store/mutation-types.js" />
+        <option value="$PROJECT_DIR$/NodeSample/formmake-webpack-vue/src/tools.js" />
+        <option value="$PROJECT_DIR$/NodeSample/formmake-webpack-vue/src/tools/lines.js" />
+        <option value="$PROJECT_DIR$/NodeSample/formmake-webpack-vue/src/tools/pathManager.js" />
+        <option value="$PROJECT_DIR$/NodeSample/formmake-webpack-vue/src/store/mutations.js" />
+        <option value="$PROJECT_DIR$/NodeSample/formmake-webpack-vue/src/store/actions.js" />
+        <option value="$PROJECT_DIR$/NodeSample/formmake-webpack-vue/src/component/sons/drawToolBar.vue" />
+        <option value="$PROJECT_DIR$/NodeSample/formmake-webpack-vue/src/tools/interactive.js" />
+        <option value="$PROJECT_DIR$/NodeSample/formmake-webpack-vue/src/component/sons/node.vue" />
+        <option value="$PROJECT_DIR$/NodeSample/expressTest/index.js" />
       </list>
     </option>
   </component>
@@ -309,7 +442,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
+              <option name="myItemId" value="formmake-webpack-vue" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -327,11 +460,111 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
+              <option name="myItemId" value="formmake-webpack-vue" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="testFiles" />
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="exercise-project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="exercise-project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NodeSample" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="formmake-webpack-vue" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tools" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="exercise-project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="exercise-project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NodeSample" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="formmake-webpack-vue" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="component" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="exercise-project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="exercise-project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NodeSample" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="formmake-webpack-vue" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="component" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sons" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="exercise-project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="exercise-project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NodeSample" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="expressTest" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -354,18 +587,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="G:\datum download\exercise\exercise-project\NodeSample\views\testFiles" />
-      <recent name="G:\datum download\exercise\exercise-project\NodeSample\threejs" />
+      <recent name="G:\datum download\exercise\exercise-project\NodeSample\formmake-webpack-vue\src\tools" />
       <recent name="G:\datum download\exercise\exercise-project\NodeSample" />
-      <recent name="G:\datum download\exercise\exercise-project\NodeSample\hiloTest" />
-      <recent name="G:\datum download\exercise\exercise-project\NodeSample\public\styles\lib\bootstrap\css" />
+      <recent name="G:\datum download\exercise\exercise-project\NodeSample\formmake-webpack-vue\src" />
+      <recent name="G:\datum download\exercise\exercise-project\NodeSample\formmake-webpack-vue" />
+      <recent name="G:\datum download\exercise\exercise-project\NodeSample\formmake\css" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="G:\datum download\exercise\exercise-project\NodeSample\views\testFiles" />
-      <recent name="G:\datum download\exercise\exercise-project\NodeSample\public\styles" />
-      <recent name="G:\datum download\nodejs\nodejs\NodeSample\views" />
-      <recent name="G:\datum download\nodejs\nodejs\NodeSample\public\testFile" />
-      <recent name="G:\datum download\nodejs\nodejs\NodeSample\public" />
+      <recent name="G:\datum download\exercise\exercise-project\NodeSample\formmake-webpack-vue\src\component\sons" />
+      <recent name="G:\datum download\exercise\exercise-project\NodeSample\formmake-webpack-vue\src\component" />
+      <recent name="G:\datum download\exercise\exercise-project\NodeSample\formmake-webpack-vue\src" />
+      <recent name="G:\datum download\exercise\exercise-project\NodeSample\formmake-webpack-vue" />
+      <recent name="G:\datum download\exercise\exercise-project\NodeSample" />
     </key>
   </component>
   <component name="RunManager" selected="Node.js.app.js">
@@ -468,14 +701,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17702845" sideWeight="0.4869565" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13962065" sideWeight="0.4869565" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.07135135" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15504807" sideWeight="0.51304346" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -544,7 +777,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/NodeSample/expressTest/index.js</url>
-          <line>84</line>
+          <line>85</line>
           <option name="timeStamp" value="155" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
@@ -578,382 +811,372 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/NodeSample/node_modules/connect/lib/middleware/bodyParser.js">
+    <entry file="file://$PROJECT_DIR$/NodeSample/views/testFiles/boothstrap3Test1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="56" column="8" selection-start-line="56" selection-start-column="8" selection-end-line="56" selection-end-column="8" />
+        <state vertical-scroll-proportion="0.026620371">
+          <caret line="74" column="10" selection-start-line="74" selection-start-column="10" selection-end-line="74" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/NodeSample/controllers/user.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="78" column="38" selection-start-line="78" selection-start-column="38" selection-end-line="78" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NodeSample/public/styles/lib/bootstrap/css/bootstrap.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.026651217">
-          <caret line="1" column="19" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NodeSample/public/styles/lib/bootstrap/css/bootstrap3.3.7.css">
+    <entry file="file://$PROJECT_DIR$/NodeSample/vue-elementui/src/App.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/NodeSample/views/includePage/navigation.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6812412">
-          <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
-        </state>
+    <entry file="file://$PROJECT_DIR$/NodeSample/formmake/images/fish.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/NodeSample/views/includePage/header.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0">
-          <caret line="0" column="55" selection-start-line="0" selection-start-column="36" selection-end-line="0" selection-end-column="55" />
-        </state>
+    <entry file="file://$PROJECT_DIR$/NodeSample/formmake/images/map.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/NodeSample/views/testFiles/dist/js/npm.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.03807947">
-          <caret line="1" column="33" selection-start-line="1" selection-start-column="33" selection-end-line="1" selection-end-column="33" />
-        </state>
+    <entry file="file://$PROJECT_DIR$/NodeSample/formmake/images/num.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/NodeSample/hiloTest/hilo-standalone.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-31.142857">
-          <caret line="3232" column="9" selection-start-line="3232" selection-start-column="9" selection-end-line="3232" selection-end-column="9" />
-        </state>
+    <entry file="file://$PROJECT_DIR$/NodeSample/formmake/images/tmallIcon.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/NodeSample/views/testFiles/dist/css/bootstrap.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="4961" column="17" selection-start-line="4961" selection-start-column="17" selection-end-line="4961" selection-end-column="17" />
-        </state>
+    <entry file="file://$PROJECT_DIR$/NodeSample/formmake/images/btn.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/NodeSample/public/styles/project.css">
+    <entry file="file://$PROJECT_DIR$/NodeSample/formmake/images/fire.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NodeSample/formmake/index2.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="2" column="41" selection-start-line="2" selection-start-column="41" selection-end-line="2" selection-end-column="41" />
+          <caret line="80" column="29" selection-start-line="80" selection-start-column="29" selection-end-line="80" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/NodeSample/nodejsBaseTest/netTest.js">
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/webstorm.jar!/resources/html5-schema/html5/block.rnc">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
-          <folding />
+        <state vertical-scroll-proportion="0.3325893">
+          <caret line="227" column="16" selection-start-line="227" selection-start-column="16" selection-end-line="227" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/NodeSample/views/testFiles/other.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8932" column="26" selection-start-line="8932" selection-start-column="26" selection-end-line="8932" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NodeSample/nodejsBaseTest/nodeCompressTest.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="42" column="66" selection-start-line="42" selection-start-column="66" selection-end-line="42" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NodeSample/nodejsBaseTest/nodeTest.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NodeSample/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="66" column="38" selection-start-line="66" selection-start-column="38" selection-end-line="66" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NodeSample/config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NodeSample/public/styles/lib/kindeditor/themes/default/default.css">
+    <entry file="file://$PROJECT_DIR$/NodeSample/formmake/js/framework/jquery-1.8.1.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/NodeSample/views/error.html">
+    <entry file="file://$PROJECT_DIR$/NodeSample/formmake/css/applayout.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/NodeSample/views/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="6.502897">
-          <caret line="244" column="219" selection-start-line="244" selection-start-column="219" selection-end-line="244" selection-end-column="219" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NodeSample/views/testFiles/bmap/walkLine.html">
+    <entry file="file://$PROJECT_DIR$/NodeSample/formmake/demo2.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NodeSample/views/testFiles/aa.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="87" column="12" selection-start-line="82" selection-start-column="4" selection-end-line="87" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/HTML5.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="1753" column="0" selection-start-line="1753" selection-start-column="0" selection-end-line="1753" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/DHTML.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="1924" column="14" selection-start-line="1924" selection-start-column="14" selection-end-line="1924" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NodeSample/views/includePage/refResource.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="58" selection-start-line="6" selection-start-column="58" selection-end-line="6" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NodeSample/views/testFiles/marquee.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NodeSample/views/testFiles/marqueeTest.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.026651217">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NodeSample/threejs/demo1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="44" column="65" selection-start-line="44" selection-start-column="65" selection-end-line="44" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NodeSample/threejs/note.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="186" column="7" selection-start-line="186" selection-start-column="7" selection-end-line="186" selection-end-column="7" />
+          <caret line="50" column="43" selection-start-line="50" selection-start-column="43" selection-end-line="50" selection-end-column="43" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/EcmaScript6.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="723" column="3" selection-start-line="723" selection-start-column="3" selection-end-line="723" selection-end-column="3" />
+        <state vertical-scroll-proportion="0.2301676">
+          <caret line="419" column="36" selection-start-line="419" selection-start-column="36" selection-end-line="419" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/NodeSample/threejs/worker1.js">
+    <entry file="file://$PROJECT_DIR$/NodeSample/formmake/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="18" column="47" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
-          <folding>
-            <element signature="e#0#44#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NodeSample/threejs/workerTest.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="21" column="7" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NodeSample/views/testFiles/jquery-1.8.1.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.026528258">
-          <caret line="1" column="3669" selection-start-line="1" selection-start-column="3669" selection-end-line="1" selection-end-column="3669" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NodeSample/threejs/es6folder/y.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NodeSample/threejs/es6folder/x.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="3" column="37" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/EcmaScript.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="128" column="0" selection-start-line="128" selection-start-column="0" selection-end-line="128" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/EcmaScript5.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.025698325">
-          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NodeSample/views/testFiles/sm.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.025698325">
-          <caret line="47" column="33" selection-start-line="47" selection-start-column="33" selection-end-line="47" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NodeSample/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NodeSample/threejs/es6Simulate.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="45" column="17" selection-start-line="45" selection-start-column="17" selection-end-line="45" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NodeSample/threejs/three.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10410" column="0" selection-start-line="10410" selection-start-column="0" selection-end-line="10410" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NodeSample/note.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="153" column="0" selection-start-line="153" selection-start-column="0" selection-end-line="153" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NodeSample/views/testFiles/suipopup.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="44" column="64" selection-start-line="44" selection-start-column="64" selection-end-line="44" selection-end-column="64" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NodeSample/threejs/es6Simulate2.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NodeSample/threejs/other.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="121" column="72" selection-start-line="121" selection-start-column="72" selection-end-line="121" selection-end-column="72" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NodeSample/threejs/other.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-92.0">
-          <caret line="128" column="9" selection-start-line="128" selection-start-column="9" selection-end-line="128" selection-end-column="9" />
-          <folding />
+          <caret line="22" column="23" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/NodeSample/hiloTest/note.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="35" column="6" selection-start-line="35" selection-start-column="6" selection-end-line="35" selection-end-column="6" />
-          <folding />
+          <caret line="73" column="7" selection-start-line="73" selection-start-column="7" selection-end-line="73" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/NodeSample/views/testFiles/suiTest1.html">
+    <entry file="file://$PROJECT_DIR$/NodeSample/formmake/js/framework/hilo-standalone.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.74441963">
+          <caret line="122" column="42" selection-start-line="122" selection-start-column="42" selection-end-line="122" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NodeSample/vue-elementui/node_modules/webpack-dev-server/client/web_modules/jquery/jquery-1.8.1.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="305" column="26" selection-start-line="305" selection-start-column="26" selection-end-line="305" selection-end-column="26" />
-          <folding>
-            <marker date="1506668823703" expanded="true" signature="6778:7057" placeholder="..." />
-            <marker date="1506668823703" expanded="true" signature="9281:9560" placeholder="..." />
-            <marker date="1506668823703" expanded="true" signature="9772:10051" placeholder="..." />
-            <marker date="1506668823703" expanded="true" signature="10266:10545" placeholder="..." />
-          </folding>
+          <caret line="3461" column="16" selection-start-line="3461" selection-start-column="16" selection-end-line="3461" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/NodeSample/views/testFiles/commonTest.html">
+    <entry file="file://$PROJECT_DIR$/NodeSample/formmake/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding />
+          <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/NodeSample/mongodbTest/kindEditorTest.html">
+    <entry file="file://$PROJECT_DIR$/NodeSample/formmake-webpack-vue/css/form.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="66" column="56" selection-start-line="66" selection-start-column="56" selection-end-line="66" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NodeSample/views/testFiles/boothstrap3Test1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-35.9375">
-          <caret line="50" column="19" selection-start-line="50" selection-start-column="19" selection-end-line="50" selection-end-column="19" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NodeSample/views/testFiles/node.text">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.466518">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NodeSample/formmake/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.054209918">
+          <caret line="5" column="68" selection-start-line="5" selection-start-column="68" selection-end-line="5" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NodeSample/formmake/css/self.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="36" column="37" selection-start-line="36" selection-start-column="37" selection-end-line="36" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NodeSample/formmake-webpack-vue/src/api/mock-data.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NodeSample/formmake-webpack-vue/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.42592594">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NodeSample/formmake-webpack-vue/css/self.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4">
+          <caret line="26" column="48" selection-start-line="26" selection-start-column="48" selection-end-line="26" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NodeSample/formmake-webpack-vue/src/api/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.4642856">
+          <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NodeSample/formmake/css/fx_pc_all.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3323217">
+          <caret line="7" column="1185" selection-start-line="7" selection-start-column="1185" selection-end-line="7" selection-end-column="1185" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NodeSample/formmake-webpack-vue/src/component/nodeSet.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.0615797">
+          <caret line="37" column="54" selection-start-line="37" selection-start-column="54" selection-end-line="37" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NodeSample/task/js/bootstrap.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5321337">
+          <caret line="22" column="36" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NodeSample/formmake-webpack-vue/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-34.5">
+          <caret line="48" column="36" selection-start-line="48" selection-start-column="36" selection-end-line="48" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NodeSample/formmake-webpack-vue/src/App.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NodeSample/formmake-webpack-vue/src/store/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.08202654">
+          <caret line="9" column="15" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NodeSample/formmake-webpack-vue/webpack.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="30" column="7" selection-start-line="30" selection-start-column="7" selection-end-line="30" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NodeSample/formmake-webpack-vue/src/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5548854">
+          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NodeSample/formmake-webpack-vue/src/store/getters.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.19420989">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NodeSample/formmake-webpack-vue/src/component/draw.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.5">
+          <caret line="19" column="27" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NodeSample/formmake-webpack-vue/src/component/sons/path.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.625">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NodeSample/formmake/js/lines.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.186972">
+          <caret line="95" column="4" selection-start-line="95" selection-start-column="4" selection-end-line="95" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NodeSample/formmake-webpack-vue/src/store/mutation-types.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.05548854">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NodeSample/formmake/js/pathManager.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="15" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NodeSample/formmake-webpack-vue/src/tools/lines.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="314" column="69" selection-start-line="314" selection-start-column="53" selection-end-line="314" selection-end-column="69" />
+          <folding>
+            <element signature="e#113#1016#0" expanded="false" />
+            <element signature="e#1080#2109#0" expanded="false" />
+            <element signature="e#2177#4338#0" expanded="false" />
+            <element signature="e#4428#17131#0" expanded="false" />
+            <element signature="e#17193#18500#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NodeSample/formmake-webpack-vue/src/store/mutations.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="46" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NodeSample/formmake/demo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.028858218">
+          <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NodeSample/formmake/js/protrudeData.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5548854">
+          <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NodeSample/formmake/js/demo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="115" column="9" selection-start-line="115" selection-start-column="4" selection-end-line="115" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NodeSample/formmake-webpack-vue/src/store/actions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="15" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NodeSample/formmake-webpack-vue/src/tools/interactive.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="15" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NodeSample/formmake-webpack-vue/src/tools/pathManager.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NodeSample/formmake-webpack-vue/src/component/sons/drawToolBar.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="40" column="24" selection-start-line="40" selection-start-column="24" selection-end-line="40" selection-end-column="24" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NodeSample/formmake-webpack-vue/src/component/sons/node.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="22" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NodeSample/expressTest/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.49156627">
+          <caret line="40" column="14" selection-start-line="40" selection-start-column="14" selection-end-line="40" selection-end-column="14" />
           <folding />
         </state>
       </provider>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>表单制作</title>
+    <style>
+        #container{
+            width: 100%;
+            min-width:980px;
+            height: 400px;
+        }
+    </style>
+</head>
+<body>
+<div id="app-ct"></div>
+
+<script type="text/javascript" src="./js/framework/vue.js"></script>
+<script type="text/javascript" src="./js/framework/hilo-standalone.js"></script>
+<script type="text/javascript" src="./js/main.js"></script>
+<script>
+    var dic = new Map();
+    var index = {o:'123',b:'s'}, value = {b:'345'};
+    dic[index] = value;
+    console.log(dic[{}])
+    console.log(dic[null])
+
+    var testArr = [ 2];testArr.splice(-1, 1)
+    console.log( testArr );
+</script>
+</body>
+</html>
