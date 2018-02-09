@@ -1,139 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="261f1d27-425e-45e9-99ef-b3b9c1fb126f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample.rar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/formmake/images/btn.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/formmake/images/fire.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/formmake/images/fish.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/formmake/images/map.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/formmake/images/num.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/formmake/images/tmallIcon.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/formmake/images/toolbar-bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/task/2.31.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/task/css/kindeditor/themes/common/anchor.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/task/css/kindeditor/themes/common/blank.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/task/css/kindeditor/themes/common/flash.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/task/css/kindeditor/themes/common/loading.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/task/css/kindeditor/themes/common/media.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/task/css/kindeditor/themes/common/rm.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/task/css/kindeditor/themes/default/background.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/task/css/kindeditor/themes/default/default.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/task/css/kindeditor/themes/qq/editor.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/task/img/panel-icons.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/task/task.rar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/vue-elementui/build/logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/vue-elementui/src/assets/logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/formmake-webpack-vue/css/applayout.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/formmake-webpack-vue/css/form.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/formmake-webpack-vue/css/fx_pc_all.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/formmake-webpack-vue/css/self.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/formmake-webpack-vue/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/formmake-webpack-vue/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/formmake-webpack-vue/src/App.vue" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/formmake-webpack-vue/src/api/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/formmake-webpack-vue/src/api/mock-data.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/formmake-webpack-vue/src/app.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/formmake-webpack-vue/src/component/draw.vue" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/formmake-webpack-vue/src/component/nodeSet.vue" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/formmake-webpack-vue/src/component/sons/drawToolBar.vue" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/formmake-webpack-vue/src/component/sons/node.vue" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/formmake-webpack-vue/src/component/sons/path.vue" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/formmake-webpack-vue/src/framework/jquery-1.8.1.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/formmake-webpack-vue/src/router.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/formmake-webpack-vue/src/store/actions.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/formmake-webpack-vue/src/store/getters.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/formmake-webpack-vue/src/store/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/formmake-webpack-vue/src/store/mutation-types.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/formmake-webpack-vue/src/store/mutations.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/formmake-webpack-vue/src/tools/interactive.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/formmake-webpack-vue/src/tools/lines.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/formmake-webpack-vue/src/tools/pathManager.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/formmake-webpack-vue/webpack.config.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/formmake/css/applayout.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/formmake/css/form.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/formmake/css/fx_pc_all.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/formmake/css/self.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/formmake/demo.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/formmake/demo2.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/formmake/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/formmake/index2.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/formmake/js/app.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/formmake/js/demo.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/formmake/js/framework/hilo-standalone.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/formmake/js/framework/jquery-1.8.1.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/formmake/js/framework/vue.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/formmake/js/framework/vue.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/formmake/js/lines.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/formmake/js/main.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/formmake/js/pathManager.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/formmake/js/protrudeData.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/task/css/bootstrap.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/task/css/bootstrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/task/css/demo.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/task/css/kindeditor/themes/default/default.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/task/css/kindeditor/themes/qq/qq.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/task/css/kindeditor/themes/simple/simple.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/task/css/operator_authorization.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/task/css/operator_datapicker.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/task/css/self-panel.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/task/css/table.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/task/demo.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/task/js/bootstrap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/task/js/bootstrap.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/task/js/flexible.debug.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/task/js/jquery-1.12.4.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/task/js/jquery-1.8.1.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/task/js/kindeditor-all-min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/task/js/kindeditor-all.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/task/js/operator_authorization.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/task/operator_authorization.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/task/operator_datapicker.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/task/table.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/task/template-panel.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/task/warning-panel.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/task/warning-pop.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/views/element-vue/dialog.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/vue-elementui/.babelrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/vue-elementui/.editorconfig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/vue-elementui/.eslintignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/vue-elementui/.eslintrc.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/vue-elementui/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/vue-elementui/.postcssrc.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/vue-elementui/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/vue-elementui/build/build.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/vue-elementui/build/check-versions.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/vue-elementui/build/utils.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/vue-elementui/build/vue-loader.conf.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/vue-elementui/build/webpack.base.conf.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/vue-elementui/build/webpack.dev.conf.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/vue-elementui/build/webpack.prod.conf.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/vue-elementui/config/dev.env.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/vue-elementui/config/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/vue-elementui/config/prod.env.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/vue-elementui/config/test.env.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/vue-elementui/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/vue-elementui/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/vue-elementui/src/App.vue" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/vue-elementui/src/components/HelloWorld.vue" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/vue-elementui/src/main.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/vue-elementui/src/router/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/vue-elementui/static/.gitkeep" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/vue-elementui/test/e2e/custom-assertions/elementCount.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/vue-elementui/test/e2e/nightwatch.conf.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/vue-elementui/test/e2e/runner.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/vue-elementui/test/e2e/specs/test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/vue-elementui/test/unit/.eslintrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/vue-elementui/test/unit/jest.conf.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/vue-elementui/test/unit/setup.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/vue-elementui/test/unit/specs/HelloWorld.spec.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/vue-elementui/webpack.config.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NodeSample/expressTest/index.js" afterPath="$PROJECT_DIR$/NodeSample/expressTest/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NodeSample/hiloTest/note.html" afterPath="$PROJECT_DIR$/NodeSample/hiloTest/note.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NodeSample/views/testFiles/aa.html" afterPath="$PROJECT_DIR$/NodeSample/views/testFiles/aa.html" />
-    </list>
+    <list default="true" id="261f1d27-425e-45e9-99ef-b3b9c1fb126f" name="Default" comment="" />
     <ignored path="nodejs.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -176,8 +44,8 @@
       <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/NodeSample/expressTest/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.49156627">
-              <caret line="40" column="14" selection-start-line="40" selection-start-column="14" selection-end-line="40" selection-end-column="14" />
+            <state vertical-scroll-proportion="0.5199035">
+              <caret line="41" column="49" selection-start-line="41" selection-start-column="49" selection-end-line="41" selection-end-column="49" />
               <folding />
             </state>
           </provider>
@@ -701,11 +569,11 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13962065" sideWeight="0.4869565" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13962065" sideWeight="0.4869565" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.07135135" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.071428575" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -1175,8 +1043,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/NodeSample/expressTest/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.49156627">
-          <caret line="40" column="14" selection-start-line="40" selection-start-column="14" selection-end-line="40" selection-end-column="14" />
+        <state vertical-scroll-proportion="0.5199035">
+          <caret line="41" column="49" selection-start-line="41" selection-start-column="49" selection-end-line="41" selection-end-column="49" />
           <folding />
         </state>
       </provider>
