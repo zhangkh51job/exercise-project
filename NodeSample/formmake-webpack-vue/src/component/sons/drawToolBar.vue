@@ -40,7 +40,7 @@
         ,methods:{
             makeNode(e){
 //                debugger;
-                var newData = {widgetname:"widget"+new Date().getTime(), "z-index":102, left:(e.pageX - 58), top:(e.pageY - 20) };
+                var newData = {widgetname:"widget"+new Date().getTime(), "z-index":102, left:((e.pageX - 58)+'px'), top:((e.pageY - 20)+'px'), "text":'test' };
 
                 /* 经过action */
                 this.$store.dispatch('makeNode', {newData});

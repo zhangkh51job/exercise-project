@@ -17,7 +17,8 @@ export default {
   },
 
   [types.make_node_mutation](state, nodeData){
-    //debugger
+    debugger
+    /* Vue.set动态添加的组件，组件的数据不能传递 */
     Vue.set(state.nodes, nodeid++, nodeData);
   },
 
