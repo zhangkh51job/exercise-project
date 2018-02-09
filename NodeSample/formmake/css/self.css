@@ -28,6 +28,7 @@
 .fx_flow_node>.node-anchor-l{left:0%;top:50%;}
 .fx_flow_node>.node-name{padding: 0 5px 0 30px}
 .fx_flow_menu>.flow_save{margin: auto;}
+.fx_flow_node.menu>.node-name{user-select: none;}
 
 .node-tab, .flow-tab{width: 50%;float: left;height: 40px;line-height: 40px;text-align: center;border-bottom: 1px solid #e0e0e0;cursor: pointer;}
 .tab-select .active{border-bottom: 3px solid #00b3a6;}.tab-select{height: 40px;}

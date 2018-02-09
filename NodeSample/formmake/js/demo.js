@@ -254,7 +254,7 @@ $(document).on('mousedown', '.node-anchor', function(e){
         //if(isLining == false) return;
         if(attachDraw == true) return;
 
-        var currX = e.pageX -2, currY = e.pageY-2;
+        var currX = e.pageX -6, currY = e.pageY-6;
 
         var pathStr = '';
 
@@ -347,4 +347,10 @@ $(document).on('click', '.fx_flow_menu .flow_save', function(e){
 });
 $(document).on('mouseup', '#node_set_id', function(e){e.stopImmediatePropagation();e.stopPropagation()});
 
+$(document).on('mouseenter', '.fx_flow_node', function(e){
+    $(this).find('.node-anchor').css('display', 'block');
+});
+$(document).on('mouseleave', '.fx_flow_node', function(e){
+    $(this).find('.node-anchor').css('display', 'none');
+});
 
