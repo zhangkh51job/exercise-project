@@ -15,6 +15,7 @@ const registStrag = function(vm){
     var $dom = $(vm.$el );
 
     $dom.on('mousedown', function(e){
+        debugger
         //e.stopImmediatePropagation();
         if( $(e.target).hasClass('node-anchor') )return;
         $dom.data('isDrag', true);
@@ -58,6 +59,8 @@ const registStrag = function(vm){
             }
         })
     });
+    debugger;
+    $dom.trigger('mousedown');
 };
 
 export {registStrag}

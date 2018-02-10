@@ -2,16 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="261f1d27-425e-45e9-99ef-b3b9c1fb126f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/formmake-webpack-vue/src/store/datas.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NodeSample/formmake-webpack-vue/src/component/sons/drawToolBar.vue" afterPath="$PROJECT_DIR$/NodeSample/formmake-webpack-vue/src/component/sons/drawToolBar.vue" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NodeSample/formmake-webpack-vue/src/component/sons/node.vue" afterPath="$PROJECT_DIR$/NodeSample/formmake-webpack-vue/src/component/sons/node.vue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NodeSample/formmake-webpack-vue/src/component/sons/path.vue" afterPath="$PROJECT_DIR$/NodeSample/formmake-webpack-vue/src/component/sons/path.vue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NodeSample/formmake-webpack-vue/src/store/index.js" afterPath="$PROJECT_DIR$/NodeSample/formmake-webpack-vue/src/store/index.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NodeSample/formmake-webpack-vue/src/store/mutations.js" afterPath="$PROJECT_DIR$/NodeSample/formmake-webpack-vue/src/store/mutations.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NodeSample/formmake-webpack-vue/src/tools/interactive.js" afterPath="$PROJECT_DIR$/NodeSample/formmake-webpack-vue/src/tools/interactive.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NodeSample/formmake-webpack-vue/src/tools/pathManager.js" afterPath="$PROJECT_DIR$/NodeSample/formmake-webpack-vue/src/tools/pathManager.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NodeSample/formmake/js/pathManager.js" afterPath="$PROJECT_DIR$/NodeSample/formmake/js/pathManager.js" />
     </list>
     <ignored path="nodejs.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -35,9 +29,21 @@
       <file leaf-file-name="mutations.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/NodeSample/formmake-webpack-vue/src/store/mutations.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.6436782">
-              <caret line="46" column="13" selection-start-line="46" selection-start-column="13" selection-end-line="46" selection-end-column="13" />
+            <state vertical-scroll-proportion="-2.6436782">
+              <caret line="22" column="14" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="drawToolBar.vue" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/NodeSample/formmake-webpack-vue/src/component/sons/drawToolBar.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-10.125">
+              <caret line="41" column="26" selection-start-line="41" selection-start-column="18" selection-end-line="41" selection-end-column="26" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -55,8 +61,8 @@
       <file leaf-file-name="node.vue" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/NodeSample/formmake-webpack-vue/src/component/sons/node.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.0">
-              <caret line="28" column="18" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
+            <state vertical-scroll-proportion="-16.53125">
+              <caret line="32" column="19" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -72,21 +78,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="interactive.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="interactive.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/NodeSample/formmake-webpack-vue/src/tools/interactive.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.81356">
-              <caret line="26" column="62" selection-start-line="26" selection-start-column="62" selection-end-line="26" selection-end-column="62" />
+            <state vertical-scroll-proportion="0.72330827">
+              <caret line="32" column="12" selection-start-line="32" selection-start-column="12" selection-end-line="32" selection-end-column="12" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pathManager.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="pathManager.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/NodeSample/formmake-webpack-vue/src/tools/pathManager.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6781955">
-              <caret line="153" column="26" selection-start-line="153" selection-start-column="26" selection-end-line="153" selection-end-column="26" />
+            <state vertical-scroll-proportion="-5.6949153">
+              <caret line="157" column="52" selection-start-line="157" selection-start-column="52" selection-end-line="157" selection-end-column="52" />
               <folding>
                 <element signature="e#7242#11672#0" expanded="false" />
               </folding>
@@ -188,7 +194,6 @@
         <option value="$PROJECT_DIR$/NodeSample/formmake-webpack-vue/src/tools/lines.js" />
         <option value="$PROJECT_DIR$/NodeSample/formmake-webpack-vue/src/store/actions.js" />
         <option value="$PROJECT_DIR$/NodeSample/expressTest/index.js" />
-        <option value="$PROJECT_DIR$/NodeSample/formmake-webpack-vue/src/component/sons/drawToolBar.vue" />
         <option value="$PROJECT_DIR$/NodeSample/formmake/css/self.css" />
         <option value="$PROJECT_DIR$/NodeSample/formmake/js/framework/jquery1.9.0.js" />
         <option value="$PROJECT_DIR$/NodeSample/formmake/demo.html" />
@@ -199,10 +204,11 @@
         <option value="$PROJECT_DIR$/NodeSample/formmake-webpack-vue/src/store/datas.js" />
         <option value="$PROJECT_DIR$/NodeSample/formmake-webpack-vue/src/component/sons/path.vue" />
         <option value="$PROJECT_DIR$/NodeSample/formmake-webpack-vue/src/store/index.js" />
-        <option value="$PROJECT_DIR$/NodeSample/formmake-webpack-vue/src/store/mutations.js" />
-        <option value="$PROJECT_DIR$/NodeSample/formmake-webpack-vue/src/component/sons/node.vue" />
-        <option value="$PROJECT_DIR$/NodeSample/formmake-webpack-vue/src/tools/interactive.js" />
         <option value="$PROJECT_DIR$/NodeSample/formmake-webpack-vue/src/tools/pathManager.js" />
+        <option value="$PROJECT_DIR$/NodeSample/formmake-webpack-vue/src/component/sons/node.vue" />
+        <option value="$PROJECT_DIR$/NodeSample/formmake-webpack-vue/src/store/mutations.js" />
+        <option value="$PROJECT_DIR$/NodeSample/formmake-webpack-vue/src/component/sons/drawToolBar.vue" />
+        <option value="$PROJECT_DIR$/NodeSample/formmake-webpack-vue/src/tools/interactive.js" />
       </list>
     </option>
   </component>
@@ -591,9 +597,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13224447" sideWeight="0.4869565" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13224447" sideWeight="0.4869565" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18506494" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -907,16 +913,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/NodeSample/formmake-webpack-vue/src/component/sons/drawToolBar.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.375">
-          <caret line="44" column="30" selection-start-line="44" selection-start-column="30" selection-end-line="44" selection-end-column="30" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#template#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/NodeSample/formmake-webpack-vue/src/framework/jquery-1.8.1.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1015,22 +1011,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/NodeSample/formmake-webpack-vue/src/store/mutation-types.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NodeSample/formmake-webpack-vue/src/store/mutations.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.6436782">
-          <caret line="46" column="13" selection-start-line="46" selection-start-column="13" selection-end-line="46" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/NodeSample/formmake-webpack-vue/src/store/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.2974138">
@@ -1055,29 +1035,55 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/NodeSample/formmake-webpack-vue/src/component/sons/node.vue">
+    <entry file="file://$PROJECT_DIR$/NodeSample/formmake-webpack-vue/src/store/mutation-types.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.0">
-          <caret line="28" column="18" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/NodeSample/formmake-webpack-vue/src/tools/interactive.js">
+    <entry file="file://$PROJECT_DIR$/NodeSample/formmake-webpack-vue/src/store/mutations.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.81356">
-          <caret line="26" column="62" selection-start-line="26" selection-start-column="62" selection-end-line="26" selection-end-column="62" />
+        <state vertical-scroll-proportion="-2.6436782">
+          <caret line="22" column="14" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NodeSample/formmake-webpack-vue/src/component/sons/node.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-16.53125">
+          <caret line="32" column="19" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NodeSample/formmake-webpack-vue/src/component/sons/drawToolBar.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.125">
+          <caret line="41" column="26" selection-start-line="41" selection-start-column="18" selection-end-line="41" selection-end-column="26" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/NodeSample/formmake-webpack-vue/src/tools/pathManager.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6781955">
-          <caret line="153" column="26" selection-start-line="153" selection-start-column="26" selection-end-line="153" selection-end-column="26" />
+        <state vertical-scroll-proportion="-5.6949153">
+          <caret line="157" column="52" selection-start-line="157" selection-start-column="52" selection-end-line="157" selection-end-column="52" />
           <folding>
             <element signature="e#7242#11672#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NodeSample/formmake-webpack-vue/src/tools/interactive.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.72330827">
+          <caret line="32" column="12" selection-start-line="32" selection-start-column="12" selection-end-line="32" selection-end-column="12" />
+          <folding />
         </state>
       </provider>
     </entry>

@@ -24,8 +24,12 @@
             data: Object,
             active: Boolean
         },
+        created: function(){
+          console.log( 'create', this.data );
+        },
         mounted: function () {
 //            debugger;
+            console.log( 'mounted', this.data );
             registStrag( this );
         },
         methods: {
