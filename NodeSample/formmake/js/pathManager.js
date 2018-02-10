@@ -1,6 +1,7 @@
 /**
  * Created by yangjie on 2018/1/16.
  */
+
 var PathManager = {
     node2paths: {},
     paths: [],

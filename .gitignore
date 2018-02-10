@@ -1,8 +1,8 @@
-./node_modules/
-./formmake-webpack-vue/node_modules/
+node_modules/
+formmake-webpack-vue/node_modules/
 
-./NodeSample/node_modules/
-./NodeSample/formmake-webpack-vue/node_modules/
+NodeSample/node_modules/
+NodeSample/formmake-webpack-vue/node_modules/
 
 release/
 npm-debug.log

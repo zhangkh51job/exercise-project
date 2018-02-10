@@ -11,7 +11,9 @@ var removeAllSelect = function(e){
     $('.path_select').removeAttr('class');
     //$('.fx_flow_node .editText').trigger('focusout');
 }
-var registStrag = function($dom){
+const registStrag = function(vm){
+    var $dom = $(vm.$el );
+
     $dom.on('mousedown', function(e){
         //e.stopImmediatePropagation();
         if( $(e.target).hasClass('node-anchor') )return;
@@ -30,7 +32,7 @@ var registStrag = function($dom){
             $dom.css({left: e.pageX-disX, top: e.pageY-disY});
 
             //rendererAttachLines({currX:e.pageX, currY:e.pageY});
-            PathManager.renderPath($dom, e.pageX-disX, e.pageY-disY);
+            PathManager.renderPath(vm, e.pageX-disX, e.pageY-disY);
         };
         $(document).on('mousemove', movefn);
         $dom.on('mouseup', function(e){
@@ -58,4 +60,4 @@ var registStrag = function($dom){
     });
 };
 
-export default{registStrag}
+export {registStrag}

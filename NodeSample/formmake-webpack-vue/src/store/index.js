@@ -28,6 +28,9 @@ const state = {
       'endY':'255',
       'pathStr':'M272, 128L374.5, 128L374.5, 255L477, 255'
     }*/
+  },
+  node2paths:{
+
   }
 };
 

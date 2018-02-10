@@ -11,6 +11,12 @@
         name:'pathNode',
         props:{
             data: Object
+        },
+        mounted: function(){
+            console.log('pathNode', this.data['path-str']);
+        },
+        updated: function () {
+            console.log( 'updating...' );
         }
     }
 

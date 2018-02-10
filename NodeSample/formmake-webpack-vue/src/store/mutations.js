@@ -1,5 +1,7 @@
 import Vue from 'vue'
 import * as types from './mutation-types'
+import * as datas from './datas';
+
 var nodeid = 0, pathid=0;
 export default {
   [types.add_node_mutation](state, {}){
@@ -35,7 +37,21 @@ export default {
         "path-lt":'M639, 207L633, 201', "path-rb":'M639, 207L633, 213'}
     ];
 
+    debugger;
+    var attachNodesArr = state.nodes;
     for(var i = 0, leni = simulateData.length;i < leni;i++){
+      var startid = simulateData[i].attachStartId.split("_")[0],
+           endid   = simulateData[i].attachEndId.split("_")[0];
+      for(var key in attachNodesArr){
+        if(startid == attachNodesArr[key].widgetname){
+          state.node2paths[startid] = state.node2paths[startid] || [];
+          state.node2paths[startid].push(simulateData[key] )
+        }
+        if(endid == attachNodesArr[key].widgetname){
+          state.node2paths[endid] = state.node2paths[endid] || [];
+          state.node2paths[endid].push(simulateData[key] )
+        }
+      }
       Vue.set(state.paths, pathid++, simulateData[i]);
     }
   }
