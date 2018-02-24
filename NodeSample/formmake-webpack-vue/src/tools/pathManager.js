@@ -150,7 +150,95 @@ export default {
         $node.remove();
     },
     renderPath:function(vm, x, y){
+        //debugger;
+        var node = vm.$el || vm;
+        var nodeWidget = $(node).attr('widgetname');
+        var pathArr = this.node2paths[nodeWidget];
+        if( !pathArr || pathArr.length == 0) return;
+        var path, startX, startY, endX, endY;
+        var anchor_start, anchor_end, arrowPathO, pathStr;
+        var nodeW = $(node).width(), nodeH = $(node).height(), unitL, unitT;
+        x = parseFloat(x);y = parseFloat(y);
 
+
+        for(var i = 0, leni = pathArr.length;i < leni;i++){
+            path = pathArr[i];
+            var attachStartId = path.getAttribute('attachStartId'),
+                attachEndId   = path.getAttribute('attachEndId');
+            if( (attachStartId && attachStartId.indexOf(nodeWidget)!= -1) && (attachEndId && attachEndId.indexOf(nodeWidget)!= -1) ){
+                anchor_start = $(node).find('.node-anchor-'+path.getAttribute('start-anchor'));
+                unitL = anchor_start.css('left');
+                unitT = anchor_start.css('top');
+                //startX = x + unitL.indexOf('%')!= -1?parseFloat( anchor_start.css('left') )/100 * nodeW:parseFloat( anchor_start.css('left') );
+
+                startX = x + parseFloat( unitL )*( unitL.indexOf('%')!= -1 ? 1/100 * nodeW:1);
+                startY = y + parseFloat( unitT )*( unitT.indexOf('%')!= -1 ? 1/100 * nodeH:1);
+                //startY = y + parseFloat(anchor_start.css('top'))/100 * nodeH;
+                anchor_end = $(node).find('.node-anchor-'+path.getAttribute('end-anchor'));
+                unitL = anchor_end.css('left');
+                unitT = anchor_end.css('top');
+                endX   = x + parseFloat( unitL )*( unitL.indexOf('%')!= -1 ? 1/100 * nodeW:1);
+                endY   = y + parseFloat( unitT )*( unitT.indexOf('%')!= -1 ? 1/100 * nodeH:1);
+                /*endX   = x + parseFloat(anchor_end.css('left'))/100 * nodeW;
+                 endY   = y + parseFloat(anchor_end.css('top'))/100 *nodeH;*/
+                pathStr = attachRenderRule(startX, startY, endX, endY, path.getAttribute('start-anchor'), path.getAttribute('end-anchor'));
+                path.setAttribute('d', pathStr );
+                path.setAttribute('startX', startX);
+                path.setAttribute('startY', startY);
+                path.setAttribute('endX', endX);
+                path.setAttribute('endY', endY);
+
+                arrowPathO = arrowDraw_Attach(endX, endY, (path.getAttribute('end-anchor') ));
+
+                if(arrowPathO){
+                    $(path).parent().find('.lt').get(0).setAttribute('d', arrowPathO.lt);
+                    $(path).parent().find('.rb').get(0).setAttribute('d', arrowPathO.rb);
+                }
+            }else if( (attachStartId && attachStartId.indexOf(nodeWidget)!= -1) ){
+                anchor_start = $(node).find('.node-anchor-'+path.getAttribute('start-anchor'));
+                unitL = anchor_start.css('left');
+                unitT = anchor_start.css('top');
+                startX = x + parseFloat( unitL )*( unitL.indexOf('%')!= -1 ? 1/100 * nodeW:1);
+                startY = y + parseFloat( unitT )*( unitT.indexOf('%')!= -1 ? 1/100 * nodeH:1);
+                /*startX = x + parseFloat(anchor_start.css('left'))/100 * nodeW;
+                 startY = y + parseFloat(anchor_start.css('top'))/100 * nodeH;*/
+                endX   = path.getAttribute('endX');
+                endY   = path.getAttribute('endY');
+                pathStr = attachRenderRule(startX, startY, endX, endY, path.getAttribute('start-anchor'), path.getAttribute('end-anchor'));
+                path.setAttribute('d', pathStr );
+                path.setAttribute('startX', startX);
+                path.setAttribute('startY', startY);
+                /* path.setAttribute('endX', endX);
+                 path.setAttribute('endY', endY);*/
+
+            }else if( (attachEndId && attachEndId.indexOf(nodeWidget)!= -1) ){
+                anchor_end = $(node).find('.node-anchor-'+path.getAttribute('end-anchor'));
+                unitL = anchor_end.css('left');
+                unitT = anchor_end.css('top');
+                endX   = x + parseFloat( unitL )*( unitL.indexOf('%')!= -1 ? 1/100 * nodeW:1);
+                endY   = y + parseFloat( unitT )*( unitT.indexOf('%')!= -1 ? 1/100 * nodeH:1);
+                startX = path.getAttribute('startX');
+                startY = path.getAttribute('startY');
+                /*endX   = x + parseFloat(anchor_end.css('left'))/100 * nodeW;
+                 endY   = y + parseFloat(anchor_end.css('top'))/100 * nodeH;*/
+                pathStr = attachRenderRule(startX, startY, endX, endY, path.getAttribute('start-anchor'), path.getAttribute('end-anchor'));
+                path.setAttribute('d', pathStr );
+                /*path.setAttribute('startX', startX);
+                 path.setAttribute('startX', startY);*/
+                path.setAttribute('endX', endX);
+                path.setAttribute('endY', endY);
+
+                arrowPathO = arrowDraw_Attach(endX, endY, (path.getAttribute('end-anchor') ));
+
+                if(arrowPathO){
+                    $(path).parent().find('.lt').get(0).setAttribute('d', arrowPathO.lt);
+                    $(path).parent().find('.rb').get(0).setAttribute('d', arrowPathO.rb);
+                }
+            }
+        }
+    },
+    renderPath2:function(vm, x, y){
+        //debugger;
         var node = vm.$el;
 
         var nodeWidget = $(node).attr('widgetname');
@@ -238,7 +326,7 @@ export default {
             }
 
         }
-
+        debugger;
         vm.$store.state.node2paths[nodeWidget] = Object.assign({},pathArr)
     }
 

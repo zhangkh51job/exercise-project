@@ -332,7 +332,7 @@ $(document).on('dblclick', '.fx_flow_node .icon-flow-edit', function(e){
     $(this).parent().append($text);
     $text.focus();
 });
-$(document).on('focusout', '.fx_flow_node .editText', function(e){
+$(document).on('focusout2', '.fx_flow_node .editText', function(e){
     var $parent = $(this).parent();
 
     PathManager.addStep( $parent, 'textEdit', null, null, $parent.find('.node-name').text() );
