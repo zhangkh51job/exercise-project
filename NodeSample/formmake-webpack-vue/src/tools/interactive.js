@@ -98,15 +98,24 @@ const registStrag = function(vm){
             }
         })
     });
+    /*$dom.addEventListener('mouseleave', function(e){
+        if( !e.target.classList || !e.target.classList.contains('node-anchor') ) return;
+        attachDraw = false;
+        if(currPath){
+            currPath.removeAttribute('attachEndId');
+            currPath.removeAttribute('endX');
+            currPath.removeAttribute('endY');
+        };
+    });*/
+
     //$dom.trigger('mousedown');
-    $dom.dispatchEvent(new MouseEvent('mousedown') );
+    $dom.dispatchEvent( new MouseEvent('mousedown') );
 };
 //$(document).on('mousedown', '.node-anchor', function(e){
 document.addEventListener('mousedown', function(e){
     if( !e.target.classList.contains('node-anchor') ) return;
     e.stopImmediatePropagation();
     e.stopPropagation();
-
 
 
     var ct = createArrow();
@@ -120,8 +129,8 @@ document.addEventListener('mousedown', function(e){
     //var startX = e.clientX, startY = e.clientY;
     /*var startX = $(this).offset().left + $(this).width()/2,
      startY = $(this).offset().top + $(this).height()/2;*/
-    var startX = e.target.offsetLeft + /*$(this).width()/2*/getProp(e.target, 'width'),
-        startY = e.target.offsetTop + getProp(e.target, 'height');
+    var startX = e.target.parentNode.offsetLeft + e.target.offsetLeft + /*$(this).width()/2*/getProp(e.target, 'width')/2,
+        startY = e.target.parentNode.offsetTop + e.target.offsetTop + getProp(e.target, 'height')/2;
 
     var _this = /*this*/e.target;
     var attachStartId = /*$(this).parent().attr('widgetname')*/e.target.parentNode.getAttribute('widgetname');
@@ -132,7 +141,7 @@ document.addEventListener('mousedown', function(e){
     document.addEventListener('mousemove', function(e){
         //$(document).on('mousemove', function(e){
         //if(isLining == false) return;
-        if(attachDraw == true) return;
+        if(attachDraw == true || !newPath ) return;
 
         var currX = e.pageX -6, currY = e.pageY-6;
 
@@ -144,7 +153,7 @@ document.addEventListener('mousedown', function(e){
             ('A3 3 0 0 0 3 3') + ('L'+ middlex+', '+ (startY + miniDis - 3) )  ;
 
         //pathStr = nodeLine(startX, startY, currX, currY, 'bottom');
-
+_this.className
         var middley = (currY - startY)/2 + startY;
         var middlex = (currX - startX)/2 + startX;
         var arrowPathO;
@@ -187,7 +196,7 @@ document.addEventListener('mousedown', function(e){
         isLining = false;
         if(newPath && !newPath.getAttribute('attachEndId')){
             //$(newPath).parent().remove();
-            newPath.parentNode.removeChild( newPath );
+            newPath.parentNode.parentNode.removeChild( newPath.parentNode );
         }else if(newPath){
             var mark = newPath.getAttribute('attachEndId');
             mark = mark.split('_')[0];
@@ -198,8 +207,6 @@ document.addEventListener('mousedown', function(e){
             PathManager.node2paths[mark] = PathManager.node2paths[mark] || [];
             PathManager.node2paths[mark].push( newPath );
 
-            console.log( mark, PathManager.node2paths[mark] );
-
             PathManager.addStep($(newPath).parent(), 'add');
         }
         currPath = newPath = null;
@@ -207,13 +214,16 @@ document.addEventListener('mousedown', function(e){
 
         //$(document).off('mousemove');
         //$(document).off('mouseup', attachLine);
-        document.removeEventListener('mouseup', attachLine);
+        //document.removeEventListener('mouseup', attachLine);
     };
+
     //$(document).on('mouseup', attachLine);
-    document.addEventListener('mouseup', attachLine)
+    document.addEventListener('mouseup', attachLine);
 });
-//$(document).on('mouseleave', '.node-anchor', function(e){
-document.addEventListener('mouseleave', function(e){
+
+
+$(document).on('mouseleave', '.node-anchor', function(e){
+//document.addEventListener('mouseleave', function(e){
     if( !e.target.classList || !e.target.classList.contains('node-anchor') ) return;
     attachDraw = false;
     if(currPath){
@@ -285,9 +295,9 @@ document.addEventListener('mouseup', function(){
     tabSelect(null, 'flow');
 });
 //$(document).on('mouseup', '#node_set_id', function(e){e.stopImmediatePropagation();e.stopPropagation()})
-document.addEventListener('mouseup', function(e){
+/*document.addEventListener('mouseup', function(e){
     e.stopImmediatePropagation();e.stopPropagation();
-})
+});*/
 
 /* 结束画线 条件一 */
 var currPath; var miniDis = 20;
