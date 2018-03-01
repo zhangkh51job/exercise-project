@@ -2,7 +2,9 @@ var path = require('path')
 var webpack = require('webpack')
 /*import path from 'path';
  import webpack from 'webpack';*/
-
+function resolve (dir) {
+  return path.join(__dirname, dir)
+}
 module.exports = {
   entry: './src/app.js',
   output: {
@@ -10,7 +12,7 @@ module.exports = {
     publicPath: '/dist/',
     filename: 'build.js'
   },
-  /*module: {
+  module: {
     rules: [
       {
         test: /\.vue$/,
@@ -21,6 +23,9 @@ module.exports = {
         test: /\.js$/,
         loader: 'babel-loader',
         exclude: /node_modules/
+        /*,options: {
+          presets: ['es2015']
+        }*/
       },
       {
         test: /\.(png|jpg|gif|svg)$/,
@@ -30,17 +35,18 @@ module.exports = {
         }
       }
     ]
-  },*/
-  module: {
+  },
+  /*module: {
     rules: [
       { test: /\.js$/, exclude: /node_modules/, loader: 'babel-loader' },
       { test: /\.vue$/, loader: 'vue-loader' }
     ]
-  },
+  },*/
 
   resolve: {
     alias: {
       'vue$': 'vue/dist/vue.esm.js'
+      //,'$': resolve('./src/plugin/jquery-1.8.1.min.js')
     }
   },
   devServer: {
@@ -56,6 +62,7 @@ module.exports = {
   devtool: '#eval-source-map'
 }
 
+console.log( 'new webpack.ProvidePlugin()', new webpack.ProvidePlugin() );
 if (process.env.NODE_ENV === 'production') {
   module.exports.devtool = '#source-map'
   // http://vue-loader.vuejs.org/en/workflow/production.html
@@ -77,5 +84,12 @@ if (process.env.NODE_ENV === 'production') {
     new webpack.LoaderOptionsPlugin({
       minimize: true
     })
+    /*,new webpack.ProvidePlugin({
+      $: resolve('./src/plugin/jquery-1.8.1.min.js'),
+      "window.$": resolve('./src/plugin/jquery-1.8.1.min.js'),
+      Jquery: resolve('./src/plugin/jquery-1.8.1.min.js'),
+      "window.Jquery": resolve('./src/plugin/jquery-1.8.1.min.js')
+      ,$ : '$'
+    })*/
   ])
 }

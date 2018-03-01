@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/communications.css">
+</head>
+<body>
+<div class="catalogue_ct">
+    <div>
+        <input type="button" value="同步通讯录" class="sync_btn">
+    </div>
+    <div>
+        <header class="head">
+            派生科技集团股份有限公司(15400)
+        </header>
+        <ul class="company_list">
+            <li class="li_select">
+                <span class="icon_close indicator"></span><i class="icon"></i>集团总部(902人)
+            </li>
+            <li>
+                <span class="icon_open indicator"></span><i class="icon"></i>团贷网资产(0人)
+            </li>
+            <li>
+                <span class="indicator"></span><i class="icon"></i>团贷网互联网(0人)
+            </li>
+            <li>
+                <span class="indicator"></span><i class="icon"></i>正合惠普(0人)
+            </li>
+            <li>
+                <span class="indicator"></span><i class="icon"></i>俊拓金融(0人)
+            </li>
+            <li>
+                <span class="indicator"></span><i class="icon"></i>你我金融(551人)
+            </li>
+            <li>
+                <span class="indicator"></span><i class="icon"></i>派生财富(60人)
+            </li>
+            <li>
+                <span class="indicator"></span><i class="icon"></i>再生资源回收(2人)
+            </li>
+            <li>
+                <span class="indicator"></span><i class="icon"></i>派生科技实业(0人)
+            </li>
+            <li>
+                <span class="indicator"></span><i class="icon"></i>飞钛科技(26人)
+            </li>
+            <li>
+                <span class="indicator"></span><i class="icon"></i>公众服务账号(2人)
+            </li>
+            <li>
+                <span class="indicator"></span><i class="icon"></i>测试流程专用(勿删)(5人)
+            </li>
+        </ul>
+    </div>
+</div>
+
+<div class="content_ct">
+    <div>
+        <h2 class="company_name">派生科技集团股份有限公司</h2>
+        <div class="position"><a>派生科技集团股份有限公司></a><a>集团总部></a>董事会办公室</div>
+    </div>
+    <div class="title">下级部门</div>
+    <ul class="department_li">
+        <li>董事会办公室(0人)<a>></a></li>
+        <li>总裁办(0人)<a>></a></li>
+        <li>经营管理委员会(0人)<a>></a></li>
+        <li>财务管理中心(0人)<a>></a></li>
+        <li>人力行政中心(0人)<a>></a></li>
+        <li>技术创新中心(0人)<a>></a></li>
+    </ul>
+    <div class="check_department_all"><a href="aa">查看全部</a></div>
+
+    <div class="title">部门人员</div>
+    <table class="staff_table">
+        <thead>
+        <tr>
+        <td>姓名</td><td>职员</td><td>工号</td><td>手机号</td><td>邮箱</td>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>滨村</td><td>高级java开发工程师</td><td>JT-6933</td><td>18576653579</td><td>bincun@niiwoo.com</td>
+        </tr>
+        <tr>
+            <td>焦小纹</td><td>总裁办助理</td><td>JT-8446</td><td>18810554192</td><td>jiaoxiaowen@niiwoo.com</td>
+        </tr>
+        <tr>
+            <td>滨村</td><td>高级java开发工程师</td><td>JT-6933</td><td>18576653579</td><td>bincun@niiwoo.com</td>
+        </tr>
+        <tr>
+            <td>焦小纹</td><td>总裁办助理</td><td>JT-8446</td><td>18810554192</td><td>jiaoxiaowen@niiwoo.com</td>
+        </tr>
+        </tbody>
+    </table>
+
+</div>
+<script type="text/javascript" src="js/jquery-1.8.1.min.js"></script>
+<script>
+    $('.company_list li').on('mouseenter', function(e){
+        $(this).addClass('li_select');
+    })
+    $('.company_list li').on('mouseleave', function(e){
+        $(this).removeClass('li_select');
+    })
+
+</script>
+
+
+</body>
+</html>

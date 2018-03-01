@@ -98,7 +98,7 @@ const registStrag = function(vm){
             }
         })
     });
-    /*$dom.addEventListener('mouseleave', function(e){
+    $dom.addEventListener('mouseout', function(e){
         if( !e.target.classList || !e.target.classList.contains('node-anchor') ) return;
         attachDraw = false;
         if(currPath){
@@ -106,7 +106,7 @@ const registStrag = function(vm){
             currPath.removeAttribute('endX');
             currPath.removeAttribute('endY');
         };
-    });*/
+    });
 
     //$dom.trigger('mousedown');
     $dom.dispatchEvent( new MouseEvent('mousedown') );
@@ -153,7 +153,6 @@ document.addEventListener('mousedown', function(e){
             ('A3 3 0 0 0 3 3') + ('L'+ middlex+', '+ (startY + miniDis - 3) )  ;
 
         //pathStr = nodeLine(startX, startY, currX, currY, 'bottom');
-_this.className
         var middley = (currY - startY)/2 + startY;
         var middlex = (currX - startX)/2 + startX;
         var arrowPathO;
@@ -165,12 +164,12 @@ _this.className
             arrowPathO = arrowDraw(startX, startY, currX, currY, 'tb', 'b');
             //}else if( $(_this).hasClass('node-anchor-t') ){
         }else if( _this.classList.contains('node-anchor-t') ) {
-            pathStr = moveRenderRule(startX, startY, currX, currY, 't')
+            pathStr = moveRenderRule(startX, startY, currX, currY, 't');
             newPath.setAttribute('start-anchor', 't');
             arrowPathO = arrowDraw(startX, startY, currX, currY, 'tb');
             //}else if( $(_this).hasClass('node-anchor-r') ){
         }else if( _this.classList.contains('node-anchor-r') ){
-            pathStr = moveRenderRule(startX, startY, currX, currY, 'r')
+            pathStr = moveRenderRule(startX, startY, currX, currY, 'r');
             newPath.setAttribute('start-anchor', 'r');
             arrowPathO = arrowDraw(startX, startY, currX, currY, 'lr');
         //}else if( $(_this).hasClass('node-anchor-l') ){
@@ -195,8 +194,7 @@ _this.className
     var attachLine = function(e){
         isLining = false;
         if(newPath && !newPath.getAttribute('attachEndId')){
-            //$(newPath).parent().remove();
-            newPath.parentNode.parentNode.removeChild( newPath.parentNode );
+            $(newPath).parent().remove();
         }else if(newPath){
             var mark = newPath.getAttribute('attachEndId');
             mark = mark.split('_')[0];
@@ -212,13 +210,10 @@ _this.className
         currPath = newPath = null;
         //pathArr && (pathArr.length = 0);
 
-        //$(document).off('mousemove');
-        //$(document).off('mouseup', attachLine);
-        //document.removeEventListener('mouseup', attachLine);
+        $(document).off('mousemove');
+        $(document).off('mouseup', attachLine);
     };
-
-    //$(document).on('mouseup', attachLine);
-    document.addEventListener('mouseup', attachLine);
+    $(document).on('mouseup', attachLine);
 });
 
 
@@ -232,8 +227,8 @@ $(document).on('mouseleave', '.node-anchor', function(e){
         currPath.removeAttribute('endY');
     };
 });
-//$(document).on('mouseenter', '.node-anchor', function(e){
-document.addEventListener('mouseenter',  function(e){
+$(document).on('mouseenter', '.node-anchor', function(e){
+//document.addEventListener('mouseenter',  function(e){
     if( !e.target.classList || !e.target.classList.contains('node-anchor') ) return;
     if( isLining == false) return;
     attachDraw = true;
@@ -294,7 +289,7 @@ document.addEventListener('mouseup', function(){
     removeAllSelect();
     tabSelect(null, 'flow');
 });
-//$(document).on('mouseup', '#node_set_id', function(e){e.stopImmediatePropagation();e.stopPropagation()})
+$(document).on('mouseup', '#node_set_id', function(e){e.stopImmediatePropagation();e.stopPropagation()})
 /*document.addEventListener('mouseup', function(e){
     e.stopImmediatePropagation();e.stopPropagation();
 });*/

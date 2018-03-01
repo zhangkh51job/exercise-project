@@ -1,0 +1,15 @@
+*{border: transparent;outline: none;padding: 0;margin: 0;font-size: 14px;color: #333333}
+html,body{width: 100%;}
+header div{width: 33.33%;float: left;border-bottom: 1px solid #eee;color:#333;font-size: 16px;text-align: center;cursor: pointer;padding: 10px 0; }
+header .active{border-bottom: 2px solid #38adff;}
+table .important{color:#ff0000;vertical-align: middle;margin-right: 4px;font-style: normal; }
+table{width: 100%;}
+table td{padding: 12px 0;vertical-align: middle;}
+table td:nth-child(1){width:25%;text-align: right; }
+table td:nth-child(2){width: calc(75% - 40px);padding-left: 8px;position: relative;}
+table input[type="text"]{border: 1px solid #ccc;height: 32px;padding-left: 6px;border-radius: 4px;width: 200px;}
+table .tip{font-size: 12px;color: #8f8f8f;position: absolute;width: 200px;padding-bottom: 35px;text-align: justify;}
+table .tip_ct{padding-bottom: 35px;}table .tip_ct a{color: #38adff;}
+table .saveBtn{border:1px solid #38adff;background-color: #38adff;color: #fff;width: 72px;height: 32px;border-radius: 4px;margin-right: 6px;}
+table .delBtn{border:1px solid #ff4141;background-color: #ffffff;color: #ff4141;width: 112px;height: 32px;border-radius: 4px;margin-right: 6px;}
+table .cancleBtn{border:1px solid #c3c6ce;background-color: #ffffff;color: #666;width: 72px;height: 32px;border-radius: 4px;}
