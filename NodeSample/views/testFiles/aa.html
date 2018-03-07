@@ -143,7 +143,9 @@
         });
 
     }
-
+    window.getff = function(){
+        alert('invoke fn');
+    }
     function showError(error) {
         switch(error.code) {
             case error.PERMISSION_DENIED:
@@ -165,6 +167,8 @@
     while( reg.exec(testStr) ){
         console.log( RegExp.$1 )
     }
+
+
 
     Math.formatFloat = function(f, digit) {
         var m = Math.pow(10, digit);

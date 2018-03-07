@@ -2,18 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="261f1d27-425e-45e9-99ef-b3b9c1fb126f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/formmake-webpack-vue/.babelrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/task/baseinfo.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/task/communications.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/task/css/baseinfo.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/task/css/communications.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NodeSample/task/task.rar" afterPath="$PROJECT_DIR$/NodeSample/task/task.rar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeSample/formmake-webpack-vue/OA-H5.rar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NodeSample/expressTest/index.js" afterPath="$PROJECT_DIR$/NodeSample/expressTest/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NodeSample/expressTest/index2.js" afterPath="$PROJECT_DIR$/NodeSample/expressTest/index2.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NodeSample/formmake-webpack-vue/index.html" afterPath="$PROJECT_DIR$/NodeSample/formmake-webpack-vue/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NodeSample/formmake-webpack-vue/src/tools/interactive.js" afterPath="$PROJECT_DIR$/NodeSample/formmake-webpack-vue/src/tools/interactive.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NodeSample/formmake-webpack-vue/webpack.config.js" afterPath="$PROJECT_DIR$/NodeSample/formmake-webpack-vue/webpack.config.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NodeSample/task/css/demo.css" afterPath="$PROJECT_DIR$/NodeSample/task/css/demo.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/NodeSample/formmake-webpack-vue/src/framework/jquery-1.8.1.min.js" afterPath="$PROJECT_DIR$/NodeSample/formmake-webpack-vue/src/plugin/jquery-1.8.1.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NodeSample/views/testFiles/aa.html" afterPath="$PROJECT_DIR$/NodeSample/views/testFiles/aa.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NodeSample/views/testFiles/suiTest1.html" afterPath="$PROJECT_DIR$/NodeSample/views/testFiles/suiTest1.html" />
     </list>
     <ignored path="nodejs.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -37,7 +32,7 @@
       <file leaf-file-name="demo.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/NodeSample/task/demo.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.71875">
+            <state vertical-scroll-proportion="0.0">
               <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
               <folding>
                 <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -46,61 +41,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="flexible.debug.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/NodeSample/task/js/flexible.debug.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="69" column="24" selection-start-line="69" selection-start-column="24" selection-end-line="69" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="webpack.config.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/NodeSample/formmake-webpack-vue/webpack.config.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="10.735632">
+            <state vertical-scroll-proportion="0.0">
               <caret line="29" column="7" selection-start-line="29" selection-start-column="7" selection-end-line="29" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="actions.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/NodeSample/formmake-webpack-vue/src/store/actions.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="8" selection-end-column="2" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mutation-types.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/NodeSample/formmake-webpack-vue/src/store/mutation-types.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mutations.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/NodeSample/formmake-webpack-vue/src/store/mutations.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/NodeSample/formmake-webpack-vue/src/app.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -109,8 +54,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/NodeSample/formmake-webpack-vue/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.75">
-              <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="4" column="35" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -126,11 +71,70 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="interactive.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="interactive.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/NodeSample/formmake-webpack-vue/src/tools/interactive.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.60197777">
-              <caret line="318" column="25" selection-start-line="318" selection-start-column="25" selection-end-line="318" selection-end-column="25" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="310" column="40" selection-start-line="310" selection-start-column="40" selection-end-line="310" selection-end-column="40" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="suiTest1.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/NodeSample/views/testFiles/suiTest1.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="294" column="0" selection-start-line="294" selection-start-column="0" selection-end-line="294" selection-end-column="0" />
+              <folding>
+                <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#script#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <marker date="1520221849825" expanded="true" signature="2056:2335" placeholder="..." />
+                <marker date="1520221849825" expanded="true" signature="4559:4838" placeholder="..." />
+                <marker date="1520221849825" expanded="true" signature="5050:5329" placeholder="..." />
+                <marker date="1520221849825" expanded="true" signature="5544:5823" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index2.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/NodeSample/expressTest/index2.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="83" column="11" selection-start-line="83" selection-start-column="11" selection-end-line="83" selection-end-column="11" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EcmaScript6.js" pinned="false" current-in-tab="false">
+        <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/EcmaScript6.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="663" column="17" selection-start-line="663" selection-start-column="17" selection-end-line="663" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="aa.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/NodeSample/views/testFiles/aa.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-2.4835165">
+              <caret line="146" column="27" selection-start-line="146" selection-start-column="27" selection-end-line="146" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/NodeSample/expressTest/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.8319328">
+              <caret line="105" column="0" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -162,10 +166,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/NodeSample/formmake/index2.html" />
-        <option value="G:/表单制作.html" />
-        <option value="G:/表单制作_files/fx_pc_all.css" />
-        <option value="$PROJECT_DIR$/NodeSample/formmake/demo3.html" />
         <option value="G:/表单制作_files/maps" />
         <option value="$PROJECT_DIR$/NodeSample/formmake/demo2.html" />
         <option value="$PROJECT_DIR$/NodeSample/formmake/js/app.js" />
@@ -187,7 +187,6 @@
         <option value="$PROJECT_DIR$/NodeSample/formmake-webpack-vue/src/store/mutation-types.js" />
         <option value="$PROJECT_DIR$/NodeSample/formmake-webpack-vue/src/tools.js" />
         <option value="$PROJECT_DIR$/NodeSample/formmake-webpack-vue/src/tools/lines.js" />
-        <option value="$PROJECT_DIR$/NodeSample/expressTest/index.js" />
         <option value="$PROJECT_DIR$/NodeSample/formmake/css/self.css" />
         <option value="$PROJECT_DIR$/NodeSample/formmake/js/framework/jquery1.9.0.js" />
         <option value="$PROJECT_DIR$/NodeSample/formmake-webpack-vue/src/app.js" />
@@ -209,10 +208,15 @@
         <option value="$PROJECT_DIR$/NodeSample/task/baseinfo.html" />
         <option value="$PROJECT_DIR$/NodeSample/task/css/demo.css" />
         <option value="$PROJECT_DIR$/NodeSample/formmake-webpack-vue/src/store/actions.js" />
-        <option value="$PROJECT_DIR$/NodeSample/formmake-webpack-vue/index.html" />
         <option value="$PROJECT_DIR$/NodeSample/formmake-webpack-vue/.babelrc" />
         <option value="$PROJECT_DIR$/NodeSample/formmake-webpack-vue/webpack.config.js" />
         <option value="$PROJECT_DIR$/NodeSample/formmake-webpack-vue/src/tools/interactive.js" />
+        <option value="$PROJECT_DIR$/NodeSample/views/testFiles/suiTest1.html" />
+        <option value="$PROJECT_DIR$/NodeSample/formmake-webpack-vue/index.html" />
+        <option value="internal/process/next_tick.js" />
+        <option value="$PROJECT_DIR$/NodeSample/expressTest/index2.js" />
+        <option value="$PROJECT_DIR$/NodeSample/views/testFiles/aa.html" />
+        <option value="$PROJECT_DIR$/NodeSample/expressTest/index.js" />
       </list>
     </option>
   </component>
@@ -268,7 +272,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -315,7 +319,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="task" />
+              <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -333,61 +337,17 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="formmake-webpack-vue" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="exercise-project" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="exercise-project" />
+              <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="NodeSample" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="formmake-webpack-vue" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="exercise-project" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="exercise-project" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NodeSample" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="formmake-webpack-vue" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tools" />
+              <option name="myItemId" value="testFiles" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -404,13 +364,6 @@
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="G:\datum download\exercise\exercise-project\NodeSample\formmake-webpack-vue" />
-      <recent name="G:\datum download\exercise\exercise-project\NodeSample\formmake-webpack-vue\src\tools" />
-      <recent name="G:\datum download\exercise\exercise-project\NodeSample" />
-      <recent name="G:\datum download\exercise\exercise-project\NodeSample\formmake-webpack-vue\src" />
-      <recent name="G:\datum download\exercise\exercise-project\NodeSample\formmake\css" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="G:\datum download\exercise\exercise-project\NodeSample\formmake-webpack-vue\src\component\sons" />
       <recent name="G:\datum download\exercise\exercise-project\NodeSample\formmake-webpack-vue\src\component" />
@@ -418,21 +371,28 @@
       <recent name="G:\datum download\exercise\exercise-project\NodeSample\formmake-webpack-vue" />
       <recent name="G:\datum download\exercise\exercise-project\NodeSample" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\datum download\exercise\exercise-project\NodeSample\formmake-webpack-vue" />
+      <recent name="G:\datum download\exercise\exercise-project\NodeSample\formmake-webpack-vue\src\tools" />
+      <recent name="G:\datum download\exercise\exercise-project\NodeSample" />
+      <recent name="G:\datum download\exercise\exercise-project\NodeSample\formmake-webpack-vue\src" />
+      <recent name="G:\datum download\exercise\exercise-project\NodeSample\formmake\css" />
+    </key>
   </component>
-  <component name="RunManager" selected="Node.js.app.js">
+  <component name="RunManager" selected="Node.js.index2.js">
     <configuration default="false" name="app.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="D:/Program Files/nodejs/node" path-to-js-file="$PROJECT_DIR$/NodeSample/app.js" working-dir="$PROJECT_DIR$/NodeSample">
       <method />
     </configuration>
     <configuration default="false" name="baseTest2.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="D:/Program Files/nodejs/node" path-to-js-file="$PROJECT_DIR$/NodeSample/nodejsBaseTest/baseTest2.js" working-dir="$PROJECT_DIR$/NodeSample">
       <method />
     </configuration>
-    <configuration default="false" name="netTest.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="D:/Program Files/nodejs/node" path-to-js-file="$PROJECT_DIR$/NodeSample/nodejsBaseTest/netTest.js" working-dir="$PROJECT_DIR$/NodeSample">
-      <method />
-    </configuration>
     <configuration default="false" name="nodeCompressTest.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="D:/Program Files/nodejs/node" path-to-js-file="$PROJECT_DIR$/NodeSample/nodejsBaseTest/nodeCompressTest.js" working-dir="$PROJECT_DIR$/NodeSample">
       <method />
     </configuration>
     <configuration default="false" name="walkLine.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/exercise-project/NodeSample/views/testFiles/bmap/walkLine.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="index2.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="D:/Program Files/nodejs/node" path-to-js-file="$PROJECT_DIR$/NodeSample/expressTest/index2.js" working-dir="$PROJECT_DIR$/NodeSample">
       <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -490,17 +450,17 @@
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Node.js.app.js" />
       <item index="1" class="java.lang.String" itemvalue="Node.js.baseTest2.js" />
-      <item index="2" class="java.lang.String" itemvalue="Node.js.netTest.js" />
-      <item index="3" class="java.lang.String" itemvalue="Node.js.nodeCompressTest.js" />
-      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.walkLine.html" />
+      <item index="2" class="java.lang.String" itemvalue="Node.js.nodeCompressTest.js" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.walkLine.html" />
+      <item index="4" class="java.lang.String" itemvalue="Node.js.index2.js" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Node.js.app.js" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.walkLine.html" />
-        <item index="2" class="java.lang.String" itemvalue="Node.js.nodeCompressTest.js" />
-        <item index="3" class="java.lang.String" itemvalue="Node.js.baseTest2.js" />
-        <item index="4" class="java.lang.String" itemvalue="Node.js.netTest.js" />
+        <item index="0" class="java.lang.String" itemvalue="Node.js.index2.js" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.app.js" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.walkLine.html" />
+        <item index="3" class="java.lang.String" itemvalue="Node.js.nodeCompressTest.js" />
+        <item index="4" class="java.lang.String" itemvalue="Node.js.baseTest2.js" />
       </list>
     </recent_temporary>
   </component>
@@ -519,24 +479,24 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13224447" sideWeight="0.4869565" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13224447" sideWeight="0.4869565" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.09307359" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32467532" sideWeight="0.50421494" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32467532" sideWeight="0.49578503" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15504807" sideWeight="0.51304346" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31493506" sideWeight="0.49578503" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3452381" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31493506" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -629,51 +589,15 @@
           <option name="timeStamp" value="182" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="186" />
+      <option name="time" value="199" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/NodeSample/formmake-webpack-vue/css/self.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4">
-          <caret line="26" column="48" selection-start-line="26" selection-start-column="48" selection-end-line="26" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NodeSample/formmake-webpack-vue/src/api/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.4642856">
-          <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NodeSample/task/js/bootstrap.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5321337">
-          <caret line="22" column="36" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NodeSample/formmake-webpack-vue/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-34.5">
-          <caret line="48" column="36" selection-start-line="48" selection-start-column="36" selection-end-line="48" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/NodeSample/formmake-webpack-vue/src/store/getters.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.19420989">
           <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NodeSample/expressTest/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5973684">
-          <caret line="57" column="10" selection-start-line="57" selection-start-column="10" selection-end-line="57" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -891,7 +815,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="5" column="44" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -899,7 +822,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="65" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -907,7 +829,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="14" column="125" selection-start-line="14" selection-start-column="125" selection-end-line="14" selection-end-column="125" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -915,11 +836,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="71" column="8" selection-start-line="71" selection-start-column="8" selection-end-line="71" selection-end-column="8" />
-          <folding>
-            <element signature="n#style#0;n#td#0;n#tr#5;n#table#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#td#1;n#tr#5;n#table#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#td#0;n#tr#10;n#table#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -927,7 +843,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-17.25">
           <caret line="36" column="69" selection-start-line="36" selection-start-column="69" selection-end-line="36" selection-end-column="69" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -935,7 +850,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="69" column="24" selection-start-line="69" selection-start-column="24" selection-end-line="69" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -943,7 +857,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -973,19 +886,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/NodeSample/task/demo.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.71875">
+        <state vertical-scroll-proportion="0.0">
           <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
           <folding>
             <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NodeSample/formmake-webpack-vue/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.75">
-          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -999,7 +904,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/NodeSample/formmake-webpack-vue/webpack.config.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="10.735632">
+        <state vertical-scroll-proportion="0.0">
           <caret line="29" column="7" selection-start-line="29" selection-start-column="7" selection-end-line="29" selection-end-column="7" />
           <folding />
         </state>
@@ -1007,8 +912,65 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/NodeSample/formmake-webpack-vue/src/tools/interactive.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.60197777">
-          <caret line="318" column="25" selection-start-line="318" selection-start-column="25" selection-end-line="318" selection-end-column="25" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="310" column="40" selection-start-line="310" selection-start-column="40" selection-end-line="310" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NodeSample/views/testFiles/suiTest1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="294" column="0" selection-start-line="294" selection-start-column="0" selection-end-line="294" selection-end-column="0" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#script#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <marker date="1520221849825" expanded="true" signature="2056:2335" placeholder="..." />
+            <marker date="1520221849825" expanded="true" signature="4559:4838" placeholder="..." />
+            <marker date="1520221849825" expanded="true" signature="5050:5329" placeholder="..." />
+            <marker date="1520221849825" expanded="true" signature="5544:5823" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NodeSample/formmake-webpack-vue/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="35" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NodeSample/expressTest/index2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="83" column="11" selection-start-line="83" selection-start-column="11" selection-end-line="83" selection-end-column="11" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/EcmaScript6.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="663" column="17" selection-start-line="663" selection-start-column="17" selection-end-line="663" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NodeSample/views/testFiles/aa.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.4835165">
+          <caret line="146" column="27" selection-start-line="146" selection-start-column="27" selection-end-line="146" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NodeSample/expressTest/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8319328">
+          <caret line="105" column="0" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
           <folding />
         </state>
       </provider>
