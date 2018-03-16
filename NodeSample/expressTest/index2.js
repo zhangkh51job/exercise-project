@@ -174,7 +174,7 @@ promise222.then((res) => {
 Promise.resolve()
     .then(() => {
         //return new Error('error!!!')
-        return Promise.reject(new Error('error!!!'))
+        //return Promise.reject(new Error('error!!!'))
         //throw new Error('error!!!')
     })
     .then((res) => {
@@ -190,3 +190,35 @@ Promise.resolve(1+'a')
 .then(function(arg){
     console.log(arg)
 })
+
+Promise.prototype.finally = function(callback){
+    var P = this.constructor;
+    this.then(function(value){
+        P.resolve(callback()).then(function(){
+            return value
+        })
+    }, function(e){
+        P.resolve(callback()).then(function(){
+            throw e;
+        })
+    })
+};
+Promise.prototype.done = function(resolve, reject){
+    this.then(resolve, reject).catch(function(e){
+        setTimeout(function(){
+            throw e;
+        }, 0)
+    })
+}
+
+
+Promise.resolve().then(() => console.log('zkh2'));
+process.nextTick(() => console.log('zkh1'));
+(() => console.log('zkh3'))();
+
+const fs = require('fs');
+
+fs.readFile('index.js', () => {
+    setImmediate(() => console.log('zkh-----2'));
+    setTimeout(() => console.log('zkh-----1'));
+});

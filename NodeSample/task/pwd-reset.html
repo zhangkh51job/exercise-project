@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>密码重置</title>
+    <link rel="stylesheet" href="css/pwd-reset.css">
+</head>
+<body>
+<div class="logo_bg">
+    <div class="logo_ct">
+        <img src="img/logo.png">
+        <a>登录</a>
+    </div>
+</div>
+<div class="title_bg">
+    <h1 class="title">重置密码</h1>
+</div>
+<div class="content_bg">
+    <div class="content_ct">
+        <div class="step_ct">
+            <div class="step1 active">
+                <span class="line"></span>
+                <span class="circle">1</span>
+                <div class="title">填写账户名</div>
+            </div>
+            <div class="step2">
+                <span class="line"></span>
+                <span class="circle">2</span>
+                <div class="title">验证身份</div>
+            </div>
+            <div class="step3">
+                <span class="line"></span>
+                <span class="circle">3</span>
+                <div class="title">重置密码</div>
+            </div>
+            <div class="step4">
+                <span class="line"></span>
+                <span class="traingle_ct circle">✔</span>
+                <div class="title">完成</div>
+            </div>
+        </div>
+        <div class="content">
+            <div class="step step1_content">
+                <div class="rank">
+                    <label for="user_account">账户名：</label>
+                    <input type="text" id="user_account" class="user_account">
+                    <i class="tip">请输入您的账户名</i>
+                </div>
+                <div class="rank">
+                    <label for="identify_code">验证码：</label>
+                    <input type="text" id="identify_code" class="identify_code"><img src="img/identify_img.png" class="identify_img">
+                    <span>看不清？<a>换一张</a></span>
+                    <i class="tip">请输入您的账户名</i>
+                </div>
+            </div>
+
+            <div class="step step2_content" style="display: none;">
+                <div class="rank">为了您的账号安全，请完成身份验证</div>
+                <div class="rank">账户名：<span>JT-7187</span></div>
+                <div class="rank">重置方式：将验证码发送到邮箱：<span>len...ui@tuandai.com</span></div>
+                <div>
+                    验证码：
+                    <input type="text" placeholder="邮箱验证码">
+                    <input type="button" value="发送验证码" class="send_code_btn">
+                </div>
+            </div>
+
+            <div class="step step3_content" style="display: none;">
+                <div class="rank">请您重置密码</div>
+                <div class="rank">账户名：<span>JT-7187</span></div>
+                <div class="rank">
+                    <label for="new_pwd">输入新密码：</label><input type="text" id="new_pwd">
+                </div>
+                <div class="rank">
+                    <label for="sure_new_pwd">输入新密码：</label><input type="text" id="sure_new_pwd">
+                </div>
+            </div>
+
+            <div class="step step4_content"  style="display: none;">
+                <p>
+                    <span class="traingle_ct">✔</span>
+                </p>
+                <div class="success_tip">恭喜您，重置成功，快去<a>登录</a></div>
+            </div>
+
+            <div>
+                <input type="button" value="下一步" class="step_btn">
+            </div>
+        </div>
+
+    </div>
+</div>
+<script type="text/javascript" src="js/jquery-1.8.1.min.js"></script>
+<script>
+    var currStep = 1;
+    $('.step_btn').on('click', function(e){
+        if( currStep >= 4) {
+            return;
+        }
+        currStep++;
+        if(currStep == 4) $('.step_btn').hide();
+
+        $('.step_ct>div').removeClass('active');
+        $('.content .step').css('display', 'none');
+
+        $('.step_ct>.step'+currStep).addClass('active');
+        $('.content>.step'+currStep+'_content').css('display', 'block');
+    })
+</script>
+
+</body>
+</html>

@@ -37,7 +37,6 @@
                 'nodes':getNodes
                 })*/
             getNodes () {
-                console.log( this.$store.state.nodes )
                 return this.$store.state.nodes;
             }
             ,getPaths:{

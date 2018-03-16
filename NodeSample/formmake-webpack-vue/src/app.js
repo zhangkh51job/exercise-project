@@ -16,7 +16,4 @@ new Vue({
     store
 });
 
-$(document).on('mousedown', '.fx_flow_node', function(e){
-    console.log('.. mousedown..');
-})
 setTimeout(initData, 1200, store);

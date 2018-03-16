@@ -24,14 +24,17 @@
         </div>
         <div class="content-block"><a href="#" class="button pb-standalone-captions">With Captions</a></div>
         <div class="content-block"><a href="#" class="button pb-standalone-video">With Video</a></div>
+        <div><input type="button" id="testBtn" value="test"></div>
+        <div><input type="text" id='picker-name'/></div>
+        <div><input type="checkbox" id="checkboxx"></div>
     </div>
-    <table>
+    <!--<table>
         <tr><th width="80">系统要求</th><td>ios6+(ios10需要https)，android 2.3+</td></tr>
         <tr><th>原理</th><td>geolocation的位置信息来源包括GPS、IP地址、RFID、WIFI和蓝牙的MAC地址、以及GSM/CDMS的ID等等。规范中没有规定使用这些设备的先后顺序。</td></tr>
         <tr><th>待继续测试</th><td>初测3g环境下比wifi环境理定位更准确</td></tr>
         <tr><th>待继续测试</th><td>测试三星 GT-S6358(android2.3) geolocation存在，但POSITION_UNAVAILABLE</td></tr>
-    </table>
-    <input type="button" id="testBtn" value="test">
+    </table>-->
+
 
 </div>
 
@@ -292,7 +295,31 @@
         }
     });
 
+    $("#picker-name").picker({
+        toolbarTemplate: '<header class="bar bar-nav">\
+  <button class="button button-link pull-right close-picker">确定</button>\
+  <h1 class="title">请选择称呼</h1>\
+  </header>',
+        cols: [
+            {
+                textAlign: 'center',
+                values: ['赵', '钱', '孙', '李', '周', '吴', '郑', '王']
+                //如果你希望显示文案和实际值不同，可以在这里加一个displayValues: [.....]
+            },
+            {
+                textAlign: 'center',
+                values: ['杰伦', '磊', '明', '小鹏', '燕姿', '菲菲', 'Baby']
+            }/*,
+            {
+                textAlign: 'center',
+                values: ['先生', '小姐']
+            }*/
+        ]
+    });
 
+    $('#checkboxx').on('change', function(){
+        console.log( this.checked  )
+    })
 
 </script>
 </body>

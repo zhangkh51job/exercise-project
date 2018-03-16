@@ -1,0 +1,865 @@
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta charset="utf-8">
+    <meta name="renderer" content="webkit">
+    <title>团贷学院 - 团贷网</title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="author" content="广东俊特团贷网络信息服务股份有限公司">
+    <meta name="description" content="团贷学院">
+    <meta name="keywords" content="团贷学院">
+    <link rel="shortcut icon" href="/favicon.ico">
+
+    <link rel="stylesheet" type="text/css" href="http://www.tdxueyuan.com/content/user/css/base.css">
+    <link rel="stylesheet" type="text/css" href="http://www.tdxueyuan.com/content/login/login.css">
+    <link rel="stylesheet" type="text/css" href="http://www.tdxueyuan.com/Scripts/layer-v1.8.5/skin/layer.css">
+    <!-- EasyUI -->
+    <link rel="stylesheet" type="text/css" href="http://www.tdxueyuan.com/easyui/themes/bootstrap/easyui.css" id="easyuiTheme">
+    <link rel="stylesheet" type="text/css" href="http://www.tdxueyuan.com/easyui/themes/icon.css">
+    <link href="http://www.tdxueyuan.com/Content/bootstrap/bootstrap.min.css" rel="stylesheet">
+
+
+    <style type="text/css">
+        #imgCode {
+            cursor: pointer;
+        }
+
+        #imgCode2 {
+            cursor: pointer;
+            width: 92px;
+            height: 30px;
+            margin-left: 10px;
+        }
+
+        .SendEMail {
+            width: 580px;
+            height: 486px;
+            background-color: #fff;
+            -moz-border-radius: 6px;
+            -webkit-border-radius: 6px;
+            border-radius: 6px;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            margin-left: -233px;
+            margin-top: -240px;
+            z-index: 2000;
+        }
+
+        .SendEMail .s-hd {
+            height: 40px;
+            line-height: 45px;
+            border-bottom: 1px solid #f2f2f2;
+            text-align: center;
+            font-size: 16px;
+            color: #555;
+            padding-bottom: 10px;
+            position: relative;
+            z-index: 10;
+        }
+
+        .SendEMail .icon-close {
+            width: 20px;
+            height: 20px;
+            background-position: -47px -80px;
+            cursor: pointer;
+            position: absolute;
+            top: 15px;
+            right: 15px;
+        }
+
+        .SendEMail .s-bd {
+            padding-top: 30px;
+        }
+
+        .SendEMail .s-bd .formBox {
+            margin-bottom: 10px;
+        }
+
+        .SendEMail .s-bd .formBox label {
+            float: left;
+            width: 110px;
+            height: 28px;
+            line-height: 28px;
+            padding-right: 10px;
+            text-align: right;
+            font-size: 14px;
+            color: #555;
+        }
+
+        .SendEMail .s-bd .formBox .f-right {
+            float: right;
+            width: 460px;
+        }
+
+        .SendEMail .s-bd .formBox .f-right .input {
+            line-height: 20px;
+            padding: 4px;
+            border: 1px solid #d4d4d4;
+            background-color: #fff;
+        }
+
+        .SendEMail .s-bd .formBox .upBtnBox {
+            width: 60px;
+            height: 26px;
+            text-align: center;
+            margin-left: 9px;
+            line-height: 26px;
+            background-color: #fff;
+            border: 1px solid #d3d3d3;
+            -moz-border-radius: 2px;
+            -webkit-border-radius: 2px;
+            border-radius: 2px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .SendEMail .s-bd .formBox .UpBtn:hover {
+            text-decoration: none !important;
+        }
+
+        .SendEMail .s-bd .formBox .upBtnBox .UpFile {
+            width: 130px;
+            height: 26px;
+            position: absolute;
+            top: 0;
+            left: -70px;
+            overflow: hidden;
+            opacity: .0;
+            filter: alpha(opacity=0);
+        }
+
+        .SendEMail .s-bd .formBox .UpdataBtn {
+            display: inline-block;
+            width: auto;
+            height: 30px;
+            line-height: 30px;
+            color: #fff;
+            font-size: 14px;
+            padding-left: 20px;
+            padding-right: 20px;
+            -moz-border-radius: 2px;
+            -webkit-border-radius: 2px;
+            border-radius: 2px;
+            background-color: #093;
+        }
+
+        .SendEMail .s-bd .formBox .UpdataBtn:hover {
+            color: #fff;
+            text-decoration: none;
+            background-color: #04b33e;
+        }
+
+        .SendEMail .s-bd .formBox .f-right .w348 {
+            width: 348px;
+        }
+
+        .SendEMail .s-bd .formBox .f-right .w278 {
+            width: 278px;
+        }
+
+        .SendEMail .s-bd .formBox .f-right .h57 {
+            height: 57px;
+        }
+
+        .SendEMail .s-bd .formBox .f-right .h122 {
+            height: 122px;
+        }
+
+        .mask-white {
+            height: 100%;
+            width: 100%;
+            filter: alpha(opacity=90);
+            opacity: .9;
+            background-color: #fff;
+            background: rgba(255,255,255,.9);
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 1010;
+        }
+
+        .mask-black {
+            height: 100%;
+            width: 100%;
+            filter: alpha(opacity=40);
+            opacity: .4;
+            background-color: #fff;
+            background: rgba(0,0,0,.4);
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 1010;
+        }
+
+        .formBox2 {
+            height: 34px;
+            margin-bottom: 24px;
+        }
+
+        .formBox2 .form-left {
+            float: left;
+            width: 90px;
+            height: 34px;
+            text-align: right;
+            line-height: 34px;
+            font-size: 14px;
+            padding-right: 10px;
+        }
+
+        .formBox2 .form-right {
+            float: left;
+            width: auto;
+
+            line-height: 34px;
+        }
+
+        .formBox2 .form-right .input {
+            float: left;
+            height: 20px;
+            width: 274px;
+            padding: 7px 5px;
+            background: #fff;
+            border: 1px solid #e6e6e6;
+        }
+
+        .formBox2 .suc .input {
+            border-color: #093;
+        }
+        /*设置成功*/
+        .formBox2 .icon-right {
+            width: 20px;
+            height: 20px;
+            background-position: -67px -60px;
+            margin-top: 7px;
+            margin-left: 10px;
+        }
+
+        .formBox2 .err .input {
+            border-color: #f60;
+        }
+        /*设置错误*/
+        .formBox2 .err .errText {
+            color: #f60;
+            font-size: 14px;
+            margin-left: 10px;
+        }
+
+        .formBox2 .btn {
+            display: block;
+            width: 60px;
+            height: 30px;
+            line-height: 30px;
+            font-size: 14px;
+            text-align: center;
+            border: 0;
+            cursor: pointer;
+            border: 1px solid #093;
+            -moz-border-radius: 3px;
+            -webkit-border-radius: 3px;
+            border-radius: 3px;
+        }
+
+        .formBox2 .btn:hover {
+            text-decoration: none;
+        }
+
+        .formBox2 .green-btn {
+            color: #fff;
+            -moz-border-radius: 2px;
+            -webkit-border-radius: 2px;
+            border-radius: 2px;
+            background: #093;
+        }
+        /*绿色按钮*/
+        .formBox .green-btn:hover {
+            color: #fff;
+            background: #04b33e;
+        }
+
+        .formBox2 .gray-btn {
+            background: #f8f8f8;
+            border: 1px solid #ccc;
+        }
+
+        .formBox2 .gray-btn:hover {
+            color: #333;
+            background: #ebebeb;
+        }
+        .nav-tabs{ padding:20px 0 8px;}
+        .nav-tabs  > div {
+            position: relative;
+            display: block;
+            box-sizing: border-box;
+            float: left;
+            width: 49%;
+            text-align: center;
+        }.nav-tabs a{ font-weight: bold;color: #666;font-size: 18px;text-decoration: none;}
+        .nav-tabs .cut-line-off{ display: inline-block;position: relative;float: left;top: 4px;border-right: 1px solid #dddddd;height: 18px;}
+        .nav-tabs .active{color:rgb(0, 153, 255) }
+
+    </style>
+
+    <style>
+        .tab-content{margin-top: -30px;}
+        .qr-code-ct{margin-top:100px;}
+        .qr-code-ct>ul{
+            padding: 0;
+            float: left;
+            width: 326px;
+            border-bottom: 1px solid #ddd;
+        }
+        .qr-code-ct>ul>li:nth-child(1){
+            padding: 0;
+            border: 1px solid #ddd;
+            border-bottom: transparent;
+        }
+        .nav-tabs .active{height: 35px !important;}
+        .nav-tabs>li.active>a, .nav-tabs>li.active>a:hover, .nav-tabs>li.active>a:focus{border: none;}
+        .qr-code-ct>ul>li:nth-child(2){
+            padding: 0;
+            border-top: 1px solid #ddd;
+            border-right: 1px solid #ddd;
+        }
+        #dingdingLogin >iframe{
+            border: 1px solid #ddd;
+            border-top: transparent;
+        }
+        .nav-tabs>li>a{margin-right: 0;padding: 5px 8px;font-weight: normal;font-size: 16px;}
+        .qr-code-ct>.nav-tabs>.active>a{color:#FFD005}
+    </style>
+
+
+    <link type="text/css" rel="stylesheet" href="http://www.tdxueyuan.com/Scripts/layer-v1.8.5/skin/layer.css" id="skinlayercss"></head>
+<body>
+<div class="top-line"></div><!-- /.top-line-->
+<div class="content header">
+    <h1><a href="http://www.tdxueyuan.com" target="_blank"><img src="http://www.tdxueyuan.com/Areas/school/Content/Images/xueyuan2017/logo.png"></a></h1>
+</div>
+<div class="content">
+    <div class="loginBox clearfix">
+        <div class="l-left"><img src="http://www.tdxueyuan.com/Content/images/login/login_img.jpg" alt="团贷学院"></div>
+        <div class="l-right" style="width:403px;">
+
+            <div>
+                <div class="nav nav-tabs" role="tablist" style="padding-top:0px;width:320px;">
+                    <div role="presentation" class="active"><a href="#dingdingLogin" aria-controls="home" role="tab" data-toggle="tab" style="color: rgb(255, 208, 5);">扫码登录</a></div>
+                    <i class="cut-line-off"></i>
+                    <div role="presentation"><a href="#accountUP" aria-controls="profile" role="tab" data-toggle="tab" style="color: rgb(102, 102, 102);">账号登录</a></div>
+                </div>
+            </div>
+
+            <div class="clearfix">
+
+                <div class="tab-content" style="
+    margin-top: -30px;
+">
+                    <div class="qr-code-ct">
+                        <ul class="nav nav-tabs">
+                            <li role="presentation" class="active"><a href="#">派生</a></li>
+                            <li role="presentation"><a href="#">鸿特</a></li>
+                        </ul>
+                        <div role="tabpanel" class="tab-pane active" id="dingdingLogin"><iframe src="https://login.dingtalk.com/login/qrcode.htm?goto=https%3a%2f%2foapi.dingtalk.com%2fconnect%2foauth2%2fsns_authorize%3fappid%3ddingoa177usknq3dczrdtw%26response_type%3dcode%26scope%3dsnsapi_login%26state%3dSTATE%26redirect_uri%3dhttp%3a%2f%2fwww.tdxueyuan.com%2fAccount%2fDingTalkLogin&amp;style=border%3Anone%3Bbackground-color%3A%23FFFFFF%3B" frameborder="0" scrolling="no" width="326px" height="303px"></iframe></div>
+
+                    </div>
+
+                    <div role="tabpanel" class="tab-pane" id="accountUP" style=" margin-top: 100px;">
+                        <form name="loginForm" method="post" target="_self">
+                            <div class="formBox">
+                                <label for="loginName">用户名</label>
+                                <input type="text" id="txtuser_id" name="txtuser_id" class="input" style="height: 40px;" value="" data-options="required:true,validType:'length[1,32]'">
+                            </div>
+                            <div class="formBox">
+                                <label for="loginPw">密码</label>
+                                <input type="password" id="txtpassword" name="txtpassword" class="input" style="height: 40px;" data-options="required:true,validType:'length[1,32]'">
+                            </div>
+                            <div class="formBox">
+                                <label for="loginCode">验证码</label>
+                                <input type="text" id="loginCode" name="loginCode" class="input inputCode" style="height: 40px;" data-options="required:true,validType:'length[1,20]'" onkeydown="if (event.keyCode == 13) return LoginUserInfo();">
+                                <span class="codeBox" style="margin-left:32px;"><img style="cursor: pointer;vertical-align:top;" src="http://www.tdxueyuan.com/Common/RefreshValidationCode" id="VerifyImage" title="看不清？点击换一个" onclick="return ClickVerifyImage();"></span>
+                            </div>
+                            <div class="formBox2">
+
+                                <div class="clearfix"><label><input checked="checked" class="mr5 vertical-align-middle" data-val="true" data-val-required="uIsCookie 字段是必需的。" id="uIsCookie" name="uIsCookie" type="checkbox" value="true"><input name="uIsCookie" type="hidden" value="false"> 下次自动登录</label></div>
+
+
+                                <div class="clearfix mt15">
+                                    <input type="button" id="loginCode" class="btnLogin" value="马上登录" onclick="return LoginUserInfo();">
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="clearfix" id="SendEMail" style="display:none;">
+    <div class="SendEMail">
+        <div class="s-hd">忘记密码<b class="userSprites icon-close" id="closePopup" onclick="closePopup()"></b></div>
+        <form id="ff" method="post">
+            <div class="s-bd">
+                <div class="formBox clearfix">
+                    <label for="Title">用户编号: </label>
+                    <div class="f-right"><input type="text" id="user_id" name="user_id" class="input w348"><span class="c-093 ">*</span></div>
+                </div>
+                <div class="formBox clearfix">
+                    <label for="Title">邮箱地址: </label>
+                    <div class="f-right"><input type="text" id="e_mail" name="e_mail" class="input w348"><span class="c-093 ">*</span></div>
+                </div>
+                <div class="formBox clearfix">
+                    <label for="Title">验证码: </label>
+                    <div class="f-right">
+                        <input type="text" id="valid_code" name="valid_code" class="input">
+                        <span class="codeBox2"><img id="imgCode2" src="http://www.tdxueyuan.com/Account/CheckCode2?ID=11" alt="单击可刷新" onclick="ClickRemoveChangeCode2()"></span>
+                    </div>
+                </div>
+                <div class="formBox clearfix">
+                    <label></label>
+                    <div class="f-right">
+                        <a href="javascript:void(0);" onclick="return SubmitEMail()" target="_self" class="UpdataBtn animation" id="UpdataBtn">发送</a>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+    <div class="mask-black"></div>
+</div>
+
+<div class="footer">
+    <p>2010-2017 版权所有 © <a href="http://www.tuandai.com">团贷网</a> 粤ICP备12043601号-1</p>
+</div><!-- /.footer-->
+
+
+
+<script type="text/javascript" src="http://www.tdxueyuan.com/scripts/jquery.min.js"></script>
+<script type="text/javascript" src="http://www.tdxueyuan.com/Scripts/layer-v1.8.5/layer.min.js"></script>
+<!-- EasyUI -->
+<script type="text/javascript" src="http://www.tdxueyuan.com/easyui/jquery.easyui.min.js"></script>
+<script type="text/javascript" src="http://www.tdxueyuan.com/easyui/locale/easyui-lang-zh_CN.js"></script>
+<script src="//g.alicdn.com/dingding/dinglogin/0.0.5/ddLogin.js"></script>
+<script src="/Scripts/bootstrap.min.js"></script>
+<script type="text/javascript">
+    function NoNameFeek() {
+        $.layer({
+            type: 2,
+            title: '匿名吐槽',
+            shadeClose: true,
+            maxmin: true,
+            fix: false,
+            area: ['1200', 700],
+            iframe: {
+                src: '/NoNameFeed/Index/'
+            },
+            close: function () {
+                window.location = window.location;
+            }
+        });
+    }
+
+    var self = this;
+
+    this.form = {
+        ip: null,
+        city: null
+    };
+
+    this.init = function () {
+        var ILData = ILData || [];
+        self.form.ip = ILData[0];
+        $.getJSON("http://api.map.baidu.com/location/ip?ak=F454f8a5efe5e577997931cc01de3974&callback=?", function (d) {
+            self.form.city = d.content.address;
+        });
+        if (top != window) top.window.location = window.location;
+    };
+
+    this.init();
+
+
+    $(document).on('click', '.nav-tabs > div', function () {
+        $('.nav-tabs>div a').css('color', '#666');
+        $(this).find('a').css('color', 'rgb(255, 208, 5)');
+    });
+
+    $(function () {
+        //单击重新改变验证码
+        ClickRemoveChangeCode();
+        ClickRemoveChangeCode2();
+
+        $('.nav-tabs>div a').first().css('color', 'rgb(255, 208, 5)');
+
+    });
+    //异步实现用户的登录
+    function LoginUserInfo() {
+        //验证用户必须输入必填项
+        var user_id = $("#txtuser_id").val();
+
+        if (user_id == "") {
+            alert("请输入用户名! ");
+            $("#txtuser_id").focus();
+            return false;
+        }
+
+        var password = $("#txtpassword").val();
+
+        if (password == "") {
+            alert("请输入密码! ");
+            $("#txtpassword").focus();
+            return false;
+        }
+
+        var loginCode = $("#loginCode").val();
+        console.log(loginCode)
+
+        if (loginCode == "") {
+            alert("请输入验证码! ");
+            $("#loginCode").focus();
+            return false;
+        }
+        //获取传递前台的参数，UName，Pwd，Code
+        var postData = {
+            user_id: $("#txtuser_id").val(),
+            password: $("#txtpassword").val(),
+            Code: $("#loginCode").val(),
+            ip_address: self.form.ip,
+            city_address: self.form.city
+        };
+        //异步实现登录功能
+        var loginUrl = "/Account/CheckUserLogin" + "?returnUrl=" + "http://www.tdxueyuan.com//";
+        $.post(loginUrl, postData, function (data) {
+            var resData = data;
+            var actionScuess = resData.indexOf('OK');
+
+            var returnUrlFlag = resData.indexOf('&');
+            var returnUrl = "";
+            if (returnUrlFlag >= 0) {
+                returnUrl = resData.substring(returnUrlFlag+9);
+            }
+
+            if (actionScuess >= 0) {
+                if (returnUrl != "") {
+                    window.location.href = returnUrl;
+                } else {
+                    window.location.href = "/School/Home/Index";
+                }
+
+
+
+            } else if (data == "first") {
+                var pageii = $.layer({
+                    type: 1,   //0-4的选择,（1代表page层）
+                    area: ['650px', '600px'],
+                    //shade: [0],  //不显示遮罩
+                    border: [0], //不显示边框
+                    title: [
+                        '你好，欢迎来到团贷学院。',
+                        //自定义标题风格，如果不需要，直接title: '标题' 即可
+                        'border:none; background:#61BA7A; color:#fff;'
+                    ],
+                    bgcolor: '#eee', //设置层背景色
+                    page: {
+                        html: '<div style="padding:50px;">你的密码过于简单，为了个人账号安全，请修改你的密码<br><div class="formBox2"><label class="form-left" for="txtMail">企业邮箱：</label><div class="form-right "><input type="text" id="txtMail" class="input" onblur="CheckMail();"><br><span class="errText hidden" id="spanMail"> *请输入邮箱地址</span></div></div><div class="formBox2"><label class="form-left" for="txtPhone">手机号：</label><div class="form-right "><input type="text" id="txtPhone" class="input" onblur="CheckPhone();"><br><span class="errText hidden" id="spanPhone"> *请输入手机号</span></div></div><div class="formBox2"><label class="form-left" for="newPwd">新密码：</label><div class="form-right "><input type="password" id="newPwd" class="input" onblur="Checkonepwd();" onkeyup="checkPwdStrong();"><br><span class="errText hidden" id="spanPwdStrong"> *三类字符或以上组合</span><span class="errText hidden" id="pwdone"> *密码长度不得小于8位</span></div></div><div class="formBox2"><label class="form-left " for="confirmPwd">确认密码：</label><div class="form-right"><input type="password" id="confirmPwd" class="input" onblur="ChecktwopwdBlur()" onkeyup="Checktwopwd()"><br><span class="errText hidden" id="spanEmptyConfirmPwd"> *密码长度不得小于8位</span><span class="errText hidden" id="pwdtwo">两次密码输入不一致</span></div></div><div class="formBox2"><label class="form-left"></label><div class="form-right"><button class="btn green-btn animation lf" onclick="return ChangePassword();">保存</button></div></div></div>'
+                    },
+                    shift: 'top', //从上动画弹出
+
+                });
+
+                $('#pagebtn').on('click', function () {
+                    layer.close(pageii);
+                });
+            }
+            else {
+                alert(data);
+                ClickVerifyImage();
+                return false;
+            }
+        });
+    }
+    //单击重新改变验证码
+    function ClickRemoveChangeCode() {
+        var code = $("#imgCode").attr("src");
+        $("#imgCode").attr("src", code + "1");
+    }
+
+    function ClickRemoveChangeCode2() {
+        var code = $("#imgCode2").attr("src");
+        $("#imgCode2").attr("src", code + "1");
+    }
+
+    function ClickVerifyImage() {
+        var code = $("#VerifyImage").attr("src");
+        $("#VerifyImage").attr("src", '/Common/RefreshValidationCode?r=' + Math.random());
+        return false;
+    }
+
+    function ForgetPassword() {
+        $("#SendEMail").show()
+    };
+
+    function closePopup() {
+        $("#SendEMail").hide();
+    }
+
+    function SubmitEMail() {
+        var user_id = $("#user_id").val();
+        var e_mail = $("#e_mail").val();
+        var valid_code = $("#valid_code").val();
+
+        if (user_id == "") {
+            alert("请填写用户编号");
+            return false;
+        }
+
+        if (e_mail == "") {
+            alert("请填写团贷企业邮箱地址");
+            return false;
+        }
+
+        if (!e_mail.match(/^\w+((-\w+)|(\.\w+))*\@[A-Za-z0-9]+((\.|-)[A-Za-z0-9]+)*\.[A-Za-z0-9]+$/)) {
+            alert("邮箱格式不正确");
+            return false;
+        }
+
+        if (valid_code == "") {
+            alert("请填写验证码");
+            return false;
+        }
+        //获取传递前台的参数，user_id，e_mail，valid_code
+        var postData = {
+            user_id: $("#user_id").val(),
+            e_mail: $("#e_mail").val(),
+            valid_code: $("#valid_code").val()
+        };
+        //异步实现登录功能
+        $.post("/Account/SubmitValidEMail", postData, function (data) {
+            if (data == "OK") {
+                alert("发送成功, 请查看邮箱激活! ");
+                ClickRemoveChangeCode2();
+                $("#user_id").attr("value", "");
+                $("#e_mail").attr("value", "");
+                $("#valid_code").attr("value", "");
+                return true;
+            }
+            else {
+                alert(data);
+                ClickRemoveChangeCode2();
+                return false;
+            }
+        });
+    }
+
+    function CheckMail() {
+        var txtMail = $("#txtMail").val();
+        if (txtMail.length == "") {
+            $("#spanMail").removeClass("hidden");
+            $("#spanMail").parent().addClass("err");
+        } else {
+            $("#spanMail").addClass("hidden");
+            $("#spanMail").parent().removeClass("err");
+        }
+    }
+
+    function CheckPhone() {
+        var txtMail = $("#txtPhone").val();
+        if (txtMail.length == "") {
+            $("#spanPhone").removeClass("hidden");
+            $("#spanPhone").parent().addClass("err");
+        } else {
+            $("#spanPhone").addClass("hidden");
+            $("#spanPhone").parent().removeClass("err");
+        }
+    }
+
+    function Checkonepwd() {
+        var newPwd = $("#newPwd").val();
+        if (newPwd.length < 8) {
+            $("#pwdone").removeClass("hidden");
+            $("#pwdone").parent().addClass("err");
+            $("#spanPwdStrong").addClass("hidden");
+        } else {
+            $("#pwdone").addClass("hidden");
+            $("#pwdone").parent().removeClass("err");
+        }
+    }
+
+    function checkPwdStrong()
+    {
+        var newPwd = $("#newPwd").val();
+        if (checkStrong(newPwd) < 3) {
+            $("#spanPwdStrong").removeClass("hidden");
+            $("#spanPwdStrong").parent().addClass("err");
+            $("#pwdone").addClass("hidden");
+        } else {
+            $("#spanPwdStrong").addClass("hidden");
+            $("#spanPwdStrong").parent().removeClass("err");
+        }
+    }
+
+    function ChecktwopwdBlur() {
+        var confirmPwd = $("#confirmPwd").val();
+        if (confirmPwd.length < 8) {
+            $("#spanEmptyConfirmPwd").removeClass("hidden");
+            $("#spanEmptyConfirmPwd").parent().addClass("err");
+        } else {
+            $("#spanEmptyConfirmPwd").addClass("hidden");
+            $("#spanEmptyConfirmPwd").parent().removeClass("err");
+        }
+    }
+
+    function Checktwopwd() {
+        var newPwd = $("#newPwd").val();
+        var confirmPwd = $("#confirmPwd").val();
+
+        $("#spanEmptyConfirmPwd").addClass("hidden");
+        $("#spanEmptyConfirmPwd").parent().removeClass("err");
+
+        if (newPwd != confirmPwd) {
+            $("#pwdtwo").removeClass("hidden");
+            $("#pwdtwo").parent().addClass("err");
+        } else {
+            $("#pwdtwo").addClass("hidden");
+            $("#pwdtwo").parent().removeClass("err");
+        }
+    }
+
+    //异步实现修改密码
+    function ChangePassword() {
+        //验证用户必须输入必填项
+        var txtMail = $("#txtMail").val();
+
+        if (txtMail == "") {
+            $("#txtMail").focus();
+            return false;
+        }
+        //
+        var txtPhone = $("#txtPhone").val();
+
+        if (txtPhone == "") {
+            $("#txtPhone").focus();
+            return false;
+        }
+        //
+        var newPwd = $("#newPwd").val();
+
+        if (newPwd == "") {
+
+            $("#newPwd").focus();
+            return false;
+        }
+
+        var confirmPwd = $("#confirmPwd").val();
+
+        if (confirmPwd == "") {
+
+            $("#confirmPwd").focus();
+            return false;
+        }
+
+        if (newPwd.length < 8)
+        {
+            $("#newPwd").focus();
+            return false;
+        }
+
+        if (checkStrong(newPwd) < 3) {
+            $("#newPwd").focus();
+            return false;
+        }
+
+        if (newPwd != confirmPwd)
+        {
+
+            $("#confirmPwd").focus();
+            return false;
+        }
+        //获取传递前台的参数，UName，Pwd，Code
+        var postData = {
+            user_id: $("#txtuser_id").val(),
+            e_mail: txtMail,
+            phone: txtPhone,
+            newPwd: $("#newPwd").val()
+        };
+
+
+        //异步实现登录功能
+        $.post("/UserCenter/ChangePassword2", postData, function (data) {
+            if (data == "OK") {
+                alert('密码修改成功, 请记住新密码!');
+                location.href = "/Account/Login";
+                return true;
+            }
+            else {
+                alert(data);
+                return false;
+            }
+        });
+    }
+</script>
+
+<script type="text/javascript">
+    function checkStrong(sValue) {
+        var modes = 0;
+        if (sValue.length < 8)
+            return modes;
+        if (/\d/.test(sValue))
+            modes++;
+        //数字
+        if (/[a-z]/.test(sValue))
+            modes++;
+        //小写
+        if (/[A-Z]/.test(sValue))
+            modes++;
+        //大写
+        if (/\W/.test(sValue))
+            modes++;
+        //特殊字符
+        switch (modes) {
+            case 1:
+                return 1;
+                break;
+            case 2:
+                return 2;
+            case 3:
+            case 4:
+                return sValue.length < 12 ? 3 : 4;
+                break;
+        }
+    }
+</script>
+
+
+<script type="text/javascript">
+    var obj = DDLogin({
+        id: "dingdingLogin",//这里需要你在自己的页面定义一个HTML标签并设置id，例如<div id="login_container"></div>或<span id="login_container"></span>
+        goto: "https%3a%2f%2foapi.dingtalk.com%2fconnect%2foauth2%2fsns_authorize%3fappid%3ddingoa177usknq3dczrdtw%26response_type%3dcode%26scope%3dsnsapi_login%26state%3dSTATE%26redirect_uri%3dhttp%3a%2f%2fwww.tdxueyuan.com%2fAccount%2fDingTalkLogin",
+
+        style: "border:none;background-color:#FFFFFF;",
+        width: "326",
+        height: "303"
+    });
+
+    var hanndleMessage = function (event) {
+        var origin = event.origin;
+        console.log("origin", event.origin);
+        if (origin == "https://login.dingtalk.com") { //判断是否来自ddLogin扫码事件。
+            var loginTmpCode = event.data; //拿到loginTmpCode后就可以在这里构造跳转链接进行跳转了
+
+            window.location = "https://oapi.dingtalk.com/connect/oauth2/sns_authorize?appid=dingoa177usknq3dczrdtw&response_type=code&scope=snsapi_login&state=STATE&redirect_uri=http://www.tdxueyuan.com/Account/DingTalkLogin&loginTmpCode=" + loginTmpCode;
+
+
+        }
+
+    };
+
+    if (typeof window.addEventListener != 'undefined') {
+        window.addEventListener('message', hanndleMessage, false);
+    } else if (typeof window.attachEvent != 'undefined') {
+        window.attachEvent('onmessage', hanndleMessage);
+    }
+
+    if (''!=null&&''!="") {
+        layer.msg('');
+    }
+</script></body></html>
