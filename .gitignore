@@ -3,6 +3,7 @@ formmake-webpack-vue/node_modules/
 
 NodeSample/node_modules/
 NodeSample/formmake-webpack-vue/node_modules/
+NodeSample/elementui-test/node_modules/
 
 release/
 npm-debug.log

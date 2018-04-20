@@ -6,10 +6,10 @@
     "start": "node app"
   },
   "dependencies": {
+    "cookie-parser": "*",
+    "element-ui": "^2.3.4",
     "express": "3.0.0beta7",
-    "express-session":"*",
-    "cookie-parser":"*",
+    "express-session": "*",
     "jade": "*"
-
   }
 }

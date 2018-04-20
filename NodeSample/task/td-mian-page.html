@@ -326,6 +326,13 @@
         }
         .nav-tabs>li>a{margin-right: 0;padding: 5px 8px;font-weight: normal;font-size: 16px;}
         .qr-code-ct>.nav-tabs>.active>a{color:#FFD005}
+
+        .nav-select{width: 100%;
+            border: 1px solid #ddd;
+            height: 35px;
+            padding-left: 8px;
+            font-size: 16px;}
+        .nav-select option{height: 35px;}
     </style>
 
 
@@ -354,12 +361,17 @@
     margin-top: -30px;
 ">
                     <div class="qr-code-ct">
-                        <ul class="nav nav-tabs">
+                        <!--<ul class="nav nav-tabs">
                             <li role="presentation" class="active"><a href="#">派生</a></li>
                             <li role="presentation"><a href="#">鸿特</a></li>
-                        </ul>
-                        <div role="tabpanel" class="tab-pane active" id="dingdingLogin"><iframe src="https://login.dingtalk.com/login/qrcode.htm?goto=https%3a%2f%2foapi.dingtalk.com%2fconnect%2foauth2%2fsns_authorize%3fappid%3ddingoa177usknq3dczrdtw%26response_type%3dcode%26scope%3dsnsapi_login%26state%3dSTATE%26redirect_uri%3dhttp%3a%2f%2fwww.tdxueyuan.com%2fAccount%2fDingTalkLogin&amp;style=border%3Anone%3Bbackground-color%3A%23FFFFFF%3B" frameborder="0" scrolling="no" width="326px" height="303px"></iframe></div>
-
+                        </ul>-->
+                        <select class="nav-select">
+                            <option>派生</option>
+                            <option>鸿特</option>
+                        </select>
+                        <div role="tabpanel" class="tab-pane active" id="dingdingLogin">
+                            <iframe src="https://login.dingtalk.com/login/qrcode.htm?goto=https%3a%2f%2foapi.dingtalk.com%2fconnect%2foauth2%2fsns_authorize%3fappid%3ddingoa177usknq3dczrdtw%26response_type%3dcode%26scope%3dsnsapi_login%26state%3dSTATE%26redirect_uri%3dhttp%3a%2f%2fwww.tdxueyuan.com%2fAccount%2fDingTalkLogin&amp;style=border%3Anone%3Bbackground-color%3A%23FFFFFF%3B" frameborder="0" scrolling="no" width="326px" height="303px"></iframe>
+                        </div>
                     </div>
 
                     <div role="tabpanel" class="tab-pane" id="accountUP" style=" margin-top: 100px;">

@@ -1,0 +1,63 @@
+{
+  "name": "element-ui-test",
+  "description": "element-ui-test...",
+  "version": "1.0.0",
+  "author": "zhangkanghua",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
+    "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
+  },
+  "dependencies": {
+    "babel-runtime": "^6.23.0",
+    "element-ui": "^2.3.4",
+    "vue": "^2.2.1",
+    "vue-router": "^2.2.0",
+    "vuex": "^2.2.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.22.1",
+    "babel-eslint": "^7.1.1",
+    "babel-loader": "^6.2.10",
+    "babel-plugin-transform-runtime": "^6.22.0",
+    "babel-polyfill": "^6.22.0",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-es2015-rollup": "^3.0.0",
+    "babel-preset-stage-2": "^6.22.0",
+    "babel-runtime": "^6.22.0",
+    "chromedriver": "^2.27.2",
+    "cross-spawn": "^5.0.1",
+    "css-loader": "^0.25.0",
+    "eslint": "^3.15.0",
+    "eslint-config-vue": "^2.0.2",
+    "eslint-plugin-vue": "^2.0.1",
+    "express": "^4.14.1",
+    "jasmine": "2.5.3",
+    "jasmine-core": "2.5.2",
+    "nightwatch": "^0.9.12",
+    "nightwatch-helpers": "^1.2.0",
+    "phantomjs-prebuilt": "^2.1.14",
+    "rollup": "^0.41.4",
+    "rollup-plugin-buble": "^0.15.0",
+    "rollup-plugin-replace": "^1.1.1",
+    "rollup-watch": "^3.2.2",
+    "selenium-server": "^2.53.1",
+    "todomvc-app-css": "^2.0.6",
+    "typescript": "^2.1.5",
+    "uglify-js": "^2.7.5",
+    "vue": "^2.1.10",
+    "vue-loader": "^11.1.4",
+    "vue-template-compiler": "^2.2.1",
+    "webpack": "^2.2.0",
+    "webpack-dev-middleware": "^1.10.0",
+    "webpack-hot-middleware": "^2.16.1",
+    "cross-env": "^3.0.0",
+    "file-loader": "^0.9.0",
+    "webpack-dev-server": "^2.2.0"
+
+    ,"sass-loader": "^6.0.6",
+    "style-loader": "^0.13.2",
+    "url-loader": "^0.5.8",
+    "vue-style-loader": "^2.0.4"
+  }
+}
