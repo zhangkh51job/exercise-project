@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>派生科技</title>
+    <link rel="stylesheet" href="css/login.css">
+</head>
+<body >
+<div class="paisheng_bg">
+    <div class="container">
+        <div class="login_content">
+            <div class="user-account-ct" >
+                <div class="title">
+                    <img src="img/main-img/paisheng_logo.png">
+                </div>
+                <ul>
+                    <li class="li-frame">
+                        <span><i class="account-icon"></i></span>
+                        <input type="text" placeholder="请输入账户名">
+                    </li>
+                    <li class="li-frame li-pwd">
+                        <span><i class="pwd-icon"></i></span>
+                        <input type="password" placeholder="请输入登录密码"   class="pwd-close-input">
+                        <input type="text" placeholder="请输入登录密码" class="pwd-open-input" style="display: none;" >
+                        <i class="secret-open"></i><i class="secret-close"></i>
+                    </li>
+                    <li class="li-frame">
+                        <span><i class="validate-icon"></i></span>
+                        <input type="text" placeholder="请输入验证码" class="validte-input">
+                        <img class="hongte_validate_code" src="img/main-img/hongte_validate_code.png">
+                    </li>
+                    <li class="pwd-operate">
+                        <span><input type="checkbox"><a class="remember">记住密码</a></span>
+                        <a class="forget">忘记密码？</a>
+                    </li>
+                    <li>
+                        <input type="button" value="登录" class="login_btn">
+                    </li>
+                </ul>
+            </div>
+            <div class="dimension-ct"  style="display: none;">
+                <div class="title">
+                    <img src="img/main-img/paisheng_logo.png">
+                </div>
+                <div>
+                    <img src="img/main-img/code_img.png">
+                </div>
+                <div class="tip">请扫描二维码登录</div>
+            </div>
+            <div class="acc-code-switch-ct">
+                <!--<div class="switch-img-ct">-->
+                <img class="account-switch" src="img/main-img/account-switch.png" style="display: none;">
+                <img class="pwd-switch"     src="img/main-img/pwd-switch.png">
+                <div class="mask-switch"></div>
+                <!--<img class="mask-switch" src="img/main-img/switch-mask.png">-->
+                <!--</div>-->
+            </div>
+
+        </div>
+        <img src="img/main-img/paisheng_tuandai_right.png">
+    </div>
+</div>
+<script type="text/javascript" src="js/jquery-1.8.1.min.js"></script>
+<script>
+    $('.pwd-close-input').on('input', function(){
+        $('.pwd-open-input').val( this.value );
+    });
+    $('.pwd-open-input').on('input', function(){
+        $('.pwd-close-input').val( this.value );
+    });
+    $('.secret-open').on('click', function(){
+        $('.pwd-open-input').show();
+        $('.pwd-close-input').hide();
+    });
+    $('.secret-close').on('click', function(){
+        $('.pwd-close-input').show();
+        $('.pwd-open-input').hide();
+    });
+    $('.acc-code-switch-ct').on('mouseenter', function(){
+        $('.acc-code-switch-ct .mask-switch').css({'left':'-38px', 'top':'38px'})
+    });
+    $('.acc-code-switch-ct').on('mouseleave', function(){
+        $('.acc-code-switch-ct .mask-switch').css({'left':'-20px', 'top':'0px'})
+    });
+    $('.acc-code-switch-ct').on('click', function(){
+        var isOpen = !!$(this).data('isOpen');
+        if(!isOpen){
+            $('.pwd-switch').hide();
+            $('.account-switch').show();
+
+            $('.user-account-ct').hide();
+            $('.dimension-ct').show();
+        }else{
+            $('.pwd-switch').show();
+            $('.account-switch').hide();
+
+            $('.user-account-ct').show();
+            $('.dimension-ct').hide();
+        }
+        $(this).data('isOpen', !isOpen);
+    })
+</script>
+</body>
+</html>

@@ -222,3 +222,19 @@ fs.readFile('index.js', () => {
     setImmediate(() => console.log('zkh-----2'));
     setTimeout(() => console.log('zkh-----1'));
 });
+
+var a = 10;
+var model = {
+    a: 20,
+    fn: function(){
+        var a = 30;
+        console.log( 'testa', this.a );
+    }
+};
+model.fn();
+model.fn.call(this);
+(model.fn)()
+new model.fn();
+// 20, 10, 30, 10
+
+console.log( 'compare', undefined === void 0, null == void 0, null == undefined );

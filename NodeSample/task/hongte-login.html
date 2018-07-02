@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>鸿特科技</title>
+    <link rel="stylesheet" href="css/login.css">
+</head>
+<body style="height: 100%;">
+<div class="hongte_bg">
+    <img class="bg1" src="img/main-img/hongte_bg1.png">
+    <img class="bg2" src="img/main-img/hongte_bg2.png">
+    <div class="container">
+        <div class="login_content">
+            <div class="title">
+                <img src="img/main-img/hongte_title.png">
+            </div>
+            <div class="dimension-ct" style="display: none;">
+                <div>
+                    <img src="img/main-img/hongte_code_img.png">
+                </div>
+                <div class="tip">请扫描二维码登录</div>
+                <div class="dimension-switch-ct">
+                    <i class="man_icon"></i><a>账号登录</a>
+                </div>
+            </div>
+            <div class="user-account-ct">
+                <ul>
+                    <li class="li-line">
+                        <label>用户名</label>
+                        <input type="text">
+                    </li>
+                    <li class="li-line">
+                        <label>密码</label>
+                        <input type="password">
+                    </li>
+                    <li class="li-line">
+                        <label>验证码</label>
+                        <input type="text">
+                        <img class="hongte_validate_code" src="img/main-img/hongte_validate_code.png">
+                    </li>
+                    <li class="pwd-operate">
+                        <span><input type="checkbox"><a>记住密码</a></span>
+                        <a class="forget">忘记密码？</a>
+                    </li>
+                    <li>
+                        <input type="button" value="登录" class="login_btn">
+                    </li>
+                </ul>
+                <div class="user-switch-ct">
+                    <i class="scan_icon"></i><a>扫码登录</a>
+                </div>
+            </div>
+        </div>
+        <img src="img/main-img/hongte_right.png">
+    </div>
+</div>
+<script type="text/javascript" src="js/jquery-1.8.1.min.js"></script>
+<script>
+    $('.user-account-ct input[type="text"]').on('focusin', function(){
+        $(this).parent().css({'border-bottom':'1px solid #d3b589'})
+        $(this).parent().find('label').css({'color': '#5e5e5e',  'font-weight':'bold'});
+    });
+    $('.user-account-ct input[type="text"]').on('focusout', function(){
+        $(this).parent().css({'border-bottom':'1px solid #c6c2b6'})
+        $(this).parent().find('label').css({'color': '#999',  'font-weight':'bold'});
+    });
+    $('.user-switch-ct').on('click', function(){
+        $('.dimension-ct').css('display', 'block');
+        $('.user-account-ct').css('display', 'none');
+    })
+    $('.dimension-switch-ct').on('click', function(){
+        $('.dimension-ct').css('display', 'none');
+        $('.user-account-ct').css('display', 'block');
+    })
+</script>
+
+</body>
+</html>

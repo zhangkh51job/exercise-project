@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en" class="">
+<head>
+    <meta charset="utf-8">
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta content="yes" name="apple-touch-fullscreen">
+    <meta content="telephone=no,email=no" name="format-detection">
+    <script src="js/flexible.debug.js"></script>
+    <link rel="stylesheet" href="css/phone-account-h5.css">
+
+    <link rel="apple-touch-icon" href="favicon.png">
+    <link rel="Shortcut Icon" href="favicon.png" type="image/x-icon">
+    <title>验证</title>
+    <style>
+        /*html,body{
+            height: 100vh;
+        }*/
+    </style>
+</head>
+<body>
+<!-- 页面结构写在这里 -->
+<div class="validate-bg validate-html">
+    <header>
+        <h1>手机号或企业邮箱</h1>
+    </header>
+    <div class="content">
+        <div class="input-ct">
+            <input type="text" class="contact-input">
+        </div>
+        <div class="tip">仅供集团员工内部登录使用，可通过手机号或企业邮箱进行验证。</div>
+        <div class="btn-ct">
+            <input type="button" value="验证" class="validate-btn">
+        </div>
+    </div>
+</div>
+<div class="validate-msg-ct"></div>
+<div class="pop-panel-mask"></div>
+<!--
+<div class="validate-msg">员工档案信息不匹配</div>
+<div class="pop-panel-mask">
+    <div class="pop-panel">
+        <div class="img-ct">
+            <img class="yesIcon" src="img/phone-img/yes-icon.png">
+        </div>
+        <div class="success">通过验证</div>
+        <div class="btn-ct">
+            <input type="button" value="我知道了" class="sure-btn">
+        </div>
+    </div>
+</div>
+-->
+
+<script type="text/javascript" src="js/zepto.js"></script>
+<script>
+
+    var popMsg = function(msg){
+        var $dom = $('<div class="validate-msg">'+msg+'</div>');
+        $('.validate-msg-ct').append( $dom );
+//            $('.validate-msg').addClass('validate-msg-ease');
+        $dom.addClass('validate-msg-animation');
+
+        setTimeout(function(){
+            $dom.on('animationend', function(){
+                $dom.remove();
+            });
+            $dom.on('webkitAnimationEnd', function(){
+                $dom.remove();
+            });
+        }, 100);
+    };
+    var panelStr = [
+        '<div class="pop-panel">',
+        '<div class="img-ct">',
+        '<img class="yesIcon" src="img/phone-img/yes-icon.png">',
+        '</div>',
+        '<div class="success">通过验证</div>',
+        '<div class="btn-ct">',
+        '<input type="button" value="我知道了" class="sure-btn">',
+        '</div>',
+        '</div>'];
+    var popPanel = function(){
+        $('.pop-panel-mask').append( panelStr.join('') );
+        $('.pop-panel-mask').css( {'pointer-events':'auto', opacity: 1} );
+        /*$('.pop-panel').addClass('pop-panel-Aappear');
+        setTimeout(function(){
+            $('.pop-panel').on('animationend', function(){
+                $('.pop-panel').removeClass('pop-panel-Aappear');
+            });
+            $('.pop-panel').on('webkitAnimationEnd', function(){
+                $('.pop-panel').removeClass('pop-panel-Aappear');
+            });
+        }, 100);*/
+    };
+    $('.validate-btn').on('click', function(e){
+        var val = $('.contact-input').val();
+        if( !val ){
+            popMsg('手机号为非空');
+        }else{
+            popPanel();
+        }
+    });
+    $('body').on('click', '.sure-btn', function(){
+        $('.pop-panel').remove();
+        $('.pop-panel-mask').css({'pointer-events': 'none', opacity: 0 });
+       /* $('.pop-panel').addClass('pop-panel--Adispear');
+        setTimeout(function(){
+            $('.pop-panel').on('animationend', function(){
+                $('.pop-panel').remove();
+            });
+            $('.pop-panel').on('webkitAnimationEnd', function(){
+                $('.pop-panel').remove();
+            });
+        }, 100);*/
+    });
+</script>
+
+</body>
+</html>

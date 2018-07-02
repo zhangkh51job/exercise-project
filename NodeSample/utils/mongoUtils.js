@@ -18,17 +18,17 @@ exports.connect = function(callback) {
         callback(e);
     }
 
-}
+};
 exports.mongoObj = function(){
     return 	mongoose;
-}
+};
 
 /// create a connection to the DB
 exports.CreateConnection=function(callback,returnFunc){
-    console.log('enter CreateConnection')
+    console.log('enter CreateConnection');
     var connection = mongoose.createConnection(dburl);
 
     connection.on('open', function() {
         callback(connection,Admin,returnFunc);
     });
-}
+};

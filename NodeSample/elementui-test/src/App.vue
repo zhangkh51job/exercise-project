@@ -9,6 +9,8 @@
         <rates></rates>
 
         <tables></tables>
+
+        <paginations></paginations>
     </div>
 
 </template>
@@ -19,6 +21,7 @@
     import uploads from './test/uploads.vue'
     import rates from './test/rates.vue'
     import tables from './test/tables.vue'
+    import paginations from './test/paginations.vue'
 
     export default {
         name: 'App',
@@ -33,7 +36,8 @@
             cascader,
             uploads,
             rates,
-            tables
+            tables,
+            paginations
         }
     }
 </script>
